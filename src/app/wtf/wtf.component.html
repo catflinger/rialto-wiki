@@ -1,0 +1,10 @@
+<p>wtf works!</p>
+
+<table>
+    <tr class="mt-3" *ngFor="let film of filmography">
+        <td>{{ film.Year.text }}</td>
+        <td>{{ film.Title.text }}</td>
+    </tr>
+</table>
+
+<pre class="mt-5">{{ filmography | json }}</pre>
