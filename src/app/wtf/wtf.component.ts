@@ -2,7 +2,7 @@ import { CommonModule, JsonPipe } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, ReactiveFormsModule } from '@angular/forms';
 import wtf from "wtf_wikipedia";
-import { AsCastListLayout, CastListLayout, CommaCastListLayout, HyphenCastListLayout } from '../wiki/cast-list-layout';
+import { AsCastListLayout, CastListLayout, CommaCastListLayout, HyphenCastListLayout } from '../wiki/cast-list-layouts';
 
 export interface WikiFilm {
     year: number;

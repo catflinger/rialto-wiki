@@ -3,7 +3,7 @@ import wtf from "wtf_wikipedia";
 import { MakerService } from "../data/maker.service";
 import { MakerInfo } from "../interfaces";
 import { isSameAs, mightBeSameAs } from "../ui/maker/maker-extensions";
-import { AsCastListLayout, CastListLayout, CommaCastListLayout, HyphenCastListLayout } from "./cast-list-layout";
+import { AsCastListLayout, CastListLayout, CommaCastListLayout, HyphenCastListLayout } from "./cast-list-layouts";
 
 export interface CastMember extends WikiCastMember {
     makerId: number,
