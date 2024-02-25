@@ -1,20 +1,20 @@
-import { CommonModule, JsonPipe } from '@angular/common';
-import { Component, OnInit } from '@angular/core';
-import { FormBuilder, FormGroup, ReactiveFormsModule } from '@angular/forms';
+import { Injectable } from "@angular/core";
 import wtf from "wtf_wikipedia";
-import { AsCastListLayout, CastListLayout, CommaCastListLayout, HyphenCastListLayout } from '../wiki/cast-list-layout';
+import { MakerService } from "../data/maker.service";
+import { MakerInfo } from "../interfaces";
+import { isSameAs, mightBeSameAs } from "../ui/maker/maker-extensions";
+import { AsCastListLayout, CastListLayout, CommaCastListLayout, HyphenCastListLayout } from "./cast-list-layout";
 
-export interface WikiFilm {
-    year: number;
-    title: string;
+export interface CastMember extends WikiCastMember {
+    makerId: number,
 }
 
-export interface WikiCastMember {
+interface WikiCastMember {
     forename: string;
     surname: string;
     role: string;
-    notes?: string;
-    link?: string; // TO DO: consider renamimg this as url, to distinguish from a wiki link?
+    link: string,
+    notes: string;
 }
 
 interface WikiCastMemberLink {
@@ -27,52 +27,33 @@ interface WikiCastListItem {
     links?: WikiCastMemberLink[]
 }
 
-// expect the entry to be of form "name - role"
-// "Sean Connery - James Bond" or maybe "Katie Fisher-Price - the model"
-const withAsExp = new RegExp("\\s+as\\s+");
-const withCommaExp = new RegExp(",\\s+");
-
-@Component({
-  selector: 'app-wtf',
-  standalone: true,
-  imports: [ JsonPipe, CommonModule, ReactiveFormsModule ],
-  templateUrl: './wtf.component.html',
-  styleUrl: './wtf.component.css'
+@Injectable({
+    providedIn: 'root'
 })
-export class WtfComponent implements OnInit {
+export class WikiCastHelperService {
 
-    public cast: WikiCastMember[] = [];
-    public errorMsg: string = "";
-    public form: FormGroup;
+    private makers: readonly MakerInfo[] = [];
 
-    constructor(private fb: FormBuilder) {
-        this.form = fb.group({
-            // title: "High Life (2018 film)"
-            title: "Hell Is a City"
-        });
+    constructor(makerService: MakerService) { 
+        makerService.observe().subscribe(makers => this.makers = makers );
     }
 
-    public ngOnInit(): void {
-    }
+    public getCastHelp(filmUrl: string): Promise<CastMember[]> {
+        return wtf.fetch(filmUrl)
+        .then(reponse => {
+            let wikiCast: WikiCastMember[] = [];
 
-    public onClick() {
-        this.errorMsg = "";
-        this.cast = [];
-
-        wtf.fetch(this.form.value.title)
-        .then(result => {
-            if (result && !Array.isArray(result)) {
-                let doc = result.json();
-                let cast: WikiCastMember[] = [];
+            if (reponse && !Array.isArray(reponse)) {
+                let doc = reponse.json();
 
                 //console.log(JSON.stringify(doc, null, 2));
 
-                cast = cast.concat(this.getDirectors(doc));
-                cast = cast.concat(this.getCastMembers(doc));
-                this.cast = cast;
+                wikiCast = wikiCast.concat(this.getDirectors(doc));
+                wikiCast = wikiCast.concat(this.getCastMembers(doc));
             }
+            return wikiCast.map(member => this.toCastResult(member));
         })
-        .catch(error => this.errorMsg = error);
+
     }
 
     private getDirectors(data: any): WikiCastMember[] {
@@ -178,15 +159,11 @@ export class WtfComponent implements OnInit {
     private parseCastEntry(item: WikiCastListItem, layout: CastListLayout): WikiCastMember | undefined {
         let result: WikiCastMember | undefined = undefined;
 
-        // console.log("Matching on " + layout.separator);
-
         const parts: string[] = item.text.split(new RegExp(layout.expression));
 
         if (parts.length >= 2) {
             const notes = parts.slice(1).join(layout.separator);
             const nameParts = parts[0].trim().split(" ").filter(x => !!x.trim());
-
-            // console.log(`nameParts length is ${nameParts.length}`);
 
             if (nameParts.length === 1) {
                 // only one word, assume just a surname
@@ -194,8 +171,8 @@ export class WtfComponent implements OnInit {
                     forename: nameParts[0],
                     surname: "",
                     role: "actor",
+                    link: this.parseLink(item.links),
                     notes,
-                    link: this.parseLink(item.links)
                 }
             } else if(nameParts.length === 2) {
                 // exactly two words word, assume forname followed by surname
@@ -203,8 +180,8 @@ export class WtfComponent implements OnInit {
                     forename: nameParts[0],
                     surname: nameParts[1],
                     role: "actor",
-                    notes,
-                    link: this.parseLink(item.links)
+                    link: this.parseLink(item.links),
+                    notes
                 }
             } else if(nameParts.length > 2) {
                 // more than two words word, assume single word forname, all that follows is the surname
@@ -212,13 +189,11 @@ export class WtfComponent implements OnInit {
                     forename: nameParts[0],
                     surname: nameParts.slice(1).filter(s => s).join(" "),
                     role: "actor",
-                    notes,
-                    link: this.parseLink(item.links)
+                    link: this.parseLink(item.links),
+                    notes
                 }
             }
         }
-
-        // console.log("Returning " + JSON.stringify(result))
 
         return result;
     }
@@ -232,7 +207,7 @@ export class WtfComponent implements OnInit {
 
             // TO DO: check that the link is for the actor, not a character
 
-            url = `https://en.wikipedia.org/wiki/${links[0].page.replaceAll(" ", "_")}`;
+            url = `https://en.wikipedia.org/wiki/${links[0].page.replace(" ", "_")}`;
         }
 
         return url;
@@ -249,78 +224,18 @@ export class WtfComponent implements OnInit {
             link: this.parseLink(info.links),
         };
     }
+
+    private toCastResult = (item: WikiCastMember): CastMember => {
+        const maker = this.makers.find(maker => isSameAs(maker, item));
+
+        return {
+            forename: item.forename,
+            surname: item.surname,
+            link: item.link,
+            role: item.role,
+            notes: item.notes,
+            makerId: maker ? maker.id : 0,
+        }
+    }
+
 }
-
-
-    // private findBestLayout(entries: string[]): ListLayout {
-    //     let text = entries[0];
-        
-    //     // TO DO: need to improve this.  A good start, but we need to lok at all entries somehow
-    //     // how are the list items separated????
-
-    //     let exp: RegExp = withHyphenExp;
-    //     let separator: string = "-";
-    //     let position = this.findFirstPositionOf(text, exp);
-
-    //     let challenger: RegExp = withAsExp;
-    //     if (this.findFirstPositionOf(text, challenger) < position) {
-    //         exp = challenger;
-    //         separator = "as";
-    //     }
-
-    //     challenger = withCommaExp;
-    //     if (this.findFirstPositionOf(text, challenger) < position) {
-    //         exp = challenger;
-    //         separator = ",";
-    //     }
-    //     return { exp, separator };
-    // }
-
-
-
-    // private findFirstPositionOf(text: string, expression: RegExp): number {
-    //     let position = 9999;
-    //     let match = expression.exec(text);
-
-    //     if (match) {
-    //         position = match.index;
-    //     }
-
-    //     return position;
-    // }
-
-        // wtf.fetch("Dirk Bogarde").then(doc => {
-        //     if (doc && !Array.isArray(doc)) {
-        //         let a:any = doc.json();
-
-        //         if (a) {
-
-        //             const filmographySection =
-        //             a.sections
-        //             .filter((s: any) => {
-        //                 let title: string = typeof s.title === "string" ? s.title : "";
-        //                 return /filmography/i.test(title);
-        //             });
-
-        //             if (filmographySection.length) {
-        //                 const tables = filmographySection[0].tables;
-                        
-        //                 if (tables && Array.isArray(tables) && tables.length > 0) {
-        //                     const firstTable = tables[0];
-
-        //                     if (Array.isArray(firstTable) && firstTable.length > 0) {
-        //                         const sample = firstTable[0];
-
-        //                         if (sample.Year && sample.Title) {
-        //                             this.filmography = firstTable.map(item => ({
-        //                                 year: item.Year.number,
-        //                                 title: item.Title.text
-        //                             }));
-        //                         }
-        //                     }
-        //                 }
-        //             }
-        //         }
-        //     }
-        // });
-
