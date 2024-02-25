@@ -1,10 +1,20 @@
 <p>wtf works!</p>
 
+<h3 *ngIf="errorMsg">{{errorMsg}}</h3>
+
+<form [formGroup]="form">
+    <input type="text" formControlName="title">
+    <button type="button" (click)="onClick()">Go</button>
+</form>
+
 <table>
-    <tr class="mt-3" *ngFor="let film of filmography">
-        <td>{{ film.Year.text }}</td>
-        <td>{{ film.Title.text }}</td>
+    <tr class="mt-3" *ngFor="let maker of cast">
+        <td class="fw-bold">{{ maker.role }}</td>
+        <td>{{ maker.forename }}</td>
+        <td>{{ maker.surname }}</td>
+        <td>{{ maker.link }}</td>
+        <td><pre>{{ maker.notes }}</pre></td>
     </tr>
 </table>
 
-<pre class="mt-5">{{ filmography | json }}</pre>
+<pre class="mt-5">{{ cast | json }}</pre>

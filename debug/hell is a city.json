@@ -1,0 +1,994 @@
+{
+    "doc": {
+      "title": "Hell Is a City",
+      "pageID": 4241641,
+      "categories": [
+        "1960 films",
+        "British crime thriller films",
+        "1960s crime thriller films",
+        "Films shot at Associated British Studios",
+        "1960s English-language films",
+        "British black-and-white films",
+        "Hammer Film Productions films",
+        "Films based on British novels",
+        "Films set in Manchester",
+        "Films directed by Val Guest",
+        "Films shot at Bray Studios",
+        "Police detective films",
+        "Films shot in Greater Manchester",
+        "1960s British films",
+        "Films scored by Stanley Black"
+      ],
+      "sections": [
+        {
+          "title": "",
+          "depth": 0,
+          "paragraphs": [
+            {
+              "sentences": [
+                {
+                  "text": "Hell Is a City is a 1960 British crime thriller film starring Stanley Baker, based on the 1954 novel of the same title by Maurice Procter.",
+                  "links": [
+                    {
+                      "text": "crime",
+                      "type": "internal",
+                      "page": "crime film"
+                    },
+                    {
+                      "text": "thriller film",
+                      "type": "internal",
+                      "page": "thriller film"
+                    },
+                    {
+                      "type": "internal",
+                      "page": "Stanley Baker"
+                    },
+                    {
+                      "text": "novel of the same title",
+                      "type": "internal",
+                      "page": "Hell Is a City (novel)"
+                    },
+                    {
+                      "type": "internal",
+                      "page": "Maurice Procter"
+                    }
+                  ],
+                  "formatting": {
+                    "bold": [
+                      "Hell Is a City"
+                    ],
+                    "italic": [
+                      "Hell Is a City"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "sentences": [
+                {
+                  "text": "Written and directed by Val Guest, it was made by British studio Hammer Film Productions and filmed on location in Manchester.",
+                  "links": [
+                    {
+                      "type": "internal",
+                      "page": "Val Guest"
+                    },
+                    {
+                      "type": "internal",
+                      "page": "Hammer Film Productions"
+                    },
+                    {
+                      "type": "internal",
+                      "page": "Manchester"
+                    }
+                  ]
+                },
+                {
+                  "text": "It was partly inspired by the British New Wave films and resembles American film noir.",
+                  "links": [
+                    {
+                      "type": "internal",
+                      "page": "British New Wave"
+                    },
+                    {
+                      "text": "film noir",
+                      "type": "internal",
+                      "page": "film noir"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "templates": [
+            {
+              "description": "1960 film by Val Guest",
+              "template": "short description"
+            },
+            {
+              "date": "November 2014",
+              "template": "use dmy dates"
+            },
+            {
+              "date": "November 2014",
+              "template": "use british english"
+            },
+            {
+              "title": "Hell Is a City",
+              "author": "Maurice Procter",
+              "template": "based on"
+            },
+            {
+              "df": "y",
+              "list": [
+                "1960",
+                "4",
+                "10",
+                "Manchester Premiere",
+                "1960",
+                "5",
+                "1",
+                "UK"
+              ],
+              "template": "film date"
+            }
+          ],
+          "infoboxes": [
+            {
+              "name": {
+                "text": "Hell Is a City"
+              },
+              "image": {
+                "text": "Hell Is a City FilmPoster.jpeg"
+              },
+              "director": {
+                "text": "Val Guest",
+                "links": [
+                  {
+                    "type": "internal",
+                    "page": "Val Guest"
+                  }
+                ]
+              },
+              "producer": {
+                "text": "Michael Carreras",
+                "links": [
+                  {
+                    "type": "internal",
+                    "page": "Michael Carreras"
+                  }
+                ]
+              },
+              "screenplay": {
+                "text": "Val Guest",
+                "links": [
+                  {
+                    "type": "internal",
+                    "page": "Val Guest"
+                  }
+                ]
+              },
+              "based_on": {
+                "text": "Hell Is a City by Maurice Procter"
+              },
+              "starring": {
+                "text": "Stanley Baker John Crawford Donald Pleasence",
+                "links": [
+                  {
+                    "type": "internal",
+                    "page": "Stanley Baker"
+                  },
+                  {
+                    "text": "John Crawford",
+                    "type": "internal",
+                    "page": "John Crawford (actor)"
+                  },
+                  {
+                    "type": "internal",
+                    "page": "Donald Pleasence"
+                  }
+                ]
+              },
+              "music": {
+                "text": "Stanley Black",
+                "links": [
+                  {
+                    "type": "internal",
+                    "page": "Stanley Black"
+                  }
+                ]
+              },
+              "cinematography": {
+                "text": "Arthur Grant",
+                "links": [
+                  {
+                    "text": "Arthur Grant",
+                    "type": "internal",
+                    "page": "Arthur Grant (cinematographer)"
+                  }
+                ]
+              },
+              "editing": {
+                "text": "John Dunsford James Needs",
+                "links": [
+                  {
+                    "type": "internal",
+                    "page": "James Needs"
+                  }
+                ]
+              },
+              "color_process": {
+                "text": "Black and white",
+                "links": [
+                  {
+                    "type": "internal",
+                    "page": "Black and white"
+                  }
+                ]
+              },
+              "studio": {
+                "text": "Associated British Picture Corporation Hammer Films",
+                "links": [
+                  {
+                    "type": "internal",
+                    "page": "Associated British Picture Corporation"
+                  },
+                  {
+                    "text": "Hammer Films",
+                    "type": "internal",
+                    "page": "Hammer Film Productions"
+                  }
+                ]
+              },
+              "distributor": {
+                "text": "Warner-Pathé Distributors",
+                "links": [
+                  {
+                    "text": "Warner-Pathé Distributors",
+                    "type": "internal",
+                    "page": "Associated British Picture Corporation"
+                  }
+                ]
+              },
+              "runtime": {
+                "text": "96 minutes"
+              },
+              "country": {
+                "text": "United Kingdom"
+              },
+              "language": {
+                "text": "English"
+              },
+              "budget": {
+                "text": "£115,000"
+              }
+            }
+          ],
+          "references": [
+            {
+              "title": "Hell is a City",
+              "url": "https://collections-search.bfi.org.uk/web/Details/ChoiceFilmWorks/150034125",
+              "access-date": "23 October 2023",
+              "website": "British Film Institute Collections Search",
+              "template": "citation",
+              "type": "web"
+            },
+            {
+              "url": "https://books.google.com/books?id=Q8SRjwJqwukC&q=hell+is+a+city+british+new+wave&pg=PA312",
+              "title": "Historical Dictionary of British Cinema - Alan Burton, Steve Chibnall - Google Books",
+              "date": "11 July 2013",
+              "isbn": "9780810880269",
+              "access-date": "2014-04-13",
+              "last1": "Burton",
+              "first1": "Alan",
+              "last2": "Chibnall",
+              "first2": "Steve",
+              "template": "citation",
+              "type": "book"
+            }
+          ]
+        },
+        {
+          "title": "Plot",
+          "depth": 0,
+          "paragraphs": [
+            {
+              "sentences": [
+                {
+                  "text": "Committed but seen-it-all police inspector Harry Martineau rightly guesses that after a violent jailbreak a local criminal will head home to Manchester to pick up the spoils from his last job."
+                },
+                {
+                  "text": "Martineau is soon investigating a murder during a street robbery which seems to lead back to the same villain."
+                },
+                {
+                  "text": "Concentrating on the case and using his local contacts to try to track the gang down, he is aware he is not keeping his own personal life together as well as he might."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cast",
+          "depth": 0,
+          "paragraphs": [
+            {
+              "sentences": []
+            }
+          ],
+          "lists": [
+            [
+              {
+                "text": "Stanley Baker as Inspector Harry Martineau",
+                "links": [
+                  {
+                    "type": "internal",
+                    "page": "Stanley Baker"
+                  },
+                  {
+                    "text": "Inspector Harry Martineau",
+                    "type": "internal",
+                    "page": "Harry Martineau"
+                  }
+                ]
+              },
+              {
+                "text": "John Crawford as Don Starling",
+                "links": [
+                  {
+                    "text": "John Crawford",
+                    "type": "internal",
+                    "page": "John Crawford (actor)"
+                  }
+                ]
+              },
+              {
+                "text": "Donald Pleasence as Gus Hawkins",
+                "links": [
+                  {
+                    "type": "internal",
+                    "page": "Donald Pleasence"
+                  }
+                ]
+              },
+              {
+                "text": "Maxine Audley as Julia Martineau",
+                "links": [
+                  {
+                    "type": "internal",
+                    "page": "Maxine Audley"
+                  }
+                ]
+              },
+              {
+                "text": "Billie Whitelaw as Chloe Hawkins",
+                "links": [
+                  {
+                    "type": "internal",
+                    "page": "Billie Whitelaw"
+                  }
+                ]
+              },
+              {
+                "text": "Joseph Tomelty as Furnisher Steele",
+                "links": [
+                  {
+                    "type": "internal",
+                    "page": "Joseph Tomelty"
+                  }
+                ]
+              },
+              {
+                "text": "George A. Cooper as Doug Savage",
+                "links": [
+                  {
+                    "type": "internal",
+                    "page": "George A. Cooper"
+                  }
+                ]
+              },
+              {
+                "text": "Geoffrey Frederick as Detective Devery"
+              },
+              {
+                "text": "Vanda Godsell as Lucky Luske",
+                "links": [
+                  {
+                    "type": "internal",
+                    "page": "Vanda Godsell"
+                  }
+                ]
+              },
+              {
+                "text": "Charles Houston as Clogger Roach"
+              },
+              {
+                "text": "Joby Blanshard as Tawny Jakes",
+                "links": [
+                  {
+                    "type": "internal",
+                    "page": "Joby Blanshard"
+                  }
+                ]
+              },
+              {
+                "text": "Charles Morgan as Laurie Lovett",
+                "links": [
+                  {
+                    "text": "Charles Morgan",
+                    "type": "internal",
+                    "page": "Charles Morgan (actor)"
+                  }
+                ]
+              },
+              {
+                "text": "Peter Madden as Bert Darwin",
+                "links": [
+                  {
+                    "text": "Peter Madden",
+                    "type": "internal",
+                    "page": "Peter Madden (actor)"
+                  }
+                ]
+              },
+              {
+                "text": "Dickie Owen as Bragg",
+                "links": [
+                  {
+                    "type": "internal",
+                    "page": "Dickie Owen"
+                  }
+                ]
+              },
+              {
+                "text": "Lois Daine as Cecily Wainwright"
+              },
+              {
+                "text": "Warren Mitchell as commercial traveller",
+                "links": [
+                  {
+                    "type": "internal",
+                    "page": "Warren Mitchell"
+                  }
+                ]
+              },
+              {
+                "text": "Sarah Branch as Silver Steele",
+                "links": [
+                  {
+                    "type": "internal",
+                    "page": "Sarah Branch"
+                  }
+                ]
+              },
+              {
+                "text": "Alister Williamson as Sam",
+                "links": [
+                  {
+                    "type": "internal",
+                    "page": "Alister Williamson"
+                  }
+                ]
+              },
+              {
+                "text": "Russell Napier as Superintendent",
+                "links": [
+                  {
+                    "type": "internal",
+                    "page": "Russell Napier"
+                  }
+                ]
+              },
+              {
+                "text": "Philip Bond as Headquarters PC (uncredited)",
+                "links": [
+                  {
+                    "text": "Philip Bond",
+                    "type": "internal",
+                    "page": "Philip Bond (actor)"
+                  }
+                ]
+              },
+              {
+                "text": "John Comer as plainclothes Police Driver (uncredited)",
+                "links": [
+                  {
+                    "type": "internal",
+                    "page": "John Comer"
+                  }
+                ]
+              },
+              {
+                "text": "John Harvey as fingerprint officer (uncredited)",
+                "links": [
+                  {
+                    "text": "John Harvey",
+                    "type": "internal",
+                    "page": "John Harvey (actor)"
+                  }
+                ]
+              },
+              {
+                "text": "Doris Speed as older nursing Sister in Hospital (uncredited)",
+                "links": [
+                  {
+                    "type": "internal",
+                    "page": "Doris Speed"
+                  }
+                ]
+              }
+            ]
+          ]
+        },
+        {
+          "title": "Production",
+          "depth": 0,
+          "paragraphs": [
+            {
+              "sentences": [
+                {
+                  "text": "In a 1988 interview, Val Guest said: \"Mike Carreras fell for the book, he liked it very much and gave to me to read, then he bought the rights from ABP [ Associated British Picture Corporation] ‘cos they were never going to make it, and we made it on location, and the whole thing was this Detective Inspecor Martineau … and this very human detective, tough, rough, but human with his own problems at home, with a wife who nagged, falling for a barmaid who was part of his investigation, it was a real slice of life, putting the police down as human beings.\"",
+                  "links": [
+                    {
+                      "type": "internal",
+                      "page": "Associated British Picture Corporation"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "references": [
+            {
+              "url": "https://historyproject.org.uk/interview/val-guest",
+              "website": "British Entertainment History Project",
+              "first": "Roy",
+              "last": "Fowler",
+              "date": "1988",
+              "title": "Interview with Val Guest",
+              "template": "citation",
+              "type": "web"
+            }
+          ]
+        },
+        {
+          "title": "Critical reception",
+          "depth": 0,
+          "paragraphs": [
+            {
+              "sentences": [
+                {
+                  "text": "In contemporary reviews,Variety said \"Val Guest’s taut screenplay, allied to his own deft direction, has resulted in a notable film in which the characters are all vividly alive, the action constantly gripping and the background of a provincial city put over with authenticity.\"",
+                  "links": [
+                    {
+                      "text": "''Variety''",
+                      "type": "internal",
+                      "page": "Variety (magazine)"
+                    }
+                  ],
+                  "formatting": {
+                    "italic": [
+                      "Variety"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "sentences": [
+                {
+                  "text": "Kine Weekly wrote: \"The tale is fiction, but its types, expertly portrayed by a hand-picked cast – Stanley Baker adds another commanding portrait to his already long and impressive gallery as the hero – thoroughly convince, while apt asides, embracing sentiment and sex, subtly punctuate the rough stuff. ... The picture sharply cross-sections north country life and effectively employs warm sentiment and shrewd comedy touches to underline violent action, culminating in the villain's spectacular apprehension..\"",
+                  "links": [
+                    {
+                      "type": "internal",
+                      "page": "Kine Weekly"
+                    }
+                  ],
+                  "formatting": {
+                    "italic": [
+                      "Kine Weekly"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "sentences": [
+                {
+                  "text": "The Monthly Film Bulletin wrote: \"Any British crime picture that forswears the sleazy bars and pseudo-luxury flats of London and the sinister country houses of the Home Counties deserves some welcome, even if the road to the industrial North is by now well and diversely pioneered. This film may not re-create the atmosphere of Manchester any more effectively than Violent Playground (1958) did that of Liverpool, but in the coin-tossing game on the dingy moor outside a little factory town it has a most striking outdoor sequence, thanks in great measure to Arthur Grant's stark photography and the choice of extras who really look their parts. ... Elsewhere, Val Guest's script and direction maintain a hectic pace, with frequent scene changes, mobility of camera and performers, and much rapid, loud, intense dialogue, all making most recent American gangster films seem weakly constructed and slow-moving.",
+                  "links": [
+                    {
+                      "type": "internal",
+                      "page": "The Monthly Film Bulletin"
+                    },
+                    {
+                      "type": "internal",
+                      "page": "Violent Playground"
+                    }
+                  ],
+                  "formatting": {
+                    "italic": [
+                      "The Monthly Film Bulletin",
+                      "Violent Playground"
+                    ]
+                  }
+                },
+                {
+                  "text": "There is a perpetual feeling of barely suppressed savagery, submerged in the excitement and rush of the early scenes, but undisguised later with a near-rape and the hunting and shooting of the deaf-mute blonde, Silver – almost the only character who is neither depraved nor at least coarsened.\""
+                }
+              ]
+            },
+            {
+              "sentences": [
+                {
+                  "text": "Writing in The Guardian, Philip French said: \"Guest's dialogue is abrasive and unsentimental, the editing (to a modern jazz score) rapid without being self-consciously smart, the accents mostly convincing.\"",
+                  "links": [
+                    {
+                      "type": "internal",
+                      "page": "The Guardian"
+                    },
+                    {
+                      "type": "internal",
+                      "page": "Philip French"
+                    }
+                  ],
+                  "formatting": {
+                    "italic": [
+                      "The Guardian"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "sentences": [
+                {
+                  "text": "Leslie Halliwell called the film: \"Lively semi-documentary, cameo-filled cop thriller filmed on location.\"",
+                  "links": [
+                    {
+                      "type": "internal",
+                      "page": "Leslie Halliwell"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "sentences": [
+                {
+                  "text": "In British Sound Films David Quinlan writes: \"With its tough approach and patchwork of small scenes, this exciting thriller was the forerunner of much British TV cops-and-robbers to follow.\"",
+                  "links": [
+                    {
+                      "text": "David Quinlan",
+                      "type": "internal",
+                      "page": "David Quinlan (film critic)"
+                    }
+                  ],
+                  "formatting": {
+                    "italic": [
+                      "British Sound Films"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "sentences": [
+                {
+                  "text": "Empire said: \"[Baker and Pleasance] turn in fierce performances and Guest's direction gives the movie a splendidly wrought realism, capturing a nasty underworld Britain rarely envisioned since.\"",
+                  "links": [
+                    {
+                      "text": "Empire",
+                      "type": "internal",
+                      "page": "Empire (magazine)"
+                    }
+                  ],
+                  "formatting": {
+                    "italic": [
+                      "Empire"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "sentences": [
+                {
+                  "text": "Time Out said: \"A persuasively sweaty crime thriller set in Manchester ... The atmosphere is persuasively seedy and downbeat, and there's a striking performance by Billie Whitelaw\".",
+                  "links": [
+                    {
+                      "text": "Time Out",
+                      "type": "internal",
+                      "page": "Time Out (magazine)"
+                    }
+                  ],
+                  "formatting": {
+                    "italic": [
+                      "Time Out"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "sentences": [
+                {
+                  "text": "The Manchester Evening News said \" With its panoply of bantering barmaids, silver-tongued felons and lush wives, a clipped camera style and hard-boiled sensibilities (which seem a little bit Z-Cars now), Hell Is A City is probably a film which deserves to have featured more prominently in British movie memory.\"",
+                  "links": [
+                    {
+                      "type": "internal",
+                      "page": "Manchester Evening News"
+                    },
+                    {
+                      "type": "internal",
+                      "page": "Z-Cars"
+                    }
+                  ],
+                  "formatting": {
+                    "italic": [
+                      "Manchester Evening News",
+                      "Hell Is A City"
+                    ]
+                  }
+                }
+              ]
+            }
+          ],
+          "references": [
+            {
+              "date": "31 December 1959",
+              "title": "Hell Is a City",
+              "url": "https://variety.com/1959/film/reviews/hell-is-a-city-1200419700/",
+              "access-date": "4 October 2023",
+              "website": "Variety",
+              "template": "citation",
+              "type": "web"
+            },
+            {
+              "date": "27 July 1950",
+              "title": "Hell is a City",
+              "journal": "Kine Weekly",
+              "volume": "514",
+              "issue": "2737",
+              "pages": "32",
+              "template": "citation",
+              "type": "journal"
+            },
+            {
+              "date": "1 January 1950",
+              "title": "Hell Is a City",
+              "journal": "Monthly Film Bulletin",
+              "volume": "27",
+              "issue": "312",
+              "pages": "64",
+              "template": "citation",
+              "type": "journal"
+            },
+            {
+              "last": "French",
+              "first": "Philip",
+              "date": "18 November 2012",
+              "title": "Hell is a City",
+              "url": "https://www.theguardian.com/film/2012/nov/18/hell-is-a-city-classic-dvd",
+              "access-date": "4 October 2023",
+              "website": "The Guardian",
+              "template": "citation",
+              "type": "web"
+            },
+            {
+              "last": "Halliwell",
+              "first": "Leslie",
+              "title": "Halliwell's Film Guide",
+              "publisher": "Paladin",
+              "year": "1989",
+              "isbn": "0-586-08894-6",
+              "edition": "7th",
+              "location": "London",
+              "pages": "456",
+              "template": "citation",
+              "type": "book"
+            },
+            {
+              "last": "Quinlan",
+              "first": "David",
+              "title": "British Sound Films: The Studio Years 1928–1959",
+              "publisher": "B.T. Batsford Ltd.",
+              "year": "1984",
+              "isbn": "0-7134-1874-5",
+              "location": "London",
+              "pages": "347",
+              "template": "citation",
+              "type": "book"
+            },
+            {
+              "last": "Thomas",
+              "first": "William",
+              "date": "1 January 2000",
+              "title": "Hell Is a City Review",
+              "url": "https://www.empireonline.com/movies/reviews/hell-city-review/",
+              "access-date": "4 October 2023",
+              "website": "Empire",
+              "template": "citation",
+              "type": "web"
+            },
+            {
+              "date": "10 September 2012",
+              "title": "Hell Is a City",
+              "url": "https://www.timeout.com/movies/hell-is-a-city-1",
+              "access-date": "4 October 2023",
+              "website": "Time Out",
+              "template": "citation",
+              "type": "web"
+            },
+            {
+              "last": "Moran",
+              "first": "Danny",
+              "date": "22 January 2013",
+              "title": "Hell Is a City",
+              "url": "https://www.manchestereveningnews.co.uk/whats-on/film-and-tv/hell-is-a-city-1170779",
+              "access-date": "4 October 2023",
+              "website": "Manchester Evening News",
+              "template": "citation",
+              "type": "web"
+            }
+          ]
+        },
+        {
+          "title": "References",
+          "depth": 0,
+          "templates": [
+            {
+              "template": "reflist"
+            }
+          ]
+        },
+        {
+          "title": "External links",
+          "depth": 0,
+          "paragraphs": [
+            {
+              "sentences": []
+            }
+          ],
+          "templates": [
+            {
+              "id": "0053900",
+              "template": "imdb title"
+            },
+            {
+              "id": "94725",
+              "template": "allmovie title"
+            },
+            {
+              "list": [
+                "489241"
+              ],
+              "template": "screenonline title"
+            },
+            {
+              "list": [
+                "Hell-Is-a-City_1960"
+              ],
+              "template": "britmovie title"
+            },
+            {
+              "template": "val guest"
+            }
+          ],
+          "lists": [
+            [
+              {
+                "text": "Hell Is a City at ReelStreets",
+                "links": [
+                  {
+                    "text": "''Hell Is a City''",
+                    "type": "external",
+                    "site": "https://www.reelstreets.com/films/hell-is-a-city/"
+                  },
+                  {
+                    "text": "ReelStreets",
+                    "type": "external",
+                    "site": "https://www.reelstreets.com/"
+                  }
+                ],
+                "formatting": {
+                  "italic": [
+                    "Hell Is a City"
+                  ]
+                }
+              },
+              {
+                "text": "Levenshulme: Hell Is a City File",
+                "links": [
+                  {
+                    "text": "Levenshulme: ''Hell Is a City'' File",
+                    "type": "external",
+                    "site": "http://www.levyboy.com/hell_is_a_city.htm"
+                  }
+                ],
+                "formatting": {
+                  "italic": [
+                    "Hell Is a City"
+                  ]
+                }
+              }
+            ],
+            [
+              {
+                "text": "Hell Is a City at ReelStreets",
+                "links": [
+                  {
+                    "text": "''Hell Is a City''",
+                    "type": "external",
+                    "site": "https://www.reelstreets.com/films/hell-is-a-city/"
+                  },
+                  {
+                    "text": "ReelStreets",
+                    "type": "external",
+                    "site": "https://www.reelstreets.com/"
+                  }
+                ],
+                "formatting": {
+                  "italic": [
+                    "Hell Is a City"
+                  ]
+                }
+              },
+              {
+                "text": "Levenshulme: Hell Is a City File",
+                "links": [
+                  {
+                    "text": "Levenshulme: ''Hell Is a City'' File",
+                    "type": "external",
+                    "site": "http://www.levyboy.com/hell_is_a_city.htm"
+                  }
+                ],
+                "formatting": {
+                  "italic": [
+                    "Hell Is a City"
+                  ]
+                }
+              }
+            ],
+            [
+              {
+                "text": "Hell Is a City at ReelStreets",
+                "links": [
+                  {
+                    "text": "''Hell Is a City''",
+                    "type": "external",
+                    "site": "https://www.reelstreets.com/films/hell-is-a-city/"
+                  },
+                  {
+                    "text": "ReelStreets",
+                    "type": "external",
+                    "site": "https://www.reelstreets.com/"
+                  }
+                ],
+                "formatting": {
+                  "italic": [
+                    "Hell Is a City"
+                  ]
+                }
+              },
+              {
+                "text": "Levenshulme: Hell Is a City File",
+                "links": [
+                  {
+                    "text": "Levenshulme: ''Hell Is a City'' File",
+                    "type": "external",
+                    "site": "http://www.levyboy.com/hell_is_a_city.htm"
+                  }
+                ],
+                "formatting": {
+                  "italic": [
+                    "Hell Is a City"
+                  ]
+                }
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    "cast": []
+  }

@@ -1,0 +1,130 @@
+[
+  {
+    "title": "Cast",
+    "depth": 0,
+    "templates": [
+      {
+        "list": [
+          "* Robert Pattinson as Monte\n** Mikołaj Gruss-Fogt as young Monte\n* Juliette Binoche as Dibs\n* André Benjamin as Tcherny\n* Mia Goth as Boyse\n* Agata Buzek as Nansen\n* Lars Eidinger as Chandra\n* Claire Tran as Mink\n* Ewan Mitchell as Ettore\n* Gloria Obianyo as Elektra\n* Victor Banerjee as Indian Professor\n* Jessie Ross as Willow"
+        ],
+        "template": "cast listing"
+      }
+    ]
+  },
+  {
+    "title": "Casting",
+    "depth": 1,
+    "paragraphs": [
+      {
+        "sentences": [
+          {
+            "text": "During the project's early stages, Denis had Vincent Gallo in mind for the lead role, and wrote the film thinking of Philip Seymour Hoffman.",
+            "links": [
+              {
+                "type": "internal",
+                "page": "Vincent Gallo"
+              },
+              {
+                "type": "internal",
+                "page": "Philip Seymour Hoffman"
+              }
+            ]
+          },
+          {
+            "text": "The project later caught the attention of Robert Pattinson; according to Denis:\"Pattinson contacted the person who was doing the English casting. I was intrigued but I thought he was too young. Every time I went to London to meet some actors, he was there. His desire to work with me has never faltered. And now he is a little less young and it's perfect. […] It's strange, though, because it would be difficult to imagine anyone more unlike Philip Seymour Hoffman physically, but Robert is very enigmatic, with a powerful presence. He gives off an aura that immediately makes you want to film him.\"Pattinson described his character as an astronaut and said, \"He's a criminal who volunteers for a mission toward a black hole, but he realizes along the way that a doctor on board also wants to do sexual experimentation with humans in space.\"",
+            "links": [
+              {
+                "type": "internal",
+                "page": "Robert Pattinson"
+              }
+            ]
+          },
+          {
+            "text": "In late 2015, Patricia Arquette and Mia Goth joined the cast.",
+            "links": [
+              {
+                "type": "internal",
+                "page": "Patricia Arquette"
+              },
+              {
+                "type": "internal",
+                "page": "Mia Goth"
+              }
+            ]
+          },
+          {
+            "text": "In September 2017, Arquette dropped out while the rest of the cast, including Juliette Binoche and rapper André 3000, were also announced.",
+            "links": [
+              {
+                "type": "internal",
+                "page": "Juliette Binoche"
+              },
+              {
+                "type": "internal",
+                "page": "André 3000"
+              }
+            ]
+          },
+          {
+            "text": "Playing the role of baby Willow is Scarlette Lindsay, Pattinson's goddaughter."
+          },
+          {
+            "text": "After Pattinson was unable to bond with the babies cast as Willow, he remembered that Lindsay was friendly around adults."
+          },
+          {
+            "text": "Pattinson asked a favour of Lindsay's father to cast her in the film, which he described as a \"massive gamble\" that was ultimately paid off by her \"incredible\" performance."
+          }
+        ]
+      }
+    ],
+    "templates": [
+      {
+        "text": "Pattinson contacted the person who was doing the English casting. I was intrigued but I thought he was too young. Every time I went to London to meet some actors, he was there. His desire to work with me has never faltered. And now he is a little less young and it's perfect. […] It's strange, though, because it would be difficult to imagine anyone more unlike Philip Seymour Hoffman physically, but Robert is very enigmatic, with a powerful presence. He gives off an aura that immediately makes you want to film him.",
+        "template": "blockquote"
+      }
+    ],
+    "references": [
+      {
+        "url": "http://www.indiewire.com/2015/10/patricia-arquette-and-mia-goth-join-robert-pattinson-in-claire-denis-sci-fi-high-life-plot-details-revealed-109596/",
+        "title": "Patricia Arquette and Mia Goth Join Robert Pattinson in Claire Denis' Sci-Fi 'High Life,' Plot Details Revealed",
+        "last": "Jagernauth",
+        "first": "Kevin",
+        "work": "IndieWire",
+        "date": "26 October 2015",
+        "access-date": "4 July 2017",
+        "archive-url": "https://web.archive.org/web/20170709131142/http://www.indiewire.com/2015/10/patricia-arquette-and-mia-goth-join-robert-pattinson-in-claire-denis-sci-fi-high-life-plot-details-revealed-109596/",
+        "archive-date": "9 July 2017",
+        "url-status": "dead",
+        "df": "dmy-all",
+        "template": "citation",
+        "type": "web"
+      },
+      {
+        "last": "Kaye",
+        "first": "Don",
+        "date": "April 17, 2019",
+        "title": "Living the High Life with Robert Pattinson",
+        "url": "https://www.denofgeek.com/movies/living-the-high-life-with-robert-pattinson/",
+        "access-date": "February 10, 2022",
+        "website": "Den of Geek",
+        "template": "citation",
+        "type": "web"
+      },
+      {
+        "url": "https://variety.com/2017/film/markets-festivals/toronto-juliette-binoche-andre-benjamin-join-claire-denis-high-life-exclusive-1202551807/",
+        "title": "Toronto: Juliette Binoche, André Benjamin Join Claire Denis' 'High Life' (EXCLUSIVE)",
+        "first": "Brent",
+        "last": "Lang",
+        "work": "Variety",
+        "date": "8 September 2015",
+        "access-date": "8 September 2017",
+        "archive-url": "https://web.archive.org/web/20171002233232/http://variety.com/2017/film/markets-festivals/toronto-juliette-binoche-andre-benjamin-join-claire-denis-high-life-exclusive-1202551807/",
+        "archive-date": "2 October 2017",
+        "url-status": "dead",
+        "df": "dmy-all",
+        "template": "citation",
+        "type": "web"
+      }
+    ]
+  }
+]
