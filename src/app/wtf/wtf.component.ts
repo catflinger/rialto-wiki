@@ -47,8 +47,8 @@ export class WtfComponent implements OnInit {
 
     constructor(private fb: FormBuilder) {
         this.form = fb.group({
-            // title: "High Life (2018 film)"
-            title: "Hell Is a City"
+            title: "High Life (2018 film)"
+            // title: "Paranoiac (film)"
         });
     }
 
@@ -65,7 +65,7 @@ export class WtfComponent implements OnInit {
                 let doc = result.json();
                 let cast: WikiCastMember[] = [];
 
-                //console.log(JSON.stringify(doc, null, 2));
+                // console.log(JSON.stringify(doc, null, 2));
 
                 cast = cast.concat(this.getDirectors(doc));
                 cast = cast.concat(this.getCastMembers(doc));
@@ -88,7 +88,7 @@ export class WtfComponent implements OnInit {
                 if (firstSection) {
                     const infoBoxes = firstSection.infoboxes;
 
-                    //console.log(`INFOBOXES length = ${infoBoxes.length}`);
+                    // console.log(`INFOBOXES length = ${infoBoxes.length}`);
 
                     if (infoBoxes && Array.isArray(infoBoxes) && infoBoxes.length > 0) {
                         const directorInfo = infoBoxes[0]["director"];
@@ -113,6 +113,11 @@ export class WtfComponent implements OnInit {
 
         if (data) {
 
+            /*
+            TO DO: refactor all of this into modular logical units
+              at the moment we just have one long procedural splurge
+            */
+
             // console.log(JSON.stringify(data, null, 2));
 
             const castSection =
@@ -122,7 +127,8 @@ export class WtfComponent implements OnInit {
                 return /cast/i.test(s.title);
             });
 
-            // console.log(`Cast Section ${JSON.stringify(castSection, null, 2)}`);
+            console.log(`Cast Section ${JSON.stringify(castSection, null, 2)}`);
+            let wikiCastList: WikiCastListItem[] = [];
 
             if (castSection.length) {
                 const lists = castSection[0].lists;
@@ -133,17 +139,37 @@ export class WtfComponent implements OnInit {
                     const firstList = lists[0];
 
                     if (Array.isArray(firstList) && firstList.length > 0) {
+                        wikiCastList = firstList;
+                    }
+                } else {
+                    const templates = castSection[0].templates;
+                    
+                    if (templates && Array.isArray(templates) && templates.length > 0) {
+                        const castTemplate = templates.find(item => item.template === "cast list" || item.template === "cast listing");
 
-                        const layout = this.findBestLayout(firstList);
+                        if (castTemplate) {
+                            const list = castTemplate.list;
 
-                        if (layout) {
-                            const cast = firstList
-                            .map(item => this.parseCastEntry(item, layout))
-                            .filter((x): x is WikiCastMember => x != null);
-
-                            if (cast) {
-                                result = cast;
+                            if (list && Array.isArray(list) && list.length > 0) {
+                                const castData = list[0];
+                                if (typeof castData === "string") {
+                                    wikiCastList = castData.split("\n").map(item => ({ text: item.replace(/\*+/g, "").trim()}));
+                                }
                             }
+                        }
+                    }
+                }
+
+                if (wikiCastList.length) {
+                    const layout = this.findBestLayout(wikiCastList);
+
+                    if (layout) {
+                        const cast = wikiCastList
+                        .map(item => this.parseCastEntry(item, layout))
+                        .filter((x): x is WikiCastMember => x != null);
+
+                        if (cast) {
+                            result = cast;
                         }
                     }
                 }
