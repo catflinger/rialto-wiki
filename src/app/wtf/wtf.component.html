@@ -7,8 +7,12 @@
     <button type="button" (click)="onClick()">Go</button>
 </form>
 
+<div class="m-5">
+    <img [src]="help.image">
+</div>
+
 <table>
-    <tr class="mt-3" *ngFor="let maker of cast">
+    <tr class="mt-3" *ngFor="let maker of help.cast">
         <td class="fw-bold">{{ maker.role }}</td>
         <td>{{ maker.forename }}</td>
         <td>{{ maker.surname }}</td>
@@ -17,4 +21,4 @@
     </tr>
 </table>
 
-<pre class="mt-5">{{ cast | json }}</pre>
+<pre class="mt-5">{{ help | json }}</pre>

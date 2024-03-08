@@ -1,130 +1,1628 @@
-[
-  {
-    "title": "Cast",
-    "depth": 0,
-    "templates": [
+{
+    "title": "High Life (2018 film)",
+    "pageID": 54459964,
+    "categories": [
+      "2018 films",
+      "2010s English-language films",
+      "2010s science fiction horror films",
+      "A24 (company) films",
+      "American science fiction horror films",
+      "British science fiction horror films",
+      "British drama films",
+      "Films about rape",
+      "Films directed by Claire Denis",
+      "Films shot in Cologne",
+      "Films set on spacecraft",
+      "French drama films",
+      "2010s pregnancy films",
+      "French science fiction horror films",
+      "English-language French films",
+      "German drama films",
+      "English-language German films",
+      "German science fiction horror films",
+      "Mad scientist films",
+      "Polish drama films",
+      "English-language Polish films",
+      "Polish science fiction films",
+      "British pregnancy films",
+      "French pregnancy films",
+      "German pregnancy films",
+      "2010s American films",
+      "2010s British films",
+      "2010s French films",
+      "2010s German films",
+      "Georges Delerue Award winners",
+      "Films scored by Stuart A. Staples"
+    ],
+    "sections": [
       {
-        "list": [
-          "* Robert Pattinson as Monte\n** Mikołaj Gruss-Fogt as young Monte\n* Juliette Binoche as Dibs\n* André Benjamin as Tcherny\n* Mia Goth as Boyse\n* Agata Buzek as Nansen\n* Lars Eidinger as Chandra\n* Claire Tran as Mink\n* Ewan Mitchell as Ettore\n* Gloria Obianyo as Elektra\n* Victor Banerjee as Indian Professor\n* Jessie Ross as Willow"
+        "title": "",
+        "depth": 0,
+        "paragraphs": [
+          {
+            "sentences": [
+              {
+                "text": "High Life is a 2018 science fiction horror film directed by Claire Denis, in her English-language debut, and written by Denis and her long-time collaborator Jean-Pol Fargeau.",
+                "links": [
+                  {
+                    "text": "science fiction horror",
+                    "type": "internal",
+                    "page": "List of science fiction horror films"
+                  },
+                  {
+                    "type": "internal",
+                    "page": "Claire Denis"
+                  },
+                  {
+                    "type": "internal",
+                    "page": "Jean-Pol Fargeau"
+                  }
+                ],
+                "formatting": {
+                  "bold": [
+                    "High Life"
+                  ],
+                  "italic": [
+                    "High Life"
+                  ]
+                }
+              },
+              {
+                "text": "Starring Robert Pattinson and Juliette Binoche, it focuses on a group of criminals sent on a space mission toward a black hole while taking part in scientific experiments.",
+                "links": [
+                  {
+                    "type": "internal",
+                    "page": "Robert Pattinson"
+                  },
+                  {
+                    "type": "internal",
+                    "page": "Juliette Binoche"
+                  },
+                  {
+                    "text": "black hole",
+                    "type": "internal",
+                    "page": "black hole"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sentences": [
+              {
+                "text": "Physicist and black hole expert Aurélien Barrau was hired as a consultant, and Danish-Icelandic artist Olafur Eliasson designed the film's spacecraft.",
+                "links": [
+                  {
+                    "type": "internal",
+                    "page": "Aurélien Barrau"
+                  },
+                  {
+                    "type": "internal",
+                    "page": "Olafur Eliasson"
+                  }
+                ]
+              },
+              {
+                "text": "High Life premiered on 9 September 2018 at the Toronto International Film Festival.",
+                "links": [
+                  {
+                    "text": "Toronto International Film Festival",
+                    "type": "internal",
+                    "page": "2018 Toronto International Film Festival"
+                  }
+                ],
+                "formatting": {
+                  "italic": [
+                    "High Life"
+                  ]
+                }
+              }
+            ]
+          }
         ],
-        "template": "cast listing"
-      }
-    ]
-  },
-  {
-    "title": "Casting",
-    "depth": 1,
-    "paragraphs": [
+        "templates": [
+          {
+            "description": "Science fiction film by Claire Denis",
+            "template": "short description"
+          },
+          {
+            "date": "September 2017",
+            "template": "engvarb"
+          },
+          {
+            "date": "September 2017",
+            "template": "use dmy dates"
+          },
+          {
+            "list": [
+              "Screenplay with the collaboration of Geoff Cox; additional writing by Andrew Litvack and Nick Laird."
+            ],
+            "template": "efn"
+          },
+          {
+            "df": "yes",
+            "list": [
+              "2018",
+              "09",
+              "09",
+              "TIFF",
+              "2018",
+              "11",
+              "07",
+              "France"
+            ],
+            "template": "film date"
+          }
+        ],
+        "infoboxes": [
+          {
+            "name": {
+              "text": "High Life"
+            },
+            "image": {
+              "text": "High Life film poster.jpg"
+            },
+            "caption": {
+              "text": "Theatrical release poster"
+            },
+            "director": {
+              "text": "Claire Denis",
+              "links": [
+                {
+                  "type": "internal",
+                  "page": "Claire Denis"
+                }
+              ]
+            },
+            "producer": {
+              "text": "Andrew Lauren\n\nD.J. Gugenheim \n\nClaudia Steffen\n\nChristoph Friedel\n\nLaurence Clerc\n\nOlivier Théry-Lapiney\n\nOliver Dungey\n\nKlaudia Smieja"
+            },
+            "writer": {
+              "text": "Claire Denis\n\nJean-Pol Fargeau",
+              "links": [
+                {
+                  "type": "internal",
+                  "page": "Jean-Pol Fargeau"
+                }
+              ]
+            },
+            "starring": {
+              "text": "Robert Pattinson\n\nJuliette Binoche\n\nAndré Benjamin\n\nMia Goth\n\nAgata Buzek\n\nLars Eidinger\n\nClaire Tran\n\nEwan Mitchell\n\nGloria Obianyo\n\nVictor Banerjee\n\nScarlette Lindsey\n\nJessie Ross",
+              "links": [
+                {
+                  "type": "internal",
+                  "page": "Robert Pattinson"
+                },
+                {
+                  "type": "internal",
+                  "page": "Juliette Binoche"
+                },
+                {
+                  "text": "André Benjamin",
+                  "type": "internal",
+                  "page": "André 3000"
+                },
+                {
+                  "type": "internal",
+                  "page": "Mia Goth"
+                },
+                {
+                  "type": "internal",
+                  "page": "Agata Buzek"
+                },
+                {
+                  "type": "internal",
+                  "page": "Lars Eidinger"
+                },
+                {
+                  "type": "internal",
+                  "page": "Ewan Mitchell"
+                },
+                {
+                  "type": "internal",
+                  "page": "Victor Banerjee"
+                }
+              ]
+            },
+            "music": {
+              "text": "Stuart A. Staples",
+              "links": [
+                {
+                  "type": "internal",
+                  "page": "Stuart A. Staples"
+                }
+              ]
+            },
+            "cinematography": {
+              "text": "Yorick Le Saux",
+              "links": [
+                {
+                  "type": "internal",
+                  "page": "Yorick Le Saux"
+                }
+              ]
+            },
+            "editing": {
+              "text": "Guy Lecorne"
+            },
+            "production_companies": {
+              "text": "Andrew Lauren Productions\n\nPandora Filmproduktion\n\nAlcatraz Films\n\nThe Apocalypse Films Company\n\nMadants\n\nBFI\n\nArte\n\nZDF\n\nCanal+\n\nCiné+",
+              "links": [
+                {
+                  "text": "Pandora Filmproduktion",
+                  "type": "internal",
+                  "page": "Pandora Film"
+                },
+                {
+                  "text": "BFI",
+                  "type": "internal",
+                  "page": "British Film Institute"
+                },
+                {
+                  "type": "internal",
+                  "page": "Arte"
+                },
+                {
+                  "type": "internal",
+                  "page": "ZDF"
+                },
+                {
+                  "type": "internal",
+                  "page": "Canal+"
+                },
+                {
+                  "type": "internal",
+                  "page": "Ciné+"
+                }
+              ]
+            },
+            "distributor": {
+              "text": "Wild Bunch (France)\n\nPandora Filmproduktion (Germany)\n\nThunderbird Releasing (United Kingdom)\n\nAgainst Gravity (Poland)\n\nA24 (United States)",
+              "links": [
+                {
+                  "text": "Wild Bunch",
+                  "type": "internal",
+                  "page": "Wild Bunch (company)"
+                },
+                {
+                  "type": "internal",
+                  "page": "Thunderbird Releasing"
+                },
+                {
+                  "type": "internal",
+                  "page": "A24"
+                }
+              ]
+            },
+            "runtime": {
+              "text": "110 minutes"
+            },
+            "country": {
+              "text": "France\n\nGermany\n\nPoland\n\nUnited Kingdom\n\nUnited States"
+            },
+            "language": {
+              "text": "English"
+            },
+            "budget": {
+              "text": "€8 million"
+            },
+            "gross": {
+              "text": "$2.8 million"
+            }
+          }
+        ],
+        "references": [
+          {
+            "url": "https://www.tiff.net/tiff/high-life/",
+            "title": "High Life",
+            "website": "Toronto International Film Festival",
+            "access-date": "27 July 2018",
+            "template": "citation",
+            "type": "web"
+          },
+          {
+            "url": "https://www.bfi.org.uk/films-tv-people/5a1c9c2e3bf90",
+            "archive-url": "https://web.archive.org/web/20190515234742/http://www.bfi.org.uk/films-tv-people/5a1c9c2e3bf90",
+            "url-status": "dead",
+            "archive-date": "15 May 2019",
+            "title": "High Life (2019)",
+            "publisher": "British Film Institute",
+            "access-date": "April 24, 2020",
+            "template": "citation",
+            "type": "web"
+          },
+          {
+            "url": "https://www.hollywoodreporter.com/news/tiff-2018-lineup-beautiful-boy-life-more-1129445",
+            "title": "Toronto: Timothee Chalamet Starrer 'Beautiful Boy,' Dan Fogelman's 'Life Itself' Among Festival Lineup",
+            "last": "Vlessing",
+            "first": "Etan",
+            "work": "The Hollywood Reporter",
+            "access-date": "2018-07-24",
+            "archive-url": "https://web.archive.org/web/20180802015025/https://www.hollywoodreporter.com/news/tiff-2018-lineup-beautiful-boy-life-more-1129445",
+            "archive-date": "2 August 2018",
+            "url-status": "dead",
+            "df": "dmy-all",
+            "template": "citation",
+            "type": "news"
+          },
+          {
+            "url": "https://variety.com/2018/film/news/high-life-bought-a24-robert-pattinson-juliette-binoche-1202939713/",
+            "title": "'High Life,' Starring Robert Pattinson and Juliette Binoche, Nabbed by A24",
+            "work": "Variety",
+            "first": "Dave",
+            "last": "McNary",
+            "date": "12 September 2018",
+            "access-date": "15 January 2019",
+            "template": "citation",
+            "type": "web"
+          },
+          {
+            "url": "http://www.screendaily.com/news/wild-bunch-to-launch-porn-star-rocco-siffredi-doc-at-efm/5099939.article",
+            "title": "Wild Bunch to launch porn star Rocco Siffredi doc at EFM",
+            "last": "Goodfellow",
+            "first": "Melanie",
+            "work": "ScreenDaily",
+            "date": "8 February 2016",
+            "access-date": "4 July 2017",
+            "archive-url": "https://web.archive.org/web/20160210092332/http://www.screendaily.com/news/wild-bunch-to-launch-porn-star-rocco-siffredi-doc-at-efm/5099939.article",
+            "archive-date": "10 February 2016",
+            "url-status": "dead",
+            "df": "dmy-all",
+            "template": "citation",
+            "type": "web"
+          },
+          {
+            "url": "https://www.the-numbers.com/movie/High-Life-(2018)",
+            "title": "High Life (2018)",
+            "website": "The Numbers",
+            "publisher": "Nash Information Services",
+            "access-date": "4 May 2022",
+            "template": "citation",
+            "type": "web"
+          }
+        ]
+      },
       {
-        "sentences": [
+        "title": "Plot",
+        "depth": 0,
+        "paragraphs": [
           {
-            "text": "During the project's early stages, Denis had Vincent Gallo in mind for the lead role, and wrote the film thinking of Philip Seymour Hoffman.",
-            "links": [
+            "sentences": [
               {
-                "type": "internal",
-                "page": "Vincent Gallo"
+                "text": "A group of criminals serving death sentences are sent on a mission in space to extract alternative energy from a black hole.",
+                "links": [
+                  {
+                    "text": "extract alternative energy from a black hole",
+                    "type": "internal",
+                    "page": "Penrose process"
+                  }
+                ]
               },
               {
-                "type": "internal",
-                "page": "Philip Seymour Hoffman"
-              }
-            ]
-          },
-          {
-            "text": "The project later caught the attention of Robert Pattinson; according to Denis:\"Pattinson contacted the person who was doing the English casting. I was intrigued but I thought he was too young. Every time I went to London to meet some actors, he was there. His desire to work with me has never faltered. And now he is a little less young and it's perfect. […] It's strange, though, because it would be difficult to imagine anyone more unlike Philip Seymour Hoffman physically, but Robert is very enigmatic, with a powerful presence. He gives off an aura that immediately makes you want to film him.\"Pattinson described his character as an astronaut and said, \"He's a criminal who volunteers for a mission toward a black hole, but he realizes along the way that a doctor on board also wants to do sexual experimentation with humans in space.\"",
-            "links": [
-              {
-                "type": "internal",
-                "page": "Robert Pattinson"
-              }
-            ]
-          },
-          {
-            "text": "In late 2015, Patricia Arquette and Mia Goth joined the cast.",
-            "links": [
-              {
-                "type": "internal",
-                "page": "Patricia Arquette"
+                "text": "Each prisoner is treated as a guinea pig by Dibs, a scientist, for her experiments; Dibs is fixated on trying to create a child in space through artificial insemination, but has yet to succeed.",
+                "links": [
+                  {
+                    "text": "artificial insemination",
+                    "type": "internal",
+                    "page": "artificial insemination"
+                  }
+                ]
               },
               {
-                "type": "internal",
-                "page": "Mia Goth"
+                "text": "Sexual activity between prisoners is prohibited."
               }
             ]
           },
           {
-            "text": "In September 2017, Arquette dropped out while the rest of the cast, including Juliette Binoche and rapper André 3000, were also announced.",
-            "links": [
+            "sentences": [
               {
-                "type": "internal",
-                "page": "Juliette Binoche"
+                "text": "The ship is equipped with \"The Box,\" a device in a small room that is obsessively used by the crew to masturbate, while Dibs administers sedatives to the passengers.",
+                "links": [
+                  {
+                    "text": "masturbate",
+                    "type": "internal",
+                    "page": "masturbation"
+                  }
+                ]
               },
               {
-                "type": "internal",
-                "page": "André 3000"
+                "text": "Monte, the only celibate prisoner, rejects Dibs' sexual advances.",
+                "links": [
+                  {
+                    "text": "celibate",
+                    "type": "internal",
+                    "page": "celibacy"
+                  }
+                ]
+              },
+              {
+                "text": "He is serving a life sentence for manslaughter as a child.",
+                "links": [
+                  {
+                    "text": "manslaughter",
+                    "type": "internal",
+                    "page": "manslaughter"
+                  }
+                ]
+              },
+              {
+                "text": "Monte's only friend on the ship is Tcherny, who is drawn to the onboard garden because it reminds him life back on Earth."
               }
             ]
           },
           {
-            "text": "Playing the role of baby Willow is Scarlette Lindsay, Pattinson's goddaughter."
+            "sentences": [
+              {
+                "text": "Pregnant prisoner Elektra delivers a baby, who dies later before she does as well."
+              },
+              {
+                "text": "The captain, Chandra, develops leukemia from radiation and has a stroke before being euthanized by Dibs.",
+                "links": [
+                  {
+                    "text": "leukemia",
+                    "type": "internal",
+                    "page": "leukemia"
+                  },
+                  {
+                    "text": "euthanized",
+                    "type": "internal",
+                    "page": "euthanasia"
+                  }
+                ]
+              },
+              {
+                "text": "One night, male prisoner Ettore attempts to rape Boyse.",
+                "links": [
+                  {
+                    "text": "rape",
+                    "type": "internal",
+                    "page": "rape"
+                  }
+                ]
+              },
+              {
+                "text": "Nansen, the pilot, intervenes, but Ettore attacks and overpowers her."
+              },
+              {
+                "text": "Monte arrives, throws Ettore off Boyse, and beats him."
+              },
+              {
+                "text": "When Monte leads Boyse away to be treated, Mink stabs Ettore to death in the hallway."
+              },
+              {
+                "text": "Dibs begins doubling the amount of sedatives each prisoner receives, later sneaking into Monte's cell and raping him while he is sedated.",
+                "links": [
+                  {
+                    "text": "raping him",
+                    "type": "internal",
+                    "page": "Rape of males",
+                    "anchor": "Female-on-male rape"
+                  }
+                ]
+              },
+              {
+                "text": "She then injects his semen into Boyse, who produces a healthy child that Dibs dotes on, but Monte is unaware that he is the baby's father.",
+                "links": [
+                  {
+                    "text": "injects",
+                    "type": "internal",
+                    "page": "Sperm theft"
+                  },
+                  {
+                    "text": "semen",
+                    "type": "internal",
+                    "page": "semen"
+                  }
+                ]
+              }
+            ]
           },
           {
-            "text": "After Pattinson was unable to bond with the babies cast as Willow, he remembered that Lindsay was friendly around adults."
+            "sentences": [
+              {
+                "text": "As the ship approaches the black hole, Nansen prepares to pilot a shuttle around it."
+              },
+              {
+                "text": "Unbeknownst to the other prisoners, Boyse kills Nansen with a shovel and takes her place."
+              },
+              {
+                "text": "The shuttle travels through a molecular cloud that alters its trajectory and causes it to dive into the black hole, where Boyse explodes due to spaghettification, the stretching and horizontal compression of objects into long thin shapes in a very strong non-homogeneous gravitational field.",
+                "links": [
+                  {
+                    "text": "spaghettification",
+                    "type": "internal",
+                    "page": "spaghettification"
+                  }
+                ]
+              },
+              {
+                "text": "Mink later attacks Dibs and injures her, but is then killed by Monte."
+              },
+              {
+                "text": "Dibs informs him that the child is his before ejecting herself into space."
+              },
+              {
+                "text": "Tcherny commits suicide and Monte buries his body in the garden according to his wishes."
+              },
+              {
+                "text": "Now the only survivor, Monte removes the bodies from the ship's morgue, dresses them in spacesuits, and releases them into the atmosphere."
+              }
+            ]
           },
           {
-            "text": "Pattinson asked a favour of Lindsay's father to cast her in the film, which he described as a \"massive gamble\" that was ultimately paid off by her \"incredible\" performance."
+            "sentences": [
+              {
+                "text": "Monte struggles to raise the child, whom he has named Willow."
+              },
+              {
+                "text": "He attempts to make repairs to the ship, but her frantic cries through his helmet speakers cause him to drop a tool and lose it in space."
+              },
+              {
+                "text": "Much later, when Willow has grown into a teenager, they encounter another ship similar to their own."
+              },
+              {
+                "text": "Monte boards the ship, but finds it carrying stray dogs who have survived by eating one another."
+              },
+              {
+                "text": "Willow begs Monte to bring one back, but he refuses, implying contamination could potentially sicken or kill them."
+              },
+              {
+                "text": "The ship moves closer to the black hole, and Willow convinces Monte to board a shuttle with her and execute the Penrose process that, if successful, is supposed to slingshot them away from the black hole.",
+                "links": [
+                  {
+                    "type": "internal",
+                    "page": "Penrose process"
+                  }
+                ]
+              },
+              {
+                "text": "No longer wearing space suits, Monte takes Willow's hand, and they walk together to a yellow light source that grows ever larger and envelops them."
+              }
+            ]
+          }
+        ],
+        "templates": [
+          {
+            "text": "The film is presented in a nonlinear narrative. The following is a linear summary of the plot.",
+            "template": "hatnote"
+          }
+        ]
+      },
+      {
+        "title": "Cast",
+        "depth": 0,
+        "templates": [
+          {
+            "list": [
+              "* Robert Pattinson as Monte\n** Mikołaj Gruss as young Monte\n* Juliette Binoche as Dibs\n* André Benjamin as Tcherny\n* Mia Goth as Boyse\n* Agata Buzek as Nansen\n* Lars Eidinger as Chandra\n* Claire Tran as Mink\n* Ewan Mitchell as Ettore\n* Gloria Obianyo as Elektra\n* Victor Banerjee as Indian Professor\n* Jessie Ross as Willow"
+            ],
+            "template": "cast listing"
+          }
+        ]
+      },
+      {
+        "title": "Production",
+        "depth": 0,
+        "paragraphs": [
+          {
+            "sentences": [
+              {
+                "text": "Claire Denis had the idea of the project in her mind for fifteen years.",
+                "links": [
+                  {
+                    "type": "internal",
+                    "page": "Claire Denis"
+                  }
+                ]
+              },
+              {
+                "text": "She said, \"I had a screenplay which was naturally in English, because the story takes place in space and, I don't know why, but for me, people speak English—or Russian or Chinese—but definitely not French in space.\""
+              }
+            ]
+          },
+          {
+            "sentences": [
+              {
+                "text": "Novelist Nick Laird co-wrote the screenplay for the film along with Denis, Fargeau and Geoff Cox.",
+                "links": [
+                  {
+                    "type": "internal",
+                    "page": "Nick Laird"
+                  }
+                ]
+              },
+              {
+                "text": "Laird's wife Zadie Smith also contributed to early drafts of the English version of the screenplay.",
+                "links": [
+                  {
+                    "type": "internal",
+                    "page": "Zadie Smith"
+                  }
+                ]
+              },
+              {
+                "text": "Due to creative differences between Denis and Smith, Laird and Smith dropped out of the project as screenwriters, but Laird later served as the consultant for the script."
+              }
+            ]
+          },
+          {
+            "sentences": [
+              {
+                "text": "Denis went to the European Space Agency's Astronaut Centre in Cologne to learn about human spaceflight exploration before the film started shooting.",
+                "links": [
+                  {
+                    "type": "internal",
+                    "page": "European Space Agency"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sentences": [
+              {
+                "text": "Denis explained the practical reasons for the non-linear story, saying \"I always wanted it to start with a man and a baby, as a ritual of two living persons with no despair in that moment. And then there would be the flashbacks bringing in all the despair.\""
+              },
+              {
+                "text": "Denis compared Pattinson's character to the knight Percival of Arthurian legend, and Binoche's character to Medea from the Greek tragedy.",
+                "links": [
+                  {
+                    "type": "internal",
+                    "page": "Percival"
+                  },
+                  {
+                    "text": "Medea",
+                    "type": "internal",
+                    "page": "Medea (play)"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "references": [
+          {
+            "last": "Erbland",
+            "first": "Kate",
+            "title": "'High Life' Director Claire Denis Explains Why Novelist Zadie Smith Departed Film: 'There Was Not a Word We Could Share'",
+            "url": "https://www.indiewire.com/2018/10/high-life-claire-denis-zadie-smith-left-robert-pattinson-1202009125/",
+            "website": "IndieWire",
+            "date": "3 October 2018",
+            "template": "citation",
+            "type": "web"
+          },
+          {
+            "url": "http://scienceandfilm.org/articles/3169/claire-denis-science-consultant-talks-about-high-life",
+            "title": "Claire Denis' Science Consultant Talks About High Life",
+            "last": "Epstein",
+            "first": "Sonia",
+            "date": "14 November 2018",
+            "website": "Sloan Science & Film",
+            "template": "citation",
+            "type": "web"
+          },
+          {
+            "url": "http://www.robertpattinsonau.com/2017/05/14/print-claire-denis-talks-high-life-robert-pattinson-his-unflinching-desire-and-our-mutual-recognition-have-done-their-work-cahiers-du-cinema/",
+            "title": "Claire Denis Talks High Life & Robert Pattinson \"his unflinching desire and our mutual recognition have done their work\"",
+            "website": "Robertpattinsonau.com",
+            "date": "14 May 2017",
+            "access-date": "4 July 2017",
+            "archive-url": "https://web.archive.org/web/20170627015637/http://www.robertpattinsonau.com/2017/05/14/print-claire-denis-talks-high-life-robert-pattinson-his-unflinching-desire-and-our-mutual-recognition-have-done-their-work-cahiers-du-cinema/",
+            "archive-date": "27 June 2017",
+            "url-status": "dead",
+            "df": "dmy-all",
+            "template": "citation",
+            "type": "web"
+          },
+          {
+            "url": "http://www.indiewire.com/2016/03/claire-denis-on-how-philip-seymour-hoffman-inspired-high-life-and-the-heartrending-charisma-of-robert-pattinson-102813/",
+            "title": "Claire Denis on How Philip Seymour Hoffman Inspired 'High Life' And The \"Heartrending Charisma\" of Robert Pattinson",
+            "last": "Jagernauth",
+            "first": "Kevin",
+            "work": "IndieWire",
+            "date": "25 May 2016",
+            "access-date": "4 July 2017",
+            "archive-url": "https://web.archive.org/web/20160630234737/http://www.indiewire.com/2016/03/claire-denis-on-how-philip-seymour-hoffman-inspired-high-life-and-the-heartrending-charisma-of-robert-pattinson-102813/",
+            "archive-date": "30 June 2016",
+            "url-status": "dead",
+            "df": "dmy-all",
+            "template": "citation",
+            "type": "web"
+          },
+          {
+            "url": "https://thefilmstage.com/news/claire-denis-robert-Pattinson-led-high-life-will-feature-unwanted-insemination-and-black-holes/",
+            "title": "Claire Denis' Robert Pattinson-Led 'High Life' Will Feature Unwanted Insemination and Black Holes",
+            "last": "Newman",
+            "first": "Nick",
+            "date": "8 February 2016",
+            "website": "Filmstage.com",
+            "archive-url": "https://web.archive.org/web/20160209173621/https://thefilmstage.com/news/claire-denis-robert-pattinson-led-high-life-will-feature-unwanted-insemination-and-black-holes/",
+            "archive-date": "9 February 2016",
+            "url-status": "dead",
+            "access-date": "4 July 2017",
+            "df": "dmy-all",
+            "template": "citation",
+            "type": "web"
+          },
+          {
+            "date": "16 April 2019",
+            "author": "Dan Schindel",
+            "title": "Claire Denis on Black Holes, Olafur Eliasson, and the Making of High Life",
+            "url": "https://hyperallergic.com/495099/claire-denis-on-black-holes-olafur-eliasson-and-the-making-of-high-life/",
+            "website": "Hyperallergic",
+            "template": "citation",
+            "type": "web"
+          }
+        ]
+      },
+      {
+        "title": "Casting",
+        "depth": 1,
+        "paragraphs": [
+          {
+            "sentences": [
+              {
+                "text": "During the project's early stages, Denis had Vincent Gallo in mind for the lead role, and wrote the film thinking of Philip Seymour Hoffman.",
+                "links": [
+                  {
+                    "type": "internal",
+                    "page": "Vincent Gallo"
+                  },
+                  {
+                    "type": "internal",
+                    "page": "Philip Seymour Hoffman"
+                  }
+                ]
+              },
+              {
+                "text": "The project later caught the attention of Robert Pattinson; according to Denis:\"Pattinson contacted the person who was doing the English casting. I was intrigued but I thought he was too young. Every time I went to London to meet some actors, he was there. His desire to work with me has never faltered. And now he is a little less young and it's perfect. […] It's strange, though, because it would be difficult to imagine anyone more unlike Philip Seymour Hoffman physically, but Robert is very enigmatic, with a powerful presence. He gives off an aura that immediately makes you want to film him.\"Pattinson described his character as an astronaut and said, \"He's a criminal who volunteers for a mission toward a black hole, but he realizes along the way that a doctor on board also wants to do sexual experimentation with humans in space.\"",
+                "links": [
+                  {
+                    "type": "internal",
+                    "page": "Robert Pattinson"
+                  }
+                ]
+              },
+              {
+                "text": "In late 2015, Patricia Arquette and Mia Goth joined the cast.",
+                "links": [
+                  {
+                    "type": "internal",
+                    "page": "Patricia Arquette"
+                  },
+                  {
+                    "type": "internal",
+                    "page": "Mia Goth"
+                  }
+                ]
+              },
+              {
+                "text": "In September 2017, Arquette dropped out while the rest of the cast, including Juliette Binoche and rapper André 3000, were also announced.",
+                "links": [
+                  {
+                    "type": "internal",
+                    "page": "Juliette Binoche"
+                  },
+                  {
+                    "type": "internal",
+                    "page": "André 3000"
+                  }
+                ]
+              },
+              {
+                "text": "Playing the role of baby Willow is Scarlette Lindsay, Pattinson's goddaughter."
+              },
+              {
+                "text": "After Pattinson was unable to bond with the babies cast as Willow, he remembered that Lindsay was friendly around adults."
+              },
+              {
+                "text": "Pattinson asked a favour of Lindsay's father to cast her in the film, which he described as a \"massive gamble\" that was ultimately paid off by her \"incredible\" performance."
+              }
+            ]
+          }
+        ],
+        "templates": [
+          {
+            "text": "Pattinson contacted the person who was doing the English casting. I was intrigued but I thought he was too young. Every time I went to London to meet some actors, he was there. His desire to work with me has never faltered. And now he is a little less young and it's perfect. […] It's strange, though, because it would be difficult to imagine anyone more unlike Philip Seymour Hoffman physically, but Robert is very enigmatic, with a powerful presence. He gives off an aura that immediately makes you want to film him.",
+            "template": "blockquote"
+          }
+        ],
+        "references": [
+          {
+            "url": "http://www.indiewire.com/2015/10/patricia-arquette-and-mia-goth-join-robert-pattinson-in-claire-denis-sci-fi-high-life-plot-details-revealed-109596/",
+            "title": "Patricia Arquette and Mia Goth Join Robert Pattinson in Claire Denis' Sci-Fi 'High Life,' Plot Details Revealed",
+            "last": "Jagernauth",
+            "first": "Kevin",
+            "work": "IndieWire",
+            "date": "26 October 2015",
+            "access-date": "4 July 2017",
+            "archive-url": "https://web.archive.org/web/20170709131142/http://www.indiewire.com/2015/10/patricia-arquette-and-mia-goth-join-robert-pattinson-in-claire-denis-sci-fi-high-life-plot-details-revealed-109596/",
+            "archive-date": "9 July 2017",
+            "url-status": "dead",
+            "df": "dmy-all",
+            "template": "citation",
+            "type": "web"
+          },
+          {
+            "last": "Kaye",
+            "first": "Don",
+            "date": "April 17, 2019",
+            "title": "Living the High Life with Robert Pattinson",
+            "url": "https://www.denofgeek.com/movies/living-the-high-life-with-robert-pattinson/",
+            "access-date": "February 10, 2022",
+            "website": "Den of Geek",
+            "template": "citation",
+            "type": "web"
+          },
+          {
+            "url": "https://variety.com/2017/film/markets-festivals/toronto-juliette-binoche-andre-benjamin-join-claire-denis-high-life-exclusive-1202551807/",
+            "title": "Toronto: Juliette Binoche, André Benjamin Join Claire Denis' 'High Life' (EXCLUSIVE)",
+            "first": "Brent",
+            "last": "Lang",
+            "work": "Variety",
+            "date": "8 September 2015",
+            "access-date": "8 September 2017",
+            "archive-url": "https://web.archive.org/web/20171002233232/http://variety.com/2017/film/markets-festivals/toronto-juliette-binoche-andre-benjamin-join-claire-denis-high-life-exclusive-1202551807/",
+            "archive-date": "2 October 2017",
+            "url-status": "dead",
+            "df": "dmy-all",
+            "template": "citation",
+            "type": "web"
+          }
+        ]
+      },
+      {
+        "title": "Filming",
+        "depth": 1,
+        "paragraphs": [
+          {
+            "sentences": [
+              {
+                "text": "Principal photography began in Cologne, Germany on 4 September 2017.",
+                "links": [
+                  {
+                    "type": "internal",
+                    "page": "Cologne"
+                  }
+                ]
+              },
+              {
+                "text": "The Polish part of the shooting took place in Białystok.",
+                "links": [
+                  {
+                    "type": "internal",
+                    "page": "Białystok"
+                  }
+                ]
+              },
+              {
+                "text": "Filming wrapped in late October 2017.",
+                "links": [
+                  {
+                    "text": "wrapped",
+                    "type": "internal",
+                    "page": "Wrap (filmmaking)"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "templates": [
+          {
+            "date": "May 2019",
+            "template": "failed verification"
+          }
+        ],
+        "references": [
+          {
+            "url": "http://wwd.com/fashion-news/fashion-scoops/front-row-christian-dior-couture-fall-10937669/",
+            "title": "Front Row at Christian Dior Couture Fall 2017",
+            "last": "Foreman",
+            "first": "Katya",
+            "work": "Women's Wear Daily",
+            "date": "3 July 2017",
+            "access-date": "4 July 2017",
+            "archive-url": "https://web.archive.org/web/20170703232625/http://wwd.com/fashion-news/fashion-scoops/front-row-christian-dior-couture-fall-10937669/",
+            "archive-date": "3 July 2017",
+            "url-status": "dead",
+            "df": "dmy-all",
+            "template": "citation",
+            "type": "web"
+          },
+          {
+            "url": "http://theplaylist.net/bright-sunshine-trailer-claire-denis-20170818/",
+            "title": "'Bright Sunshine In' Trailer: Juliette Binoche Stars In Claire Denis' New Film",
+            "last": "Jagernauth",
+            "first": "Kevin",
+            "website": "Playlist.net",
+            "date": "18 August 2017",
+            "access-date": "18 August 2017",
+            "archive-url": "https://web.archive.org/web/20170818173252/http://theplaylist.net/bright-sunshine-trailer-claire-denis-20170818/",
+            "archive-date": "18 August 2017",
+            "url-status": "dead",
+            "df": "dmy-all",
+            "template": "citation",
+            "type": "web"
+          },
+          {
+            "url": "http://filmcommissionpoland.pl/film-industry/in-production/-high-life-filming-completed-ddiQcg",
+            "title": "\"High Life\" Filming Completed",
+            "website": "Film Commission Poland",
+            "date": "21 November 2017",
+            "access-date": "15 January 2019",
+            "template": "citation",
+            "type": "web"
+          },
+          {
+            "url": "https://www.screendaily.com/news/wild-bunch-brings-natalie-portman-ari-folman-animation-projects-to-afm-exclusive/5123577.article",
+            "title": "Wild Bunch brings new Natalie Portman and Ari Folman animation projects to AFM (exclusive)",
+            "last": "Goodfellow",
+            "first": "Melanie",
+            "website": "Screen International",
+            "date": "25 October 2017",
+            "access-date": "26 October 2017",
+            "archive-url": "https://web.archive.org/web/20171025195406/https://www.screendaily.com/news/wild-bunch-brings-natalie-portman-ari-folman-animation-projects-to-afm-exclusive/5123577.article",
+            "archive-date": "25 October 2017",
+            "url-status": "dead",
+            "df": "dmy-all",
+            "template": "citation",
+            "type": "web"
+          },
+          {
+            "url": "https://thefilmstage.com/news/claire-denis-will-begin-production-on-her-sci-fi-drama-high-life-next-month/",
+            "title": "Claire Denis Will Begin Production on Her Sci-Fi Drama 'High Life' Next Month",
+            "last": "Raup",
+            "first": "Jordan",
+            "website": "Filmstage.com",
+            "date": "21 June 2017",
+            "access-date": "4 July 2017",
+            "archive-url": "https://web.archive.org/web/20170709131354/https://thefilmstage.com/news/claire-denis-will-begin-production-on-her-sci-fi-drama-high-life-next-month/",
+            "archive-date": "9 July 2017",
+            "url-status": "dead",
+            "df": "dmy-all",
+            "template": "citation",
+            "type": "web"
+          }
+        ]
+      },
+      {
+        "title": "Release",
+        "depth": 0,
+        "paragraphs": [
+          {
+            "sentences": [
+              {
+                "text": "Following its world premiere at the Toronto International Film Festival, the film competed in main competition at the San Sebastián International Film Festival in late September 2018.",
+                "links": [
+                  {
+                    "type": "internal",
+                    "page": "San Sebastián International Film Festival"
+                  }
+                ]
+              },
+              {
+                "text": "The film had its theatrical release in France on 7 November 2018 and in the United Kingdom on 10 May 2019."
+              },
+              {
+                "text": "A24 acquired U.S. distribution rights to the film.",
+                "links": [
+                  {
+                    "type": "internal",
+                    "page": "A24"
+                  }
+                ]
+              },
+              {
+                "text": "The film was released in the United States on 5 April 2019."
+              },
+              {
+                "text": "It was later given a Blu-Ray/DVD release in North American retailers."
+              }
+            ]
+          }
+        ],
+        "images": [
+          {
+            "file": "File:Claire_Denis_TIFF_1.jpg",
+            "thumb": "https://wikipedia.org/wiki/Special:Redirect/file/Claire_Denis_TIFF_1.jpg?width=300",
+            "url": "https://wikipedia.org/wiki/Special:Redirect/file/Claire_Denis_TIFF_1.jpg",
+            "caption": "Claire Denis (right) presenting High Life at the 2018 Toronto International Film Festival.",
+            "links": []
+          }
+        ],
+        "references": [
+          {
+            "url": "https://variety.com/2018/film/festivals/san-sebastian-denis-kim-jee-woon-kawase-competition-1202872620/",
+            "title": "San Sebastian: Claire Denis, Kim Jee-woon, Naomi Kawase Make Competition",
+            "last": "Hopewell",
+            "first": "John",
+            "work": "Variety",
+            "access-date": "2018-08-24",
+            "archive-url": "https://web.archive.org/web/20180713113953/https://variety.com/2018/film/festivals/san-sebastian-denis-kim-jee-woon-kawase-competition-1202872620/",
+            "archive-date": "13 July 2018",
+            "url-status": "dead",
+            "df": "dmy-all",
+            "template": "citation",
+            "type": "news"
+          },
+          {
+            "url": "https://twitter.com/WildBunch/status/1032912975630426113",
+            "title": "High Life French release date",
+            "work": "Twitter",
+            "access-date": "2018-08-24",
+            "language": "fr",
+            "archive-url": "https://web.archive.org/web/20190513213352/https://twitter.com/WildBunch/status/1032912975630426113",
+            "archive-date": "13 May 2019",
+            "url-status": "dead",
+            "df": "dmy-all",
+            "template": "citation",
+            "type": "news"
+          },
+          {
+            "url": "http://www.thunderbirdreleasing.com/catalogue/high-life/",
+            "title": "High Life",
+            "website": "Thunderbird Releasing",
+            "access-date": "7 March 2019",
+            "template": "citation",
+            "type": "web"
+          },
+          {
+            "url": "https://deadline.com/2018/09/robert-pattinson-high-life-juliette-binoche-a24-high-life-toronto-film-festival-deal-1202463623/",
+            "title": "A24 Lands Claire Denis' English Language Debut 'High Life' With Robert Pattinson & Juliette Binoche: Toronto",
+            "website": "Deadline Hollywood",
+            "first": "Mike Jr.",
+            "last": "Fleming",
+            "date": "12 September 2018",
+            "access-date": "12 September 2018",
+            "template": "citation",
+            "type": "web"
+          },
+          {
+            "url": "https://a24films.com/films/high-life",
+            "title": "High Life A24 Official Page",
+            "website": "A24",
+            "access-date": "10 January 2019",
+            "template": "citation",
+            "type": "web"
+          },
+          {
+            "url": "https://www.filmoria.co.uk/high-life-in-uk-cinemas-from-10-may/",
+            "title": "HIGH LIFE in UK Cinemas from 10 May",
+            "publisher": "Filmoria.co.uk",
+            "access-date": "14 March 2019",
+            "template": "citation",
+            "type": "web"
+          }
+        ]
+      },
+      {
+        "title": "Reception",
+        "depth": 0
+      },
+      {
+        "title": "Critical response",
+        "depth": 1,
+        "paragraphs": [
+          {
+            "sentences": [
+              {
+                "text": "On review aggregation website Rotten Tomatoes, of critics have given the film a positive review based on  reviews, with an average rating of.",
+                "links": [
+                  {
+                    "type": "internal",
+                    "page": "Rotten Tomatoes"
+                  }
+                ]
+              },
+              {
+                "text": "The website's critics consensus reads, \"High Life is as visually arresting as it is challenging, confounding, and ultimately rewarding – which is to say it's everything film fans expect from director Claire Denis.\"",
+                "formatting": {
+                  "italic": [
+                    "High Life"
+                  ]
+                }
+              },
+              {
+                "text": "On Metacritic, the film has a weighted average score of 77 out of 100 based on reviews from 42 critics, indicating \"generally favorable reviews\".",
+                "links": [
+                  {
+                    "type": "internal",
+                    "page": "Metacritic"
+                  },
+                  {
+                    "text": "weighted average",
+                    "type": "internal",
+                    "page": "weighted mean"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sentences": [
+              {
+                "text": "David Ehrlich of IndieWire gave the film an A− grade, saying it owed more to Solaris than Star Wars and describing it as \"a pensive and profound study of human life on the brink of the apocalypse.\"",
+                "links": [
+                  {
+                    "type": "internal",
+                    "page": "IndieWire"
+                  },
+                  {
+                    "text": "''Solaris''",
+                    "type": "internal",
+                    "page": "Solaris (1972 film)"
+                  },
+                  {
+                    "type": "internal",
+                    "page": "Star Wars"
+                  }
+                ],
+                "formatting": {
+                  "italic": [
+                    "IndieWire",
+                    "Solaris",
+                    "Star Wars"
+                  ]
+                }
+              },
+              {
+                "text": "Jessica Kiang of Variety called it \"extraordinary, difficult, hypnotic, and repulsive\".",
+                "links": [
+                  {
+                    "text": "Variety",
+                    "type": "internal",
+                    "page": "Variety (magazine)"
+                  }
+                ],
+                "formatting": {
+                  "italic": [
+                    "Variety"
+                  ]
+                }
+              },
+              {
+                "text": "Charles Bramesco of the Guardian gave the film 5 stars out of 5, saying Denis had reconfigured the genre's \"familiar components to create a startlingly fresh engagement with the question of what it means to be human.\"",
+                "formatting": {
+                  "italic": [
+                    "Guardian"
+                  ]
+                }
+              },
+              {
+                "text": "Steve MacFarlane of Slant Magazine wrote: \"The film asks down-and-dirty questions about what really resides beneath thousands of years of human progress, a savage and haunting antidote to the high-minded idealism of movies like Christopher Nolan's Interstellar and Ridley Scott's The Martian.\"",
+                "links": [
+                  {
+                    "type": "internal",
+                    "page": "Slant Magazine"
+                  },
+                  {
+                    "type": "internal",
+                    "page": "Christopher Nolan"
+                  },
+                  {
+                    "text": "Interstellar",
+                    "type": "internal",
+                    "page": "Interstellar (film)"
+                  },
+                  {
+                    "type": "internal",
+                    "page": "Ridley Scott"
+                  },
+                  {
+                    "text": "The Martian",
+                    "type": "internal",
+                    "page": "The Martian (film)"
+                  }
+                ],
+                "formatting": {
+                  "italic": [
+                    "Slant Magazine",
+                    "Interstellar",
+                    "The Martian"
+                  ]
+                }
+              },
+              {
+                "text": "Matt Zoller Seitz of RogerEbert.com described it as \"tailor-made for viewers who like science fiction in a cryptic 1970s art-house mode.\"",
+                "links": [
+                  {
+                    "type": "internal",
+                    "page": "RogerEbert.com"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sentences": [
+              {
+                "text": "In France, Le Monde and Libération described High Life as a \"masterpiece\".",
+                "links": [
+                  {
+                    "type": "internal",
+                    "page": "Le Monde"
+                  },
+                  {
+                    "type": "internal",
+                    "page": "Libération"
+                  }
+                ],
+                "formatting": {
+                  "italic": [
+                    "Le Monde",
+                    "Libération",
+                    "High Life"
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "templates": [
+          {
+            "list": [
+              "score"
+            ],
+            "template": "rt data"
+          },
+          {
+            "list": [
+              "count"
+            ],
+            "template": "rt data"
+          },
+          {
+            "list": [
+              "average"
+            ],
+            "template": "rt data"
+          }
+        ],
+        "references": [
+          {
+            "url": "https://www.rottentomatoes.com/m/high_life_2019",
+            "title": "High Life (2018)",
+            "website": "Rotten Tomatoes",
+            "publisher": "Fandango",
+            "access-date": "{{RT data|access date|df=dmy}}",
+            "template": "citation",
+            "type": "web"
+          },
+          {
+            "url": "https://www.metacritic.com/movie/high-life",
+            "title": "High Life",
+            "website": "Metacritic",
+            "publisher": "CBS Interactive",
+            "access-date": "20 December 2022",
+            "template": "citation",
+            "type": "web"
+          },
+          {
+            "url": "https://variety.com/2018/film/reviews/high-life-review-robert-pattinson-1202934199/",
+            "title": "Film Review: Robert Pattinson in 'High Life'",
+            "website": "Variety",
+            "first": "Jessica",
+            "last": "Kiang",
+            "date": "10 September 2018",
+            "access-date": "10 October 2018",
+            "template": "citation",
+            "type": "web"
+          },
+          {
+            "url": "https://www.theguardian.com/film/2018/sep/10/high-life-review-robert-pattinson-claire-denis-sci-fi-drama-astronauts",
+            "title": "High Life review – orgasmic brilliance in deepest space with Robert Pattinson",
+            "website": "The Guardian",
+            "first": "Charles",
+            "last": "Bramesco",
+            "date": "10 September 2018",
+            "access-date": "10 October 2018",
+            "template": "citation",
+            "type": "web"
+          },
+          {
+            "url": "https://www.slantmagazine.com/film/review/high-life",
+            "title": "High Life",
+            "website": "Slant Magazine",
+            "first": "Steve",
+            "last": "MacFarlane",
+            "date": "10 September 2018",
+            "access-date": "10 October 2018",
+            "template": "citation",
+            "type": "web"
+          },
+          {
+            "date": "April 5, 2019",
+            "last": "Seitz",
+            "first": "Matt Zoller",
+            "title": "High Life movie review & film summary (2019)",
+            "url": "https://www.rogerebert.com/reviews/high-life-2019",
+            "website": "RogerEbert.com",
+            "access-date": "2021-01-01",
+            "template": "citation",
+            "type": "web"
+          },
+          {
+            "date": "6 November 2018",
+            "title": "\" High Life \" : Claire Denis sonde le désir en apesanteur",
+            "url": "https://www.lemonde.fr/cinema/article/2018/11/06/high-life-claire-denis-sonde-le-desir-en-apesanteur_5379326_3476.html",
+            "website": "Le Monde",
+            "language": "fr",
+            "quote": "L’avis du « Monde » – chef d’œuvre",
+            "template": "citation",
+            "type": "web"
+          },
+          {
+            "date": "6 November 2018",
+            "title": "\"High Life\", vaisseau spécial",
+            "url": "https://next.liberation.fr/cinema/2018/11/06/high-life-vaisseau-special_1690305",
+            "website": "Libération",
+            "quote": "Un chef-d’œuvre halluciné et viscéral dans la lignée des grands films du genre.",
+            "template": "citation",
+            "type": "web"
+          },
+          {
+            "url": "https://www.indiewire.com/2018/09/high-life-review-robert-pattinson-claire-denis-tiff-2018-1202002255/",
+            "title": "'High Life' Review: Claire Denis Takes Robert Pattinson on an Erotic Space Odyssey in This Mesmerizing Look into the Void — TIFF",
+            "website": "IndieWire",
+            "first": "David",
+            "last": "Ehrlich",
+            "date": "10 September 2018",
+            "access-date": "10 October 2018",
+            "template": "citation",
+            "type": "web"
+          }
+        ]
+      },
+      {
+        "title": "Accolades",
+        "depth": 1,
+        "tables": [
+          [
+            {
+              "Award": {
+                "text": "San Sebastián International Film Festival",
+                "links": [
+                  {
+                    "type": "internal",
+                    "page": "San Sebastián International Film Festival"
+                  }
+                ]
+              },
+              "Date of ceremony": {
+                "text": "29 September 2018"
+              },
+              "Category": {
+                "text": "Best Film"
+              },
+              "Recipients": {
+                "text": "High Life",
+                "formatting": {
+                  "italic": [
+                    "High Life"
+                  ]
+                }
+              },
+              "Result": {
+                "text": "Nominated"
+              },
+              "Ref.": {
+                "text": ""
+              }
+            },
+            {
+              "Award": {
+                "text": "San Sebastián International Film Festival",
+                "links": [
+                  {
+                    "type": "internal",
+                    "page": "San Sebastián International Film Festival"
+                  }
+                ]
+              },
+              "Date of ceremony": {
+                "text": "29 September 2018"
+              },
+              "Category": {
+                "text": "FIPRESCI Award"
+              },
+              "Recipients": {
+                "text": "High Life",
+                "formatting": {
+                  "italic": [
+                    "High Life"
+                  ]
+                }
+              },
+              "Result": {
+                "text": "Won"
+              },
+              "Ref.": {
+                "text": ""
+              }
+            },
+            {
+              "Award": {
+                "text": "Film Fest Gent",
+                "links": [
+                  {
+                    "type": "internal",
+                    "page": "Film Fest Gent"
+                  }
+                ]
+              },
+              "Date of ceremony": {
+                "text": "19 October 2018"
+              },
+              "Category": {
+                "text": "Best Film"
+              },
+              "Recipients": {
+                "text": "High Life",
+                "formatting": {
+                  "italic": [
+                    "High Life"
+                  ]
+                }
+              },
+              "Result": {
+                "text": "Nominated"
+              },
+              "Ref.": {
+                "text": ""
+              }
+            },
+            {
+              "Award": {
+                "text": "Film Fest Gent",
+                "links": [
+                  {
+                    "type": "internal",
+                    "page": "Film Fest Gent"
+                  }
+                ]
+              },
+              "Date of ceremony": {
+                "text": "19 October 2018"
+              },
+              "Category": {
+                "text": "Georges Delerue Award"
+              },
+              "Recipients": {
+                "text": "Stuart A. Staples"
+              },
+              "Result": {
+                "text": "Won"
+              },
+              "Ref.": {
+                "text": ""
+              }
+            },
+            {
+              "Award": {
+                "text": "Louis Delluc Prize",
+                "links": [
+                  {
+                    "type": "internal",
+                    "page": "Louis Delluc Prize"
+                  }
+                ]
+              },
+              "Date of ceremony": {
+                "text": "12 December 2018"
+              },
+              "Category": {
+                "text": "Best Film"
+              },
+              "Recipients": {
+                "text": "High Life",
+                "formatting": {
+                  "italic": [
+                    "High Life"
+                  ]
+                }
+              },
+              "Result": {
+                "text": "Nominated"
+              },
+              "Ref.": {
+                "text": ""
+              }
+            }
+          ]
+        ],
+        "templates": [
+          {
+            "abbr": "Ref.",
+            "meaning": "References",
+            "template": "abbr"
+          }
+        ],
+        "references": [
+          {
+            "url": "https://www.sansebastianfestival.com/2018/sections_and_films/8/in",
+            "title": "2018. 66th Edition - 21-29 September",
+            "website": "San Sebastián International Film Festival",
+            "access-date": "13 February 2020",
+            "template": "citation",
+            "type": "web"
+          },
+          {
+            "url": "https://www.sansebastianfestival.com/2018/news/1/7806/in",
+            "title": "Claire Denis will collect the Fipresci Award for High Life",
+            "website": "San Sebastián International Film Festival",
+            "date": "28 September 2018",
+            "access-date": "13 February 2020",
+            "template": "citation",
+            "type": "web"
+          },
+          {
+            "url": "https://www.filmfestival.be/en/archive/festival-editions/2018",
+            "title": "Festival editions 2018",
+            "website": "Film Fest Gent",
+            "access-date": "13 February 2020",
+            "template": "citation",
+            "type": "web"
+          },
+          {
+            "url": "https://www.filmfestival.be/en/news/cold-war-by-pawe-pawlikowski-and-high-life-by-claire-denis-victorious-at-45th-film-fest-gent/19-10-2018/3649",
+            "title": "'Cold War' by Paweł Pawlikowski and 'High Life' by Claire Denis victorious at 45th Film Fest Gent",
+            "website": "Film Fest Gent",
+            "date": "19 October 2018",
+            "access-date": "13 February 2020",
+            "template": "citation",
+            "type": "web"
+          },
+          {
+            "url": "https://cineuropa.org/en/newsdetail/362404/",
+            "title": "Nine candidates for the 2018 Louis-Delluc Prize",
+            "website": "Cineuropa",
+            "first": "Fabien",
+            "last": "Lemercier",
+            "date": "25 October 2018",
+            "access-date": "13 February 2020",
+            "template": "citation",
+            "type": "web"
+          }
+        ]
+      },
+      {
+        "title": "Notes",
+        "depth": 0,
+        "templates": [
+          {
+            "template": "notelist"
+          }
+        ]
+      },
+      {
+        "title": "References",
+        "depth": 0,
+        "templates": [
+          {
+            "template": "reflist"
+          }
+        ]
+      },
+      {
+        "title": "External links",
+        "depth": 0,
+        "paragraphs": [
+          {
+            "sentences": []
+          }
+        ],
+        "templates": [
+          {
+            "template": "official website"
+          },
+          {
+            "template": "imdb title"
+          },
+          {
+            "template": "claire denis"
           }
         ]
       }
-    ],
-    "templates": [
-      {
-        "text": "Pattinson contacted the person who was doing the English casting. I was intrigued but I thought he was too young. Every time I went to London to meet some actors, he was there. His desire to work with me has never faltered. And now he is a little less young and it's perfect. […] It's strange, though, because it would be difficult to imagine anyone more unlike Philip Seymour Hoffman physically, but Robert is very enigmatic, with a powerful presence. He gives off an aura that immediately makes you want to film him.",
-        "template": "blockquote"
-      }
-    ],
-    "references": [
-      {
-        "url": "http://www.indiewire.com/2015/10/patricia-arquette-and-mia-goth-join-robert-pattinson-in-claire-denis-sci-fi-high-life-plot-details-revealed-109596/",
-        "title": "Patricia Arquette and Mia Goth Join Robert Pattinson in Claire Denis' Sci-Fi 'High Life,' Plot Details Revealed",
-        "last": "Jagernauth",
-        "first": "Kevin",
-        "work": "IndieWire",
-        "date": "26 October 2015",
-        "access-date": "4 July 2017",
-        "archive-url": "https://web.archive.org/web/20170709131142/http://www.indiewire.com/2015/10/patricia-arquette-and-mia-goth-join-robert-pattinson-in-claire-denis-sci-fi-high-life-plot-details-revealed-109596/",
-        "archive-date": "9 July 2017",
-        "url-status": "dead",
-        "df": "dmy-all",
-        "template": "citation",
-        "type": "web"
-      },
-      {
-        "last": "Kaye",
-        "first": "Don",
-        "date": "April 17, 2019",
-        "title": "Living the High Life with Robert Pattinson",
-        "url": "https://www.denofgeek.com/movies/living-the-high-life-with-robert-pattinson/",
-        "access-date": "February 10, 2022",
-        "website": "Den of Geek",
-        "template": "citation",
-        "type": "web"
-      },
-      {
-        "url": "https://variety.com/2017/film/markets-festivals/toronto-juliette-binoche-andre-benjamin-join-claire-denis-high-life-exclusive-1202551807/",
-        "title": "Toronto: Juliette Binoche, André Benjamin Join Claire Denis' 'High Life' (EXCLUSIVE)",
-        "first": "Brent",
-        "last": "Lang",
-        "work": "Variety",
-        "date": "8 September 2015",
-        "access-date": "8 September 2017",
-        "archive-url": "https://web.archive.org/web/20171002233232/http://variety.com/2017/film/markets-festivals/toronto-juliette-binoche-andre-benjamin-join-claire-denis-high-life-exclusive-1202551807/",
-        "archive-date": "2 October 2017",
-        "url-status": "dead",
-        "df": "dmy-all",
-        "template": "citation",
-        "type": "web"
-      }
     ]
   }
-]

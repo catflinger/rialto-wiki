@@ -9,6 +9,12 @@ export interface CastMember extends WikiCastMember {
     makerId: number,
 }
 
+export interface WikiHelp {
+    lookup: string,
+    cast: CastMember[],
+    image: string | null,
+}
+
 interface WikiCastMember {
     forename: string;
     surname: string;
@@ -30,30 +36,63 @@ interface WikiCastListItem {
 @Injectable({
     providedIn: 'root'
 })
-export class WikiCastHelperService {
+export class WikiFilmHelperService {
 
     private makers: readonly MakerInfo[] = [];
+
+    private cache: WikiHelp | null = null;
 
     constructor(makerService: MakerService) { 
         makerService.observe().subscribe(makers => this.makers = makers );
     }
 
-    public getCastHelp(filmUrl: string): Promise<CastMember[]> {
-        return wtf.fetch(filmUrl)
-        .then(reponse => {
-            let wikiCast: WikiCastMember[] = [];
+    public getCastHelp(lookup: string): Promise<WikiHelp> {
+        if (this.cache && this.cache.lookup === lookup) {
+            return Promise.resolve(this.cache);
 
-            if (reponse && !Array.isArray(reponse)) {
-                let doc = reponse.json();
+        } else {
+            this.cache = null;
 
-                //console.log(JSON.stringify(doc, null, 2));
+            return wtf.fetch(lookup)
+            .then(reponse => {
+                let wikiCast: WikiCastMember[] = [];
+                let image: string | null = null;
 
-                wikiCast = wikiCast.concat(this.getDirectors(doc));
-                wikiCast = wikiCast.concat(this.getCastMembers(doc));
+                if (reponse && !Array.isArray(reponse)) {
+                    image = this.getImage(reponse);
+
+                    let doc = reponse.json();
+
+                    // console.log(JSON.stringify(doc, null, 2));
+
+                    wikiCast = wikiCast.concat(this.getDirectors(doc));
+                    wikiCast = wikiCast.concat(this.getCastMembers(doc));
+                }
+
+                this.cache = {
+                    lookup,
+                    cast: wikiCast.map(member => this.toCastResult(member)),
+                    image
+                };
+
+                return this.cache;
+            });
+        }
+    }
+
+    private getImage(data: any): string | null {
+        let result: string | null = null;
+
+        if (data) {
+            const firstImage = data.images()[0].json();
+
+            // console.log(`${JSON.stringify(firstImage, null, 2)}`);
+
+            if (firstImage && typeof firstImage.thumb === "string") {
+                result = firstImage.thumb;
             }
-            return wikiCast.map(member => this.toCastResult(member));
-        })
-
+        }
+        return result;
     }
 
     private getDirectors(data: any): WikiCastMember[] {
@@ -69,7 +108,7 @@ export class WikiCastHelperService {
                 if (firstSection) {
                     const infoBoxes = firstSection.infoboxes;
 
-                    //console.log(`INFOBOXES length = ${infoBoxes.length}`);
+                    //console.log(`INFOBOXES ${JSON.stringify(infoBoxes, null, 2)}`);
 
                     if (infoBoxes && Array.isArray(infoBoxes) && infoBoxes.length > 0) {
                         const directorInfo = infoBoxes[0]["director"];
@@ -94,6 +133,11 @@ export class WikiCastHelperService {
 
         if (data) {
 
+            /*
+            TO DO: refactor all of this into modular logical units
+              at the moment we just have one long procedural splurge
+            */
+
             // console.log(JSON.stringify(data, null, 2));
 
             const castSection =
@@ -103,7 +147,9 @@ export class WikiCastHelperService {
                 return /cast/i.test(s.title);
             });
 
-            // console.log(`Cast Section ${JSON.stringify(castSection, null, 2)}`);
+            //console.log(`Cast Section ${JSON.stringify(castSection, null, 2)}`);
+            
+            let wikiCastList: WikiCastListItem[] = [];
 
             if (castSection.length) {
                 const lists = castSection[0].lists;
@@ -114,17 +160,46 @@ export class WikiCastHelperService {
                     const firstList = lists[0];
 
                     if (Array.isArray(firstList) && firstList.length > 0) {
+                        wikiCastList = firstList;
+                    }
+                } else {
+                    const templates = castSection[0].templates;
 
-                        const layout = this.findBestLayout(firstList);
+                    //console.log(`TEMPLATES ${JSON.stringify(templates, null, 2)}`);
 
-                        if (layout) {
-                            const cast = firstList
-                            .map(item => this.parseCastEntry(item, layout))
-                            .filter((x): x is WikiCastMember => x != null);
+                if (templates && Array.isArray(templates) && templates.length > 0) {
+                        const castTemplate = templates.find(item =>  /cast\s?list/i.test(item.template));
 
-                            if (cast) {
-                                result = cast;
+                        if (castTemplate) {
+                            const list = castTemplate.list;
+
+                            /* TO DO: 
+                                There is more data visible in the wikipedia page than is shown in this text.
+                                Find out where the templates are and how to get extra data such as links 
+
+                                Look at wft documentation for how to handle templates
+                            */
+
+                            if (list && Array.isArray(list) && list.length > 0) {
+                                const castData = list[0];
+                                if (typeof castData === "string") {
+                                    wikiCastList = castData.split("\n").map(item => ({ text: item.replace(/\*+/g, "").trim()}));
+                                }
                             }
+                        }
+                    }
+                }
+
+                if (wikiCastList.length) {
+                    const layout = this.findBestLayout(wikiCastList);
+
+                    if (layout) {
+                        const cast = wikiCastList
+                        .map(item => this.parseCastEntry(item, layout))
+                        .filter((x): x is WikiCastMember => x != null);
+
+                        if (cast) {
+                            result = cast;
                         }
                     }
                 }
@@ -132,6 +207,7 @@ export class WikiCastHelperService {
         }
         return result;
     }
+
 
     private findBestLayout(entries: {text: string}[]): CastListLayout | undefined {
         const candidates: CastListLayout[] = [
@@ -164,6 +240,12 @@ export class WikiCastHelperService {
         if (parts.length >= 2) {
             const notes = parts.slice(1).join(layout.separator);
             const nameParts = parts[0].trim().split(" ").filter(x => !!x.trim());
+
+            /* 
+            TO DO: get more detailed here with some domain knowledge:
+            1) Names with XX XX De YYYY then De YYYY is the surname
+            2) Names with initials such as Walter K. Dick then the K. is in the forename
+            */
 
             if (nameParts.length === 1) {
                 // only one word, assume just a surname
@@ -226,6 +308,8 @@ export class WikiCastHelperService {
     }
 
     private toCastResult = (item: WikiCastMember): CastMember => {
+
+        // TO DO: follow with mightBeSameAs() if isSameAs() doesn't get a match
         const maker = this.makers.find(maker => isSameAs(maker, item));
 
         return {
