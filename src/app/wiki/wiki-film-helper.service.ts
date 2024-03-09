@@ -167,7 +167,7 @@ export class WikiFilmHelperService {
 
                     //console.log(`TEMPLATES ${JSON.stringify(templates, null, 2)}`);
 
-                if (templates && Array.isArray(templates) && templates.length > 0) {
+                    if (templates && Array.isArray(templates) && templates.length > 0) {
                         const castTemplate = templates.find(item =>  /cast\s?list/i.test(item.template));
 
                         if (castTemplate) {
@@ -196,7 +196,7 @@ export class WikiFilmHelperService {
                     if (layout) {
                         const cast = wikiCastList
                         .map(item => this.parseCastEntry(item, layout))
-                        .filter((x): x is WikiCastMember => x != null);
+                        .filter((x): x is WikiCastMember => !!x);
 
                         if (cast) {
                             result = cast;
@@ -237,6 +237,8 @@ export class WikiFilmHelperService {
 
         const parts: string[] = item.text.split(new RegExp(layout.expression));
 
+        //console.log(JSON.stringify(parts, null, 2))
+
         if (parts.length >= 2) {
             const notes = parts.slice(1).join(layout.separator);
             const nameParts = parts[0].trim().split(" ").filter(x => !!x.trim());
@@ -265,7 +267,7 @@ export class WikiFilmHelperService {
                     link: this.parseLink(item.links),
                     notes
                 }
-            } else if(nameParts.length > 2) {
+            } else if(nameParts.length > 2 && nameParts.length < 6) {
                 // more than two words word, assume single word forname, all that follows is the surname
                 result = {
                     forename: nameParts[0],
@@ -274,6 +276,10 @@ export class WikiFilmHelperService {
                     link: this.parseLink(item.links),
                     notes
                 }
+            } else {
+                // if there are more then 5 words to the name then this entry is probably not a cast entry at all
+                // sometimes notes are added below the name and this gets mistaken as a separate list item by wtf_wikipedia
+                result = undefined;
             }
         }
 

@@ -41,7 +41,7 @@ export class AsCastListLayout extends CastListLayout {
     // TO DO: problem with Margaret Claire, (credited as Maggie Claire) as the vicar's wife
 
     constructor() {
-        super("\\s+as\\s+", " as ");
+        super("\\sas\\s", " as ");
     }
 }
 
