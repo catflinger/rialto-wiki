@@ -21,7 +21,8 @@ export class WtfComponent implements OnInit {
         private helper: WikiFilmHelperService
     ) {
         this.form = fb.group({
-            title: "Pulp Fiction"
+            title: "Mission: Impossible II"
+            // title: "Pulp Fiction"
             // title: "Paranoiac (film)"
         });
     }

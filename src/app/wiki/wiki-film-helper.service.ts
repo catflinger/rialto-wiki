@@ -136,39 +136,52 @@ export class WikiFilmHelperService {
             /*
             TO DO: refactor all of this into modular logical units
               at the moment we just have one long procedural splurge
+
+              Also: look to see if we can use wtf better, not calling json so soon,
+              wtf("xxx").sections().json() seems to give more information than wtf("xxx").json().sections
             */
 
-            // console.log(JSON.stringify(data, null, 2));
+            // console.log(JSON.stringify(data.sections, null, 2));
 
-            const castSection =
+            const castSections =
             data.sections
             .filter((s: any) => {
-                //let title: string = typeof s.title === "string" ? s.title : "";
-                return /cast/i.test(s.title);
+                return /^(cast$|cast\s?list|cast\s?listing)/i.test(s.title);
             });
 
-            //console.log(`Cast Section ${JSON.stringify(castSection, null, 2)}`);
+            // console.log(`Cast Sections ${JSON.stringify(castSections, null, 2)}`);
             
             let wikiCastList: WikiCastListItem[] = [];
 
-            if (castSection.length) {
-                const lists = castSection[0].lists;
+            if (castSections.length) {
+                const lists = castSections[0].lists;
 
                 // console.log(`Lists ${JSON.stringify(lists, null, 2)}`);
                 
                 if (lists && Array.isArray(lists) && lists.length > 0) {
-                    const firstList = lists[0];
 
-                    if (Array.isArray(firstList) && firstList.length > 0) {
-                        wikiCastList = firstList;
-                    }
+                    // NOTE: merging the lists using lists.flat(1) rather than taking the first using lists[0] is
+                    // an experimental feature. See if this works better or causes more trouble than it is worth
+
+                    //const list = lists.[0];
+                    const list = lists.flat(1);
+
+                    // console.log("Matching on List");
+
+                    if (Array.isArray(list) && list.length > 0) {
+                        wikiCastList = list;
+                        
+                        // console.log(`FIRST LIST ${JSON.stringify(wikiCastList, null, 2)}`);
+            }
                 } else {
-                    const templates = castSection[0].templates;
+                    const templates = castSections[0].templates;
 
                     //console.log(`TEMPLATES ${JSON.stringify(templates, null, 2)}`);
 
                     if (templates && Array.isArray(templates) && templates.length > 0) {
                         const castTemplate = templates.find(item =>  /cast\s?list/i.test(item.template));
+
+                        // console.log("Matching on Template");
 
                         if (castTemplate) {
                             const list = castTemplate.list;

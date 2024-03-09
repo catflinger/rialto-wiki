@@ -1,1628 +1,2062 @@
-{
-    "title": "High Life (2018 film)",
-    "pageID": 54459964,
-    "categories": [
-      "2018 films",
-      "2010s English-language films",
-      "2010s science fiction horror films",
-      "A24 (company) films",
-      "American science fiction horror films",
-      "British science fiction horror films",
-      "British drama films",
-      "Films about rape",
-      "Films directed by Claire Denis",
-      "Films shot in Cologne",
-      "Films set on spacecraft",
-      "French drama films",
-      "2010s pregnancy films",
-      "French science fiction horror films",
-      "English-language French films",
-      "German drama films",
-      "English-language German films",
-      "German science fiction horror films",
-      "Mad scientist films",
-      "Polish drama films",
-      "English-language Polish films",
-      "Polish science fiction films",
-      "British pregnancy films",
-      "French pregnancy films",
-      "German pregnancy films",
-      "2010s American films",
-      "2010s British films",
-      "2010s French films",
-      "2010s German films",
-      "Georges Delerue Award winners",
-      "Films scored by Stuart A. Staples"
-    ],
-    "sections": [
-      {
-        "title": "",
-        "depth": 0,
-        "paragraphs": [
-          {
-            "sentences": [
-              {
-                "text": "High Life is a 2018 science fiction horror film directed by Claire Denis, in her English-language debut, and written by Denis and her long-time collaborator Jean-Pol Fargeau.",
-                "links": [
-                  {
-                    "text": "science fiction horror",
-                    "type": "internal",
-                    "page": "List of science fiction horror films"
-                  },
-                  {
-                    "type": "internal",
-                    "page": "Claire Denis"
-                  },
-                  {
-                    "type": "internal",
-                    "page": "Jean-Pol Fargeau"
-                  }
-                ],
-                "formatting": {
-                  "bold": [
-                    "High Life"
-                  ],
-                  "italic": [
-                    "High Life"
-                  ]
+[
+    {
+      "title": "",
+      "depth": 0,
+      "paragraphs": [
+        {
+          "sentences": [
+            {
+              "text": "Mission: Impossible 2 (titled onscreen as Mission: Impossible II and abbreviated as M:i-2) is a 2000 action spy film directed by John Woo and produced by and starring Tom Cruise.",
+              "links": [
+                {
+                  "text": "action",
+                  "type": "internal",
+                  "page": "action film"
+                },
+                {
+                  "text": "spy film",
+                  "type": "internal",
+                  "page": "spy film"
+                },
+                {
+                  "type": "internal",
+                  "page": "John Woo"
+                },
+                {
+                  "type": "internal",
+                  "page": "Tom Cruise"
                 }
-              },
-              {
-                "text": "Starring Robert Pattinson and Juliette Binoche, it focuses on a group of criminals sent on a space mission toward a black hole while taking part in scientific experiments.",
-                "links": [
-                  {
-                    "type": "internal",
-                    "page": "Robert Pattinson"
-                  },
-                  {
-                    "type": "internal",
-                    "page": "Juliette Binoche"
-                  },
-                  {
-                    "text": "black hole",
-                    "type": "internal",
-                    "page": "black hole"
-                  }
+              ],
+              "formatting": {
+                "bold": [
+                  "Mission: Impossible 2",
+                  "Mission: Impossible II",
+                  "M:i-2"
+                ],
+                "italic": [
+                  "Mission: Impossible 2",
+                  "Mission: Impossible II",
+                  "M:i-2"
                 ]
               }
-            ]
-          },
-          {
-            "sentences": [
-              {
-                "text": "Physicist and black hole expert Aurélien Barrau was hired as a consultant, and Danish-Icelandic artist Olafur Eliasson designed the film's spacecraft.",
-                "links": [
-                  {
-                    "type": "internal",
-                    "page": "Aurélien Barrau"
-                  },
-                  {
-                    "type": "internal",
-                    "page": "Olafur Eliasson"
-                  }
+            },
+            {
+              "text": "It is the sequel to Mission: Impossible (1996) and the second installment in the Mission: Impossible film series.",
+              "links": [
+                {
+                  "text": "Mission: Impossible",
+                  "type": "internal",
+                  "page": "Mission: Impossible (film)"
+                },
+                {
+                  "text": "''Mission: Impossible'' film series",
+                  "type": "internal",
+                  "page": "Mission: Impossible (film series)"
+                }
+              ],
+              "formatting": {
+                "italic": [
+                  "Mission: Impossible",
+                  "Mission: Impossible"
                 ]
-              },
-              {
-                "text": "High Life premiered on 9 September 2018 at the Toronto International Film Festival.",
-                "links": [
-                  {
-                    "text": "Toronto International Film Festival",
-                    "type": "internal",
-                    "page": "2018 Toronto International Film Festival"
-                  }
-                ],
-                "formatting": {
-                  "italic": [
-                    "High Life"
-                  ]
-                }
               }
-            ]
-          }
-        ],
-        "templates": [
-          {
-            "description": "Science fiction film by Claire Denis",
-            "template": "short description"
-          },
-          {
-            "date": "September 2017",
-            "template": "engvarb"
-          },
-          {
-            "date": "September 2017",
-            "template": "use dmy dates"
-          },
-          {
-            "list": [
-              "Screenplay with the collaboration of Geoff Cox; additional writing by Andrew Litvack and Nick Laird."
-            ],
-            "template": "efn"
-          },
-          {
-            "df": "yes",
-            "list": [
-              "2018",
-              "09",
-              "09",
-              "TIFF",
-              "2018",
-              "11",
-              "07",
-              "France"
-            ],
-            "template": "film date"
-          }
-        ],
-        "infoboxes": [
-          {
-            "name": {
-              "text": "High Life"
             },
-            "image": {
-              "text": "High Life film poster.jpg"
-            },
-            "caption": {
-              "text": "Theatrical release poster"
-            },
-            "director": {
-              "text": "Claire Denis",
+            {
+              "text": "The film also stars Dougray Scott, Thandiwe Newton, Richard Roxburgh, John Polson, Brendan Gleeson, Rade Šerbedžija and Ving Rhames.",
               "links": [
                 {
                   "type": "internal",
-                  "page": "Claire Denis"
+                  "page": "Dougray Scott"
+                },
+                {
+                  "type": "internal",
+                  "page": "Thandiwe Newton"
+                },
+                {
+                  "type": "internal",
+                  "page": "Richard Roxburgh"
+                },
+                {
+                  "type": "internal",
+                  "page": "John Polson"
+                },
+                {
+                  "type": "internal",
+                  "page": "Brendan Gleeson"
+                },
+                {
+                  "type": "internal",
+                  "page": "Rade Šerbedžija"
+                },
+                {
+                  "type": "internal",
+                  "page": "Ving Rhames"
                 }
               ]
             },
-            "producer": {
-              "text": "Andrew Lauren\n\nD.J. Gugenheim \n\nClaudia Steffen\n\nChristoph Friedel\n\nLaurence Clerc\n\nOlivier Théry-Lapiney\n\nOliver Dungey\n\nKlaudia Smieja"
-            },
-            "writer": {
-              "text": "Claire Denis\n\nJean-Pol Fargeau",
+            {
+              "text": "In the film, Ethan Hunt (Cruise) teams with professional thief Nyah Nordoff-Hall (Newton) to find but not destroy a genetically modified disease held by rogue Impossible Missions Force (IMF) agent Sean Ambrose (Scott), who is Nordoff-Hall's former lover.",
               "links": [
                 {
                   "type": "internal",
-                  "page": "Jean-Pol Fargeau"
+                  "page": "Ethan Hunt"
+                },
+                {
+                  "type": "internal",
+                  "page": "Impossible Missions Force"
                 }
               ]
-            },
-            "starring": {
-              "text": "Robert Pattinson\n\nJuliette Binoche\n\nAndré Benjamin\n\nMia Goth\n\nAgata Buzek\n\nLars Eidinger\n\nClaire Tran\n\nEwan Mitchell\n\nGloria Obianyo\n\nVictor Banerjee\n\nScarlette Lindsey\n\nJessie Ross",
-              "links": [
-                {
-                  "type": "internal",
-                  "page": "Robert Pattinson"
-                },
-                {
-                  "type": "internal",
-                  "page": "Juliette Binoche"
-                },
-                {
-                  "text": "André Benjamin",
-                  "type": "internal",
-                  "page": "André 3000"
-                },
-                {
-                  "type": "internal",
-                  "page": "Mia Goth"
-                },
-                {
-                  "type": "internal",
-                  "page": "Agata Buzek"
-                },
-                {
-                  "type": "internal",
-                  "page": "Lars Eidinger"
-                },
-                {
-                  "type": "internal",
-                  "page": "Ewan Mitchell"
-                },
-                {
-                  "type": "internal",
-                  "page": "Victor Banerjee"
-                }
-              ]
-            },
-            "music": {
-              "text": "Stuart A. Staples",
-              "links": [
-                {
-                  "type": "internal",
-                  "page": "Stuart A. Staples"
-                }
-              ]
-            },
-            "cinematography": {
-              "text": "Yorick Le Saux",
-              "links": [
-                {
-                  "type": "internal",
-                  "page": "Yorick Le Saux"
-                }
-              ]
-            },
-            "editing": {
-              "text": "Guy Lecorne"
-            },
-            "production_companies": {
-              "text": "Andrew Lauren Productions\n\nPandora Filmproduktion\n\nAlcatraz Films\n\nThe Apocalypse Films Company\n\nMadants\n\nBFI\n\nArte\n\nZDF\n\nCanal+\n\nCiné+",
-              "links": [
-                {
-                  "text": "Pandora Filmproduktion",
-                  "type": "internal",
-                  "page": "Pandora Film"
-                },
-                {
-                  "text": "BFI",
-                  "type": "internal",
-                  "page": "British Film Institute"
-                },
-                {
-                  "type": "internal",
-                  "page": "Arte"
-                },
-                {
-                  "type": "internal",
-                  "page": "ZDF"
-                },
-                {
-                  "type": "internal",
-                  "page": "Canal+"
-                },
-                {
-                  "type": "internal",
-                  "page": "Ciné+"
-                }
-              ]
-            },
-            "distributor": {
-              "text": "Wild Bunch (France)\n\nPandora Filmproduktion (Germany)\n\nThunderbird Releasing (United Kingdom)\n\nAgainst Gravity (Poland)\n\nA24 (United States)",
-              "links": [
-                {
-                  "text": "Wild Bunch",
-                  "type": "internal",
-                  "page": "Wild Bunch (company)"
-                },
-                {
-                  "type": "internal",
-                  "page": "Thunderbird Releasing"
-                },
-                {
-                  "type": "internal",
-                  "page": "A24"
-                }
-              ]
-            },
-            "runtime": {
-              "text": "110 minutes"
-            },
-            "country": {
-              "text": "France\n\nGermany\n\nPoland\n\nUnited Kingdom\n\nUnited States"
-            },
-            "language": {
-              "text": "English"
-            },
-            "budget": {
-              "text": "€8 million"
-            },
-            "gross": {
-              "text": "$2.8 million"
             }
-          }
-        ],
-        "references": [
-          {
-            "url": "https://www.tiff.net/tiff/high-life/",
-            "title": "High Life",
-            "website": "Toronto International Film Festival",
-            "access-date": "27 July 2018",
-            "template": "citation",
-            "type": "web"
-          },
-          {
-            "url": "https://www.bfi.org.uk/films-tv-people/5a1c9c2e3bf90",
-            "archive-url": "https://web.archive.org/web/20190515234742/http://www.bfi.org.uk/films-tv-people/5a1c9c2e3bf90",
-            "url-status": "dead",
-            "archive-date": "15 May 2019",
-            "title": "High Life (2019)",
-            "publisher": "British Film Institute",
-            "access-date": "April 24, 2020",
-            "template": "citation",
-            "type": "web"
-          },
-          {
-            "url": "https://www.hollywoodreporter.com/news/tiff-2018-lineup-beautiful-boy-life-more-1129445",
-            "title": "Toronto: Timothee Chalamet Starrer 'Beautiful Boy,' Dan Fogelman's 'Life Itself' Among Festival Lineup",
-            "last": "Vlessing",
-            "first": "Etan",
-            "work": "The Hollywood Reporter",
-            "access-date": "2018-07-24",
-            "archive-url": "https://web.archive.org/web/20180802015025/https://www.hollywoodreporter.com/news/tiff-2018-lineup-beautiful-boy-life-more-1129445",
-            "archive-date": "2 August 2018",
-            "url-status": "dead",
-            "df": "dmy-all",
-            "template": "citation",
-            "type": "news"
-          },
-          {
-            "url": "https://variety.com/2018/film/news/high-life-bought-a24-robert-pattinson-juliette-binoche-1202939713/",
-            "title": "'High Life,' Starring Robert Pattinson and Juliette Binoche, Nabbed by A24",
-            "work": "Variety",
-            "first": "Dave",
-            "last": "McNary",
-            "date": "12 September 2018",
-            "access-date": "15 January 2019",
-            "template": "citation",
-            "type": "web"
-          },
-          {
-            "url": "http://www.screendaily.com/news/wild-bunch-to-launch-porn-star-rocco-siffredi-doc-at-efm/5099939.article",
-            "title": "Wild Bunch to launch porn star Rocco Siffredi doc at EFM",
-            "last": "Goodfellow",
-            "first": "Melanie",
-            "work": "ScreenDaily",
-            "date": "8 February 2016",
-            "access-date": "4 July 2017",
-            "archive-url": "https://web.archive.org/web/20160210092332/http://www.screendaily.com/news/wild-bunch-to-launch-porn-star-rocco-siffredi-doc-at-efm/5099939.article",
-            "archive-date": "10 February 2016",
-            "url-status": "dead",
-            "df": "dmy-all",
-            "template": "citation",
-            "type": "web"
-          },
-          {
-            "url": "https://www.the-numbers.com/movie/High-Life-(2018)",
-            "title": "High Life (2018)",
-            "website": "The Numbers",
-            "publisher": "Nash Information Services",
-            "access-date": "4 May 2022",
-            "template": "citation",
-            "type": "web"
-          }
-        ]
-      },
-      {
-        "title": "Plot",
-        "depth": 0,
-        "paragraphs": [
-          {
-            "sentences": [
-              {
-                "text": "A group of criminals serving death sentences are sent on a mission in space to extract alternative energy from a black hole.",
-                "links": [
-                  {
-                    "text": "extract alternative energy from a black hole",
-                    "type": "internal",
-                    "page": "Penrose process"
-                  }
-                ]
-              },
-              {
-                "text": "Each prisoner is treated as a guinea pig by Dibs, a scientist, for her experiments; Dibs is fixated on trying to create a child in space through artificial insemination, but has yet to succeed.",
-                "links": [
-                  {
-                    "text": "artificial insemination",
-                    "type": "internal",
-                    "page": "artificial insemination"
-                  }
-                ]
-              },
-              {
-                "text": "Sexual activity between prisoners is prohibited."
-              }
-            ]
-          },
-          {
-            "sentences": [
-              {
-                "text": "The ship is equipped with \"The Box,\" a device in a small room that is obsessively used by the crew to masturbate, while Dibs administers sedatives to the passengers.",
-                "links": [
-                  {
-                    "text": "masturbate",
-                    "type": "internal",
-                    "page": "masturbation"
-                  }
-                ]
-              },
-              {
-                "text": "Monte, the only celibate prisoner, rejects Dibs' sexual advances.",
-                "links": [
-                  {
-                    "text": "celibate",
-                    "type": "internal",
-                    "page": "celibacy"
-                  }
-                ]
-              },
-              {
-                "text": "He is serving a life sentence for manslaughter as a child.",
-                "links": [
-                  {
-                    "text": "manslaughter",
-                    "type": "internal",
-                    "page": "manslaughter"
-                  }
-                ]
-              },
-              {
-                "text": "Monte's only friend on the ship is Tcherny, who is drawn to the onboard garden because it reminds him life back on Earth."
-              }
-            ]
-          },
-          {
-            "sentences": [
-              {
-                "text": "Pregnant prisoner Elektra delivers a baby, who dies later before she does as well."
-              },
-              {
-                "text": "The captain, Chandra, develops leukemia from radiation and has a stroke before being euthanized by Dibs.",
-                "links": [
-                  {
-                    "text": "leukemia",
-                    "type": "internal",
-                    "page": "leukemia"
-                  },
-                  {
-                    "text": "euthanized",
-                    "type": "internal",
-                    "page": "euthanasia"
-                  }
-                ]
-              },
-              {
-                "text": "One night, male prisoner Ettore attempts to rape Boyse.",
-                "links": [
-                  {
-                    "text": "rape",
-                    "type": "internal",
-                    "page": "rape"
-                  }
-                ]
-              },
-              {
-                "text": "Nansen, the pilot, intervenes, but Ettore attacks and overpowers her."
-              },
-              {
-                "text": "Monte arrives, throws Ettore off Boyse, and beats him."
-              },
-              {
-                "text": "When Monte leads Boyse away to be treated, Mink stabs Ettore to death in the hallway."
-              },
-              {
-                "text": "Dibs begins doubling the amount of sedatives each prisoner receives, later sneaking into Monte's cell and raping him while he is sedated.",
-                "links": [
-                  {
-                    "text": "raping him",
-                    "type": "internal",
-                    "page": "Rape of males",
-                    "anchor": "Female-on-male rape"
-                  }
-                ]
-              },
-              {
-                "text": "She then injects his semen into Boyse, who produces a healthy child that Dibs dotes on, but Monte is unaware that he is the baby's father.",
-                "links": [
-                  {
-                    "text": "injects",
-                    "type": "internal",
-                    "page": "Sperm theft"
-                  },
-                  {
-                    "text": "semen",
-                    "type": "internal",
-                    "page": "semen"
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "sentences": [
-              {
-                "text": "As the ship approaches the black hole, Nansen prepares to pilot a shuttle around it."
-              },
-              {
-                "text": "Unbeknownst to the other prisoners, Boyse kills Nansen with a shovel and takes her place."
-              },
-              {
-                "text": "The shuttle travels through a molecular cloud that alters its trajectory and causes it to dive into the black hole, where Boyse explodes due to spaghettification, the stretching and horizontal compression of objects into long thin shapes in a very strong non-homogeneous gravitational field.",
-                "links": [
-                  {
-                    "text": "spaghettification",
-                    "type": "internal",
-                    "page": "spaghettification"
-                  }
-                ]
-              },
-              {
-                "text": "Mink later attacks Dibs and injures her, but is then killed by Monte."
-              },
-              {
-                "text": "Dibs informs him that the child is his before ejecting herself into space."
-              },
-              {
-                "text": "Tcherny commits suicide and Monte buries his body in the garden according to his wishes."
-              },
-              {
-                "text": "Now the only survivor, Monte removes the bodies from the ship's morgue, dresses them in spacesuits, and releases them into the atmosphere."
-              }
-            ]
-          },
-          {
-            "sentences": [
-              {
-                "text": "Monte struggles to raise the child, whom he has named Willow."
-              },
-              {
-                "text": "He attempts to make repairs to the ship, but her frantic cries through his helmet speakers cause him to drop a tool and lose it in space."
-              },
-              {
-                "text": "Much later, when Willow has grown into a teenager, they encounter another ship similar to their own."
-              },
-              {
-                "text": "Monte boards the ship, but finds it carrying stray dogs who have survived by eating one another."
-              },
-              {
-                "text": "Willow begs Monte to bring one back, but he refuses, implying contamination could potentially sicken or kill them."
-              },
-              {
-                "text": "The ship moves closer to the black hole, and Willow convinces Monte to board a shuttle with her and execute the Penrose process that, if successful, is supposed to slingshot them away from the black hole.",
-                "links": [
-                  {
-                    "type": "internal",
-                    "page": "Penrose process"
-                  }
-                ]
-              },
-              {
-                "text": "No longer wearing space suits, Monte takes Willow's hand, and they walk together to a yellow light source that grows ever larger and envelops them."
-              }
-            ]
-          }
-        ],
-        "templates": [
-          {
-            "text": "The film is presented in a nonlinear narrative. The following is a linear summary of the plot.",
-            "template": "hatnote"
-          }
-        ]
-      },
-      {
-        "title": "Cast",
-        "depth": 0,
-        "templates": [
-          {
-            "list": [
-              "* Robert Pattinson as Monte\n** Mikołaj Gruss as young Monte\n* Juliette Binoche as Dibs\n* André Benjamin as Tcherny\n* Mia Goth as Boyse\n* Agata Buzek as Nansen\n* Lars Eidinger as Chandra\n* Claire Tran as Mink\n* Ewan Mitchell as Ettore\n* Gloria Obianyo as Elektra\n* Victor Banerjee as Indian Professor\n* Jessie Ross as Willow"
-            ],
-            "template": "cast listing"
-          }
-        ]
-      },
-      {
-        "title": "Production",
-        "depth": 0,
-        "paragraphs": [
-          {
-            "sentences": [
-              {
-                "text": "Claire Denis had the idea of the project in her mind for fifteen years.",
-                "links": [
-                  {
-                    "type": "internal",
-                    "page": "Claire Denis"
-                  }
-                ]
-              },
-              {
-                "text": "She said, \"I had a screenplay which was naturally in English, because the story takes place in space and, I don't know why, but for me, people speak English—or Russian or Chinese—but definitely not French in space.\""
-              }
-            ]
-          },
-          {
-            "sentences": [
-              {
-                "text": "Novelist Nick Laird co-wrote the screenplay for the film along with Denis, Fargeau and Geoff Cox.",
-                "links": [
-                  {
-                    "type": "internal",
-                    "page": "Nick Laird"
-                  }
-                ]
-              },
-              {
-                "text": "Laird's wife Zadie Smith also contributed to early drafts of the English version of the screenplay.",
-                "links": [
-                  {
-                    "type": "internal",
-                    "page": "Zadie Smith"
-                  }
-                ]
-              },
-              {
-                "text": "Due to creative differences between Denis and Smith, Laird and Smith dropped out of the project as screenwriters, but Laird later served as the consultant for the script."
-              }
-            ]
-          },
-          {
-            "sentences": [
-              {
-                "text": "Denis went to the European Space Agency's Astronaut Centre in Cologne to learn about human spaceflight exploration before the film started shooting.",
-                "links": [
-                  {
-                    "type": "internal",
-                    "page": "European Space Agency"
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "sentences": [
-              {
-                "text": "Denis explained the practical reasons for the non-linear story, saying \"I always wanted it to start with a man and a baby, as a ritual of two living persons with no despair in that moment. And then there would be the flashbacks bringing in all the despair.\""
-              },
-              {
-                "text": "Denis compared Pattinson's character to the knight Percival of Arthurian legend, and Binoche's character to Medea from the Greek tragedy.",
-                "links": [
-                  {
-                    "type": "internal",
-                    "page": "Percival"
-                  },
-                  {
-                    "text": "Medea",
-                    "type": "internal",
-                    "page": "Medea (play)"
-                  }
-                ]
-              }
-            ]
-          }
-        ],
-        "references": [
-          {
-            "last": "Erbland",
-            "first": "Kate",
-            "title": "'High Life' Director Claire Denis Explains Why Novelist Zadie Smith Departed Film: 'There Was Not a Word We Could Share'",
-            "url": "https://www.indiewire.com/2018/10/high-life-claire-denis-zadie-smith-left-robert-pattinson-1202009125/",
-            "website": "IndieWire",
-            "date": "3 October 2018",
-            "template": "citation",
-            "type": "web"
-          },
-          {
-            "url": "http://scienceandfilm.org/articles/3169/claire-denis-science-consultant-talks-about-high-life",
-            "title": "Claire Denis' Science Consultant Talks About High Life",
-            "last": "Epstein",
-            "first": "Sonia",
-            "date": "14 November 2018",
-            "website": "Sloan Science & Film",
-            "template": "citation",
-            "type": "web"
-          },
-          {
-            "url": "http://www.robertpattinsonau.com/2017/05/14/print-claire-denis-talks-high-life-robert-pattinson-his-unflinching-desire-and-our-mutual-recognition-have-done-their-work-cahiers-du-cinema/",
-            "title": "Claire Denis Talks High Life & Robert Pattinson \"his unflinching desire and our mutual recognition have done their work\"",
-            "website": "Robertpattinsonau.com",
-            "date": "14 May 2017",
-            "access-date": "4 July 2017",
-            "archive-url": "https://web.archive.org/web/20170627015637/http://www.robertpattinsonau.com/2017/05/14/print-claire-denis-talks-high-life-robert-pattinson-his-unflinching-desire-and-our-mutual-recognition-have-done-their-work-cahiers-du-cinema/",
-            "archive-date": "27 June 2017",
-            "url-status": "dead",
-            "df": "dmy-all",
-            "template": "citation",
-            "type": "web"
-          },
-          {
-            "url": "http://www.indiewire.com/2016/03/claire-denis-on-how-philip-seymour-hoffman-inspired-high-life-and-the-heartrending-charisma-of-robert-pattinson-102813/",
-            "title": "Claire Denis on How Philip Seymour Hoffman Inspired 'High Life' And The \"Heartrending Charisma\" of Robert Pattinson",
-            "last": "Jagernauth",
-            "first": "Kevin",
-            "work": "IndieWire",
-            "date": "25 May 2016",
-            "access-date": "4 July 2017",
-            "archive-url": "https://web.archive.org/web/20160630234737/http://www.indiewire.com/2016/03/claire-denis-on-how-philip-seymour-hoffman-inspired-high-life-and-the-heartrending-charisma-of-robert-pattinson-102813/",
-            "archive-date": "30 June 2016",
-            "url-status": "dead",
-            "df": "dmy-all",
-            "template": "citation",
-            "type": "web"
-          },
-          {
-            "url": "https://thefilmstage.com/news/claire-denis-robert-Pattinson-led-high-life-will-feature-unwanted-insemination-and-black-holes/",
-            "title": "Claire Denis' Robert Pattinson-Led 'High Life' Will Feature Unwanted Insemination and Black Holes",
-            "last": "Newman",
-            "first": "Nick",
-            "date": "8 February 2016",
-            "website": "Filmstage.com",
-            "archive-url": "https://web.archive.org/web/20160209173621/https://thefilmstage.com/news/claire-denis-robert-pattinson-led-high-life-will-feature-unwanted-insemination-and-black-holes/",
-            "archive-date": "9 February 2016",
-            "url-status": "dead",
-            "access-date": "4 July 2017",
-            "df": "dmy-all",
-            "template": "citation",
-            "type": "web"
-          },
-          {
-            "date": "16 April 2019",
-            "author": "Dan Schindel",
-            "title": "Claire Denis on Black Holes, Olafur Eliasson, and the Making of High Life",
-            "url": "https://hyperallergic.com/495099/claire-denis-on-black-holes-olafur-eliasson-and-the-making-of-high-life/",
-            "website": "Hyperallergic",
-            "template": "citation",
-            "type": "web"
-          }
-        ]
-      },
-      {
-        "title": "Casting",
-        "depth": 1,
-        "paragraphs": [
-          {
-            "sentences": [
-              {
-                "text": "During the project's early stages, Denis had Vincent Gallo in mind for the lead role, and wrote the film thinking of Philip Seymour Hoffman.",
-                "links": [
-                  {
-                    "type": "internal",
-                    "page": "Vincent Gallo"
-                  },
-                  {
-                    "type": "internal",
-                    "page": "Philip Seymour Hoffman"
-                  }
-                ]
-              },
-              {
-                "text": "The project later caught the attention of Robert Pattinson; according to Denis:\"Pattinson contacted the person who was doing the English casting. I was intrigued but I thought he was too young. Every time I went to London to meet some actors, he was there. His desire to work with me has never faltered. And now he is a little less young and it's perfect. […] It's strange, though, because it would be difficult to imagine anyone more unlike Philip Seymour Hoffman physically, but Robert is very enigmatic, with a powerful presence. He gives off an aura that immediately makes you want to film him.\"Pattinson described his character as an astronaut and said, \"He's a criminal who volunteers for a mission toward a black hole, but he realizes along the way that a doctor on board also wants to do sexual experimentation with humans in space.\"",
-                "links": [
-                  {
-                    "type": "internal",
-                    "page": "Robert Pattinson"
-                  }
-                ]
-              },
-              {
-                "text": "In late 2015, Patricia Arquette and Mia Goth joined the cast.",
-                "links": [
-                  {
-                    "type": "internal",
-                    "page": "Patricia Arquette"
-                  },
-                  {
-                    "type": "internal",
-                    "page": "Mia Goth"
-                  }
-                ]
-              },
-              {
-                "text": "In September 2017, Arquette dropped out while the rest of the cast, including Juliette Binoche and rapper André 3000, were also announced.",
-                "links": [
-                  {
-                    "type": "internal",
-                    "page": "Juliette Binoche"
-                  },
-                  {
-                    "type": "internal",
-                    "page": "André 3000"
-                  }
-                ]
-              },
-              {
-                "text": "Playing the role of baby Willow is Scarlette Lindsay, Pattinson's goddaughter."
-              },
-              {
-                "text": "After Pattinson was unable to bond with the babies cast as Willow, he remembered that Lindsay was friendly around adults."
-              },
-              {
-                "text": "Pattinson asked a favour of Lindsay's father to cast her in the film, which he described as a \"massive gamble\" that was ultimately paid off by her \"incredible\" performance."
-              }
-            ]
-          }
-        ],
-        "templates": [
-          {
-            "text": "Pattinson contacted the person who was doing the English casting. I was intrigued but I thought he was too young. Every time I went to London to meet some actors, he was there. His desire to work with me has never faltered. And now he is a little less young and it's perfect. […] It's strange, though, because it would be difficult to imagine anyone more unlike Philip Seymour Hoffman physically, but Robert is very enigmatic, with a powerful presence. He gives off an aura that immediately makes you want to film him.",
-            "template": "blockquote"
-          }
-        ],
-        "references": [
-          {
-            "url": "http://www.indiewire.com/2015/10/patricia-arquette-and-mia-goth-join-robert-pattinson-in-claire-denis-sci-fi-high-life-plot-details-revealed-109596/",
-            "title": "Patricia Arquette and Mia Goth Join Robert Pattinson in Claire Denis' Sci-Fi 'High Life,' Plot Details Revealed",
-            "last": "Jagernauth",
-            "first": "Kevin",
-            "work": "IndieWire",
-            "date": "26 October 2015",
-            "access-date": "4 July 2017",
-            "archive-url": "https://web.archive.org/web/20170709131142/http://www.indiewire.com/2015/10/patricia-arquette-and-mia-goth-join-robert-pattinson-in-claire-denis-sci-fi-high-life-plot-details-revealed-109596/",
-            "archive-date": "9 July 2017",
-            "url-status": "dead",
-            "df": "dmy-all",
-            "template": "citation",
-            "type": "web"
-          },
-          {
-            "last": "Kaye",
-            "first": "Don",
-            "date": "April 17, 2019",
-            "title": "Living the High Life with Robert Pattinson",
-            "url": "https://www.denofgeek.com/movies/living-the-high-life-with-robert-pattinson/",
-            "access-date": "February 10, 2022",
-            "website": "Den of Geek",
-            "template": "citation",
-            "type": "web"
-          },
-          {
-            "url": "https://variety.com/2017/film/markets-festivals/toronto-juliette-binoche-andre-benjamin-join-claire-denis-high-life-exclusive-1202551807/",
-            "title": "Toronto: Juliette Binoche, André Benjamin Join Claire Denis' 'High Life' (EXCLUSIVE)",
-            "first": "Brent",
-            "last": "Lang",
-            "work": "Variety",
-            "date": "8 September 2015",
-            "access-date": "8 September 2017",
-            "archive-url": "https://web.archive.org/web/20171002233232/http://variety.com/2017/film/markets-festivals/toronto-juliette-binoche-andre-benjamin-join-claire-denis-high-life-exclusive-1202551807/",
-            "archive-date": "2 October 2017",
-            "url-status": "dead",
-            "df": "dmy-all",
-            "template": "citation",
-            "type": "web"
-          }
-        ]
-      },
-      {
-        "title": "Filming",
-        "depth": 1,
-        "paragraphs": [
-          {
-            "sentences": [
-              {
-                "text": "Principal photography began in Cologne, Germany on 4 September 2017.",
-                "links": [
-                  {
-                    "type": "internal",
-                    "page": "Cologne"
-                  }
-                ]
-              },
-              {
-                "text": "The Polish part of the shooting took place in Białystok.",
-                "links": [
-                  {
-                    "type": "internal",
-                    "page": "Białystok"
-                  }
-                ]
-              },
-              {
-                "text": "Filming wrapped in late October 2017.",
-                "links": [
-                  {
-                    "text": "wrapped",
-                    "type": "internal",
-                    "page": "Wrap (filmmaking)"
-                  }
-                ]
-              }
-            ]
-          }
-        ],
-        "templates": [
-          {
-            "date": "May 2019",
-            "template": "failed verification"
-          }
-        ],
-        "references": [
-          {
-            "url": "http://wwd.com/fashion-news/fashion-scoops/front-row-christian-dior-couture-fall-10937669/",
-            "title": "Front Row at Christian Dior Couture Fall 2017",
-            "last": "Foreman",
-            "first": "Katya",
-            "work": "Women's Wear Daily",
-            "date": "3 July 2017",
-            "access-date": "4 July 2017",
-            "archive-url": "https://web.archive.org/web/20170703232625/http://wwd.com/fashion-news/fashion-scoops/front-row-christian-dior-couture-fall-10937669/",
-            "archive-date": "3 July 2017",
-            "url-status": "dead",
-            "df": "dmy-all",
-            "template": "citation",
-            "type": "web"
-          },
-          {
-            "url": "http://theplaylist.net/bright-sunshine-trailer-claire-denis-20170818/",
-            "title": "'Bright Sunshine In' Trailer: Juliette Binoche Stars In Claire Denis' New Film",
-            "last": "Jagernauth",
-            "first": "Kevin",
-            "website": "Playlist.net",
-            "date": "18 August 2017",
-            "access-date": "18 August 2017",
-            "archive-url": "https://web.archive.org/web/20170818173252/http://theplaylist.net/bright-sunshine-trailer-claire-denis-20170818/",
-            "archive-date": "18 August 2017",
-            "url-status": "dead",
-            "df": "dmy-all",
-            "template": "citation",
-            "type": "web"
-          },
-          {
-            "url": "http://filmcommissionpoland.pl/film-industry/in-production/-high-life-filming-completed-ddiQcg",
-            "title": "\"High Life\" Filming Completed",
-            "website": "Film Commission Poland",
-            "date": "21 November 2017",
-            "access-date": "15 January 2019",
-            "template": "citation",
-            "type": "web"
-          },
-          {
-            "url": "https://www.screendaily.com/news/wild-bunch-brings-natalie-portman-ari-folman-animation-projects-to-afm-exclusive/5123577.article",
-            "title": "Wild Bunch brings new Natalie Portman and Ari Folman animation projects to AFM (exclusive)",
-            "last": "Goodfellow",
-            "first": "Melanie",
-            "website": "Screen International",
-            "date": "25 October 2017",
-            "access-date": "26 October 2017",
-            "archive-url": "https://web.archive.org/web/20171025195406/https://www.screendaily.com/news/wild-bunch-brings-natalie-portman-ari-folman-animation-projects-to-afm-exclusive/5123577.article",
-            "archive-date": "25 October 2017",
-            "url-status": "dead",
-            "df": "dmy-all",
-            "template": "citation",
-            "type": "web"
-          },
-          {
-            "url": "https://thefilmstage.com/news/claire-denis-will-begin-production-on-her-sci-fi-drama-high-life-next-month/",
-            "title": "Claire Denis Will Begin Production on Her Sci-Fi Drama 'High Life' Next Month",
-            "last": "Raup",
-            "first": "Jordan",
-            "website": "Filmstage.com",
-            "date": "21 June 2017",
-            "access-date": "4 July 2017",
-            "archive-url": "https://web.archive.org/web/20170709131354/https://thefilmstage.com/news/claire-denis-will-begin-production-on-her-sci-fi-drama-high-life-next-month/",
-            "archive-date": "9 July 2017",
-            "url-status": "dead",
-            "df": "dmy-all",
-            "template": "citation",
-            "type": "web"
-          }
-        ]
-      },
-      {
-        "title": "Release",
-        "depth": 0,
-        "paragraphs": [
-          {
-            "sentences": [
-              {
-                "text": "Following its world premiere at the Toronto International Film Festival, the film competed in main competition at the San Sebastián International Film Festival in late September 2018.",
-                "links": [
-                  {
-                    "type": "internal",
-                    "page": "San Sebastián International Film Festival"
-                  }
-                ]
-              },
-              {
-                "text": "The film had its theatrical release in France on 7 November 2018 and in the United Kingdom on 10 May 2019."
-              },
-              {
-                "text": "A24 acquired U.S. distribution rights to the film.",
-                "links": [
-                  {
-                    "type": "internal",
-                    "page": "A24"
-                  }
-                ]
-              },
-              {
-                "text": "The film was released in the United States on 5 April 2019."
-              },
-              {
-                "text": "It was later given a Blu-Ray/DVD release in North American retailers."
-              }
-            ]
-          }
-        ],
-        "images": [
-          {
-            "file": "File:Claire_Denis_TIFF_1.jpg",
-            "thumb": "https://wikipedia.org/wiki/Special:Redirect/file/Claire_Denis_TIFF_1.jpg?width=300",
-            "url": "https://wikipedia.org/wiki/Special:Redirect/file/Claire_Denis_TIFF_1.jpg",
-            "caption": "Claire Denis (right) presenting High Life at the 2018 Toronto International Film Festival.",
-            "links": []
-          }
-        ],
-        "references": [
-          {
-            "url": "https://variety.com/2018/film/festivals/san-sebastian-denis-kim-jee-woon-kawase-competition-1202872620/",
-            "title": "San Sebastian: Claire Denis, Kim Jee-woon, Naomi Kawase Make Competition",
-            "last": "Hopewell",
-            "first": "John",
-            "work": "Variety",
-            "access-date": "2018-08-24",
-            "archive-url": "https://web.archive.org/web/20180713113953/https://variety.com/2018/film/festivals/san-sebastian-denis-kim-jee-woon-kawase-competition-1202872620/",
-            "archive-date": "13 July 2018",
-            "url-status": "dead",
-            "df": "dmy-all",
-            "template": "citation",
-            "type": "news"
-          },
-          {
-            "url": "https://twitter.com/WildBunch/status/1032912975630426113",
-            "title": "High Life French release date",
-            "work": "Twitter",
-            "access-date": "2018-08-24",
-            "language": "fr",
-            "archive-url": "https://web.archive.org/web/20190513213352/https://twitter.com/WildBunch/status/1032912975630426113",
-            "archive-date": "13 May 2019",
-            "url-status": "dead",
-            "df": "dmy-all",
-            "template": "citation",
-            "type": "news"
-          },
-          {
-            "url": "http://www.thunderbirdreleasing.com/catalogue/high-life/",
-            "title": "High Life",
-            "website": "Thunderbird Releasing",
-            "access-date": "7 March 2019",
-            "template": "citation",
-            "type": "web"
-          },
-          {
-            "url": "https://deadline.com/2018/09/robert-pattinson-high-life-juliette-binoche-a24-high-life-toronto-film-festival-deal-1202463623/",
-            "title": "A24 Lands Claire Denis' English Language Debut 'High Life' With Robert Pattinson & Juliette Binoche: Toronto",
-            "website": "Deadline Hollywood",
-            "first": "Mike Jr.",
-            "last": "Fleming",
-            "date": "12 September 2018",
-            "access-date": "12 September 2018",
-            "template": "citation",
-            "type": "web"
-          },
-          {
-            "url": "https://a24films.com/films/high-life",
-            "title": "High Life A24 Official Page",
-            "website": "A24",
-            "access-date": "10 January 2019",
-            "template": "citation",
-            "type": "web"
-          },
-          {
-            "url": "https://www.filmoria.co.uk/high-life-in-uk-cinemas-from-10-may/",
-            "title": "HIGH LIFE in UK Cinemas from 10 May",
-            "publisher": "Filmoria.co.uk",
-            "access-date": "14 March 2019",
-            "template": "citation",
-            "type": "web"
-          }
-        ]
-      },
-      {
-        "title": "Reception",
-        "depth": 0
-      },
-      {
-        "title": "Critical response",
-        "depth": 1,
-        "paragraphs": [
-          {
-            "sentences": [
-              {
-                "text": "On review aggregation website Rotten Tomatoes, of critics have given the film a positive review based on  reviews, with an average rating of.",
-                "links": [
-                  {
-                    "type": "internal",
-                    "page": "Rotten Tomatoes"
-                  }
-                ]
-              },
-              {
-                "text": "The website's critics consensus reads, \"High Life is as visually arresting as it is challenging, confounding, and ultimately rewarding – which is to say it's everything film fans expect from director Claire Denis.\"",
-                "formatting": {
-                  "italic": [
-                    "High Life"
-                  ]
-                }
-              },
-              {
-                "text": "On Metacritic, the film has a weighted average score of 77 out of 100 based on reviews from 42 critics, indicating \"generally favorable reviews\".",
-                "links": [
-                  {
-                    "type": "internal",
-                    "page": "Metacritic"
-                  },
-                  {
-                    "text": "weighted average",
-                    "type": "internal",
-                    "page": "weighted mean"
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "sentences": [
-              {
-                "text": "David Ehrlich of IndieWire gave the film an A− grade, saying it owed more to Solaris than Star Wars and describing it as \"a pensive and profound study of human life on the brink of the apocalypse.\"",
-                "links": [
-                  {
-                    "type": "internal",
-                    "page": "IndieWire"
-                  },
-                  {
-                    "text": "''Solaris''",
-                    "type": "internal",
-                    "page": "Solaris (1972 film)"
-                  },
-                  {
-                    "type": "internal",
-                    "page": "Star Wars"
-                  }
-                ],
-                "formatting": {
-                  "italic": [
-                    "IndieWire",
-                    "Solaris",
-                    "Star Wars"
-                  ]
-                }
-              },
-              {
-                "text": "Jessica Kiang of Variety called it \"extraordinary, difficult, hypnotic, and repulsive\".",
-                "links": [
-                  {
-                    "text": "Variety",
-                    "type": "internal",
-                    "page": "Variety (magazine)"
-                  }
-                ],
-                "formatting": {
-                  "italic": [
-                    "Variety"
-                  ]
-                }
-              },
-              {
-                "text": "Charles Bramesco of the Guardian gave the film 5 stars out of 5, saying Denis had reconfigured the genre's \"familiar components to create a startlingly fresh engagement with the question of what it means to be human.\"",
-                "formatting": {
-                  "italic": [
-                    "Guardian"
-                  ]
-                }
-              },
-              {
-                "text": "Steve MacFarlane of Slant Magazine wrote: \"The film asks down-and-dirty questions about what really resides beneath thousands of years of human progress, a savage and haunting antidote to the high-minded idealism of movies like Christopher Nolan's Interstellar and Ridley Scott's The Martian.\"",
-                "links": [
-                  {
-                    "type": "internal",
-                    "page": "Slant Magazine"
-                  },
-                  {
-                    "type": "internal",
-                    "page": "Christopher Nolan"
-                  },
-                  {
-                    "text": "Interstellar",
-                    "type": "internal",
-                    "page": "Interstellar (film)"
-                  },
-                  {
-                    "type": "internal",
-                    "page": "Ridley Scott"
-                  },
-                  {
-                    "text": "The Martian",
-                    "type": "internal",
-                    "page": "The Martian (film)"
-                  }
-                ],
-                "formatting": {
-                  "italic": [
-                    "Slant Magazine",
-                    "Interstellar",
-                    "The Martian"
-                  ]
-                }
-              },
-              {
-                "text": "Matt Zoller Seitz of RogerEbert.com described it as \"tailor-made for viewers who like science fiction in a cryptic 1970s art-house mode.\"",
-                "links": [
-                  {
-                    "type": "internal",
-                    "page": "RogerEbert.com"
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "sentences": [
-              {
-                "text": "In France, Le Monde and Libération described High Life as a \"masterpiece\".",
-                "links": [
-                  {
-                    "type": "internal",
-                    "page": "Le Monde"
-                  },
-                  {
-                    "type": "internal",
-                    "page": "Libération"
-                  }
-                ],
-                "formatting": {
-                  "italic": [
-                    "Le Monde",
-                    "Libération",
-                    "High Life"
-                  ]
-                }
-              }
-            ]
-          }
-        ],
-        "templates": [
-          {
-            "list": [
-              "score"
-            ],
-            "template": "rt data"
-          },
-          {
-            "list": [
-              "count"
-            ],
-            "template": "rt data"
-          },
-          {
-            "list": [
-              "average"
-            ],
-            "template": "rt data"
-          }
-        ],
-        "references": [
-          {
-            "url": "https://www.rottentomatoes.com/m/high_life_2019",
-            "title": "High Life (2018)",
-            "website": "Rotten Tomatoes",
-            "publisher": "Fandango",
-            "access-date": "{{RT data|access date|df=dmy}}",
-            "template": "citation",
-            "type": "web"
-          },
-          {
-            "url": "https://www.metacritic.com/movie/high-life",
-            "title": "High Life",
-            "website": "Metacritic",
-            "publisher": "CBS Interactive",
-            "access-date": "20 December 2022",
-            "template": "citation",
-            "type": "web"
-          },
-          {
-            "url": "https://variety.com/2018/film/reviews/high-life-review-robert-pattinson-1202934199/",
-            "title": "Film Review: Robert Pattinson in 'High Life'",
-            "website": "Variety",
-            "first": "Jessica",
-            "last": "Kiang",
-            "date": "10 September 2018",
-            "access-date": "10 October 2018",
-            "template": "citation",
-            "type": "web"
-          },
-          {
-            "url": "https://www.theguardian.com/film/2018/sep/10/high-life-review-robert-pattinson-claire-denis-sci-fi-drama-astronauts",
-            "title": "High Life review – orgasmic brilliance in deepest space with Robert Pattinson",
-            "website": "The Guardian",
-            "first": "Charles",
-            "last": "Bramesco",
-            "date": "10 September 2018",
-            "access-date": "10 October 2018",
-            "template": "citation",
-            "type": "web"
-          },
-          {
-            "url": "https://www.slantmagazine.com/film/review/high-life",
-            "title": "High Life",
-            "website": "Slant Magazine",
-            "first": "Steve",
-            "last": "MacFarlane",
-            "date": "10 September 2018",
-            "access-date": "10 October 2018",
-            "template": "citation",
-            "type": "web"
-          },
-          {
-            "date": "April 5, 2019",
-            "last": "Seitz",
-            "first": "Matt Zoller",
-            "title": "High Life movie review & film summary (2019)",
-            "url": "https://www.rogerebert.com/reviews/high-life-2019",
-            "website": "RogerEbert.com",
-            "access-date": "2021-01-01",
-            "template": "citation",
-            "type": "web"
-          },
-          {
-            "date": "6 November 2018",
-            "title": "\" High Life \" : Claire Denis sonde le désir en apesanteur",
-            "url": "https://www.lemonde.fr/cinema/article/2018/11/06/high-life-claire-denis-sonde-le-desir-en-apesanteur_5379326_3476.html",
-            "website": "Le Monde",
-            "language": "fr",
-            "quote": "L’avis du « Monde » – chef d’œuvre",
-            "template": "citation",
-            "type": "web"
-          },
-          {
-            "date": "6 November 2018",
-            "title": "\"High Life\", vaisseau spécial",
-            "url": "https://next.liberation.fr/cinema/2018/11/06/high-life-vaisseau-special_1690305",
-            "website": "Libération",
-            "quote": "Un chef-d’œuvre halluciné et viscéral dans la lignée des grands films du genre.",
-            "template": "citation",
-            "type": "web"
-          },
-          {
-            "url": "https://www.indiewire.com/2018/09/high-life-review-robert-pattinson-claire-denis-tiff-2018-1202002255/",
-            "title": "'High Life' Review: Claire Denis Takes Robert Pattinson on an Erotic Space Odyssey in This Mesmerizing Look into the Void — TIFF",
-            "website": "IndieWire",
-            "first": "David",
-            "last": "Ehrlich",
-            "date": "10 September 2018",
-            "access-date": "10 October 2018",
-            "template": "citation",
-            "type": "web"
-          }
-        ]
-      },
-      {
-        "title": "Accolades",
-        "depth": 1,
-        "tables": [
-          [
+          ]
+        },
+        {
+          "sentences": [
             {
-              "Award": {
-                "text": "San Sebastián International Film Festival",
-                "links": [
-                  {
-                    "type": "internal",
-                    "page": "San Sebastián International Film Festival"
-                  }
-                ]
-              },
-              "Date of ceremony": {
-                "text": "29 September 2018"
-              },
-              "Category": {
-                "text": "Best Film"
-              },
-              "Recipients": {
-                "text": "High Life",
-                "formatting": {
-                  "italic": [
-                    "High Life"
-                  ]
+              "text": "Mission: Impossible 2 was theatrically released in the United States by Paramount Pictures on May 24, 2000, and grossed $546 million worldwide, becoming the highest-grossing film of that year.",
+              "links": [
+                {
+                  "type": "internal",
+                  "page": "Paramount Pictures"
+                },
+                {
+                  "text": "highest-grossing film of that year",
+                  "type": "internal",
+                  "page": "2000 in film",
+                  "anchor": "Highest-grossing films"
                 }
-              },
-              "Result": {
-                "text": "Nominated"
-              },
-              "Ref.": {
-                "text": ""
+              ],
+              "formatting": {
+                "italic": [
+                  "Mission: Impossible 2"
+                ]
               }
             },
             {
-              "Award": {
-                "text": "San Sebastián International Film Festival",
-                "links": [
-                  {
-                    "type": "internal",
-                    "page": "San Sebastián International Film Festival"
-                  }
-                ]
-              },
-              "Date of ceremony": {
-                "text": "29 September 2018"
-              },
-              "Category": {
-                "text": "FIPRESCI Award"
-              },
-              "Recipients": {
-                "text": "High Life",
-                "formatting": {
-                  "italic": [
-                    "High Life"
-                  ]
-                }
-              },
-              "Result": {
-                "text": "Won"
-              },
-              "Ref.": {
-                "text": ""
-              }
+              "text": "Initial reaction from critics was mixed, with praise for the action sequences and Woo's direction, but criticism for the characterization, deeming the film inferior to the first film."
             },
             {
-              "Award": {
-                "text": "Film Fest Gent",
-                "links": [
-                  {
-                    "type": "internal",
-                    "page": "Film Fest Gent"
-                  }
-                ]
-              },
-              "Date of ceremony": {
-                "text": "19 October 2018"
-              },
-              "Category": {
-                "text": "Best Film"
-              },
-              "Recipients": {
-                "text": "High Life",
-                "formatting": {
-                  "italic": [
-                    "High Life"
-                  ]
+              "text": "A sequel, Mission: Impossible III, was released in 2006.",
+              "links": [
+                {
+                  "type": "internal",
+                  "page": "Mission: Impossible III"
                 }
-              },
-              "Result": {
-                "text": "Nominated"
-              },
-              "Ref.": {
-                "text": ""
-              }
-            },
-            {
-              "Award": {
-                "text": "Film Fest Gent",
-                "links": [
-                  {
-                    "type": "internal",
-                    "page": "Film Fest Gent"
-                  }
+              ],
+              "formatting": {
+                "italic": [
+                  "Mission: Impossible III"
                 ]
-              },
-              "Date of ceremony": {
-                "text": "19 October 2018"
-              },
-              "Category": {
-                "text": "Georges Delerue Award"
-              },
-              "Recipients": {
-                "text": "Stuart A. Staples"
-              },
-              "Result": {
-                "text": "Won"
-              },
-              "Ref.": {
-                "text": ""
-              }
-            },
-            {
-              "Award": {
-                "text": "Louis Delluc Prize",
-                "links": [
-                  {
-                    "type": "internal",
-                    "page": "Louis Delluc Prize"
-                  }
-                ]
-              },
-              "Date of ceremony": {
-                "text": "12 December 2018"
-              },
-              "Category": {
-                "text": "Best Film"
-              },
-              "Recipients": {
-                "text": "High Life",
-                "formatting": {
-                  "italic": [
-                    "High Life"
-                  ]
-                }
-              },
-              "Result": {
-                "text": "Nominated"
-              },
-              "Ref.": {
-                "text": ""
               }
             }
           ]
-        ],
-        "templates": [
+        }
+      ],
+      "templates": [
+        {
+          "description": "2000 film by John Woo",
+          "template": "short description"
+        },
+        {
+          "date": "July 2023",
+          "template": "use mdy dates"
+        },
+        {
+          "date": "February 2024",
+          "template": "barelinks"
+        },
+        {
+          "title": "Mission: Impossible",
+          "author": "Bruce Geller",
+          "template": "based on"
+        },
+        {
+          "list": [
+            "2000",
+            "5",
+            "24"
+          ],
+          "template": "film date"
+        },
+        {
+          "list": [
+            "US",
+            "549.6",
+            "2000"
+          ],
+          "template": "inflation"
+        },
+        {
+          "list": [
+            "US"
+          ],
+          "template": "inflation-year"
+        },
+        {
+          "list": [
+            "US"
+          ],
+          "template": "inflation-fn"
+        }
+      ],
+      "infoboxes": [
+        {
+          "name": {
+            "text": "Mission: Impossible 2"
+          },
+          "image": {
+            "text": "Mission Impossible II.jpg"
+          },
+          "alt": {
+            "text": "Ethan Hunt running"
+          },
+          "caption": {
+            "text": "Theatrical release poster"
+          },
+          "director": {
+            "text": "John Woo",
+            "links": [
+              {
+                "type": "internal",
+                "page": "John Woo"
+              }
+            ]
+          },
+          "producer": {
+            "text": "Tom Cruise\n\nPaula Wagner",
+            "links": [
+              {
+                "type": "internal",
+                "page": "Tom Cruise"
+              },
+              {
+                "type": "internal",
+                "page": "Paula Wagner"
+              }
+            ]
+          },
+          "screenplay": {
+            "text": "Robert Towne",
+            "links": [
+              {
+                "type": "internal",
+                "page": "Robert Towne"
+              }
+            ]
+          },
+          "story": {
+            "text": "Ronald D. Moore\n\nBrannon Braga",
+            "links": [
+              {
+                "type": "internal",
+                "page": "Ronald D. Moore"
+              },
+              {
+                "type": "internal",
+                "page": "Brannon Braga"
+              }
+            ]
+          },
+          "based_on": {
+            "text": "Mission: Impossible by Bruce Geller"
+          },
+          "starring": {
+            "text": "Tom Cruise \n\nDougray Scott\n\nThandiwe Newton\n\nRichard Roxburgh\n\nJohn Polson\n\nBrendan Gleeson\n\nRade Sherbedgia\n\nVing Rhames",
+            "links": [
+              {
+                "type": "internal",
+                "page": "Dougray Scott"
+              },
+              {
+                "type": "internal",
+                "page": "Thandiwe Newton"
+              },
+              {
+                "type": "internal",
+                "page": "Richard Roxburgh"
+              },
+              {
+                "type": "internal",
+                "page": "John Polson"
+              },
+              {
+                "type": "internal",
+                "page": "Brendan Gleeson"
+              },
+              {
+                "type": "internal",
+                "page": "Rade Sherbedgia"
+              },
+              {
+                "type": "internal",
+                "page": "Ving Rhames"
+              }
+            ]
+          },
+          "music": {
+            "text": "Hans Zimmer",
+            "links": [
+              {
+                "type": "internal",
+                "page": "Hans Zimmer"
+              }
+            ]
+          },
+          "cinematography": {
+            "text": "Jeffrey L. Kimball",
+            "links": [
+              {
+                "type": "internal",
+                "page": "Jeffrey L. Kimball"
+              }
+            ]
+          },
+          "editing": {
+            "text": "Christian Wagner\n\nSteven Kemper",
+            "links": [
+              {
+                "type": "internal",
+                "page": "Christian Wagner"
+              }
+            ]
+          },
+          "production_companies": {
+            "text": "Cruise/Wagner Productions",
+            "links": [
+              {
+                "type": "internal",
+                "page": "Cruise/Wagner Productions"
+              }
+            ]
+          },
+          "distributor": {
+            "text": "Paramount Pictures",
+            "links": [
+              {
+                "type": "internal",
+                "page": "Paramount Pictures"
+              }
+            ]
+          },
+          "runtime": {
+            "text": "124 minutes"
+          },
+          "country": {
+            "text": "United States \n\nGermany"
+          },
+          "language": {
+            "text": "English"
+          },
+          "budget": {
+            "text": "$120–125 million"
+          },
+          "gross": {
+            "text": "$549.6 million ($0 million in dollars)"
+          }
+        }
+      ],
+      "references": [
+        {
+          "url": "https://www.bbfc.co.uk/release/mission-impossible-ii-film-qxnzzxq6vlgtnze5ota1",
+          "title": "Mission: Impossible II (15)",
+          "publisher": "British Board of Film Classification",
+          "date": "June 5, 2000",
+          "access-date": "January 1, 2021",
+          "archive-date": "June 19, 2022",
+          "archive-url": "https://web.archive.org/web/20220619190455/https://www.bbfc.co.uk/release/mission-impossible-ii-film-qxnzzxq6vlgtnze5ota1",
+          "url-status": "live",
+          "template": "citation",
+          "type": "web"
+        },
+        {
+          "title": "Mission: Impossible 2 (2000) - Financial Information",
+          "url": "https://www.the-numbers.com/movie/Mission-Impossible-2#tab=summary",
+          "website": "The Numbers",
+          "access-date": "January 14, 2023",
+          "archive-date": "January 14, 2023",
+          "archive-url": "https://web.archive.org/web/20230114201429/https://www.the-numbers.com/movie/Mission-Impossible-2#tab=summary",
+          "url-status": "live",
+          "template": "citation",
+          "type": "web"
+        },
+        {
+          "title": "Mission: Impossible II (2000)",
+          "url": "http://www.bfi.org.uk/films-tv-people/4ce2b82a011b6",
+          "publisher": "British Film Institute",
+          "access-date": "January 26, 2018",
+          "archive-date": "September 14, 2017",
+          "archive-url": "https://web.archive.org/web/20170914192923/http://www.bfi.org.uk/films-tv-people/4ce2b82a011b6",
+          "url-status": "dead",
+          "template": "citation",
+          "type": "web"
+        }
+      ]
+    },
+    {
+      "title": "Plot",
+      "depth": 0,
+      "paragraphs": [
+        {
+          "sentences": [
+            {
+              "text": "Bio-genetics scientist Dr. Vladimir Nekhorvich sends a message to the IMF for Dimitri (Ethan Hunt's cover name), his old friend, warning that his employer, Biocyte Pharmaceuticals, forced him to develop a biological weapon to profit from the cure.",
+              "links": [
+                {
+                  "type": "internal",
+                  "page": "Ethan Hunt"
+                }
+              ]
+            },
+            {
+              "text": "He injects himself with the Chimera virus, carrying its remedy Bellerophon in a bag.",
+              "links": [
+                {
+                  "text": "Chimera virus",
+                  "type": "internal",
+                  "page": "Chimera (virus)"
+                },
+                {
+                  "type": "internal",
+                  "page": "Bellerophon"
+                }
+              ]
+            },
+            {
+              "text": "However, en route to Atlanta, IMF agent Sean Ambrose, who was disguised as Dimitri, goes rogue, betrays Nekhorvich, steals Bellerophon, and crashes the plane in the Rockies.",
+              "links": [
+                {
+                  "type": "internal",
+                  "page": "Atlanta"
+                },
+                {
+                  "text": "Rockies",
+                  "type": "internal",
+                  "page": "Rocky Mountains"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "In Seville, IMF director Swanbeck informs Ethan about Ambrose's actions, tasks him with recovering Chimera and Bellerophon, and has him recruit Nyah Nordoff-Hall, a professional thief and Ambrose's ex-girlfriend.",
+              "links": [
+                {
+                  "type": "internal",
+                  "page": "Seville"
+                }
+              ]
+            },
+            {
+              "text": "Despite her initial reluctance, Ethan gets her to trace Ambrose to Sydney, where Biocyte laboratories are located, using an injectable tracking device.",
+              "links": [
+                {
+                  "type": "internal",
+                  "page": "Sydney"
+                }
+              ]
+            },
+            {
+              "text": "Ethan assembles his team, old friend and computer hacker Luther Stickell and helicopter pilot Billy Baird, and heads to Sydney while Nyah pretends to rekindle her relationship with Ambrose.",
+              "links": [
+                {
+                  "type": "internal",
+                  "page": "Luther Stickell"
+                }
+              ]
+            },
+            {
+              "text": "Ambrose meets with Biocyte's CEO, John McCloy, and uses a video of Chimera infecting one of Nekhorvich's colleagues to blackmail McCloy into cooperating with him.",
+              "links": [
+                {
+                  "type": "internal",
+                  "page": "CEO"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "Nyah gives Ethan the memory card containing the video, revealing that Chimera has a 20-hour dormant period; Bellerophon is only effective if used within that window."
+            },
+            {
+              "text": "Ethan's team kidnaps McCloy and learns that the only Bellerophon samples, taken by Nekhorvich, are now in Ambrose's hands, but he doesn't have the virus, since Nekhorvich injected himself with it."
+            },
+            {
+              "text": "Ambrose realizes Nyah's deception and, disguised as Ethan, tricks her into revealing their plan."
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "Ethan breaks into Biocyte headquarters and destroys two sample of Chimera, but Ambrose's team engages him in a firefight."
+            },
+            {
+              "text": "At a stalemate, Ambrose orders Nyah to retrieve the virus' last sample, but she injects herself with it instead and begs Ethan to kill her to destroy the virus."
+            },
+            {
+              "text": "Ethan refuses and flees the facility, promising to get her the cure."
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "Ambrose releases Nyah to wander the streets of Sydney, intending to start a pandemic."
+            },
+            {
+              "text": "He offers to sell Bellerophon to McCloy in exchange for stock options to make him billions as Biocyte's majority shareholder."
+            },
+            {
+              "text": "Ethan infiltrates Ambrose's base and engages in a fight with Ambrose's right-hand man Hugh Stamp; Stamp seemingly brings a subdued Ethan to Ambrose, who executes him."
+            },
+            {
+              "text": "However, Ambrose discovers that the dead \"Ethan\" is actually Stamp, masked and gagged, while the real Ethan has stolen the Bellerophon samples."
+            },
+            {
+              "text": "Enraged, Ambrose and his men chase after Ethan, who kills them, while Luther and Billy locate Nyah, who has wandered to a cliffside to kill herself and prevent the outbreak."
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "Ethan kills Ambrose in a fistfight on the beach and gives Bellerophon to the arriving Luther, who injects Nyah with it."
+            },
+            {
+              "text": "The IMF clears Nyah's criminal record and Ethan starts a vacation with her in Sydney."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Cast",
+      "depth": 0,
+      "paragraphs": [
+        {
+          "sentences": []
+        },
+        {
+          "sentences": []
+        },
+        {
+          "sentences": [
+            {
+              "text": "Additionally, Anthony Hopkins appears in an uncredited cameo appearance as Mission Commander Swanbeck.",
+              "links": [
+                {
+                  "type": "internal",
+                  "page": "Anthony Hopkins"
+                },
+                {
+                  "text": "cameo appearance",
+                  "type": "internal",
+                  "page": "cameo appearance"
+                }
+              ]
+            },
+            {
+              "text": "Tom Cruise's cousin William Mapother and Dominic Purcell appear as, respectively, Wallis and Ulrich, two of Ambrose's henchmen.",
+              "links": [
+                {
+                  "type": "internal",
+                  "page": "William Mapother"
+                },
+                {
+                  "type": "internal",
+                  "page": "Dominic Purcell"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "lists": [
+        [
           {
-            "abbr": "Ref.",
-            "meaning": "References",
-            "template": "abbr"
+            "text": "Tom Cruise as Ethan Hunt: An agent of the Impossible Missions Force (IMF).",
+            "links": [
+              {
+                "type": "internal",
+                "page": "Tom Cruise"
+              },
+              {
+                "type": "internal",
+                "page": "Ethan Hunt"
+              }
+            ]
+          },
+          {
+            "text": "Dougray Scott as Sean Ambrose: A rogue IMF agent who possesses Bellerophon.",
+            "links": [
+              {
+                "type": "internal",
+                "page": "Dougray Scott"
+              }
+            ]
+          },
+          {
+            "text": "Thandiwe Newton (credited as Thandie Newton) as Nyah Nordoff-Hall: A professional thief brought on to assist Ethan in tracing Ambrose.",
+            "links": [
+              {
+                "type": "internal",
+                "page": "Thandiwe Newton"
+              }
+            ]
+          },
+          {
+            "text": "Richard Roxburgh as Hugh Stamp: Ambrose's right-hand man.",
+            "links": [
+              {
+                "type": "internal",
+                "page": "Richard Roxburgh"
+              }
+            ]
+          },
+          {
+            "text": "John Polson as Billy Baird: A helicopter pilot.",
+            "links": [
+              {
+                "type": "internal",
+                "page": "John Polson"
+              }
+            ]
+          },
+          {
+            "text": "Brendan Gleeson as John C. McCloy: CEO of Biocyte in Australia.",
+            "links": [
+              {
+                "type": "internal",
+                "page": "Brendan Gleeson"
+              }
+            ]
+          },
+          {
+            "text": "Rade Šerbedžija as Dr. Vladimir Nekhorvich: Creator of Chimera at Biocyte.",
+            "links": [
+              {
+                "type": "internal",
+                "page": "Rade Šerbedžija"
+              }
+            ]
           }
         ],
-        "references": [
+        [
           {
-            "url": "https://www.sansebastianfestival.com/2018/sections_and_films/8/in",
-            "title": "2018. 66th Edition - 21-29 September",
-            "website": "San Sebastián International Film Festival",
-            "access-date": "13 February 2020",
-            "template": "citation",
-            "type": "web"
-          },
-          {
-            "url": "https://www.sansebastianfestival.com/2018/news/1/7806/in",
-            "title": "Claire Denis will collect the Fipresci Award for High Life",
-            "website": "San Sebastián International Film Festival",
-            "date": "28 September 2018",
-            "access-date": "13 February 2020",
-            "template": "citation",
-            "type": "web"
-          },
-          {
-            "url": "https://www.filmfestival.be/en/archive/festival-editions/2018",
-            "title": "Festival editions 2018",
-            "website": "Film Fest Gent",
-            "access-date": "13 February 2020",
-            "template": "citation",
-            "type": "web"
-          },
-          {
-            "url": "https://www.filmfestival.be/en/news/cold-war-by-pawe-pawlikowski-and-high-life-by-claire-denis-victorious-at-45th-film-fest-gent/19-10-2018/3649",
-            "title": "'Cold War' by Paweł Pawlikowski and 'High Life' by Claire Denis victorious at 45th Film Fest Gent",
-            "website": "Film Fest Gent",
-            "date": "19 October 2018",
-            "access-date": "13 February 2020",
-            "template": "citation",
-            "type": "web"
-          },
-          {
-            "url": "https://cineuropa.org/en/newsdetail/362404/",
-            "title": "Nine candidates for the 2018 Louis-Delluc Prize",
-            "website": "Cineuropa",
-            "first": "Fabien",
-            "last": "Lemercier",
-            "date": "25 October 2018",
-            "access-date": "13 February 2020",
-            "template": "citation",
-            "type": "web"
+            "text": "Ving Rhames as Luther Stickell: A computer hacker and IMF agent.",
+            "links": [
+              {
+                "type": "internal",
+                "page": "Ving Rhames"
+              },
+              {
+                "type": "internal",
+                "page": "Luther Stickell"
+              }
+            ]
           }
         ]
-      },
-      {
-        "title": "Notes",
-        "depth": 0,
-        "templates": [
-          {
-            "template": "notelist"
-          }
-        ]
-      },
-      {
-        "title": "References",
-        "depth": 0,
-        "templates": [
-          {
-            "template": "reflist"
-          }
-        ]
-      },
-      {
-        "title": "External links",
-        "depth": 0,
-        "paragraphs": [
-          {
-            "sentences": []
-          }
-        ],
-        "templates": [
-          {
-            "template": "official website"
-          },
-          {
-            "template": "imdb title"
-          },
-          {
-            "template": "claire denis"
-          }
-        ]
-      }
-    ]
-  }
+      ],
+      "references": [
+        {
+          "url": "http://www.nytimes.com/movies/movie/184585/Mission-Impossible-2/overview",
+          "title": "Mission-Impossible-2 - Trailer - Cast - Showtimes - NYTimes.com",
+          "website": "The New York Times",
+          "date": "December 21, 2014",
+          "archive-url": "https://web.archive.org/web/20141221234449/http://www.nytimes.com/movies/movie/184585/Mission-Impossible-2/overview",
+          "archive-date": "December 21, 2014",
+          "template": "citation",
+          "type": "web"
+        }
+      ]
+    },
+    {
+      "title": "Production",
+      "depth": 0,
+      "paragraphs": [
+        {
+          "sentences": [
+            {
+              "text": "William Goldman says he was the first writer on the film.",
+              "links": [
+                {
+                  "type": "internal",
+                  "page": "William Goldman"
+                }
+              ]
+            },
+            {
+              "text": "\"All that’s left of mine is the climax... the climbing up the rocks sequence,\" he said."
+            },
+            {
+              "text": "\"I couldn’t come up with a good villain and Bob Towne did.\""
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "According to screenwriter Robert Towne, several action sequences were already planned for the film prior to his involvement and before the story had been written.",
+              "links": [
+                {
+                  "type": "internal",
+                  "page": "Robert Towne"
+                }
+              ]
+            },
+            {
+              "text": "Ian McKellen was offered the part of Mission Commander Swanbeck but turned it down.",
+              "links": [
+                {
+                  "type": "internal",
+                  "page": "Ian McKellen"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "Earlier drafts of the script included Willy Armitage as one of the team members."
+            },
+            {
+              "text": "Though the role would have been recast with a younger actor instead of original cast member Peter Lupus.",
+              "links": [
+                {
+                  "type": "internal",
+                  "page": "Peter Lupus"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "The studio expressed concern about the safety of filming Tom Cruise's entrance scene, in which he is free solo climbing at Dead Horse Point State Park in Moab, Utah.",
+              "links": [
+                {
+                  "text": "free solo climbing",
+                  "type": "internal",
+                  "page": "free solo climbing"
+                },
+                {
+                  "type": "internal",
+                  "page": "Dead Horse Point State Park"
+                },
+                {
+                  "type": "internal",
+                  "page": "Moab, Utah"
+                }
+              ]
+            },
+            {
+              "text": "Cruise refused to drop the idea because he could not think of a better way to reintroduce the character."
+            },
+            {
+              "text": "There was no safety net as he filmed the sequence, but he did have a harness and a thin wire.",
+              "links": [
+                {
+                  "text": "harness",
+                  "type": "internal",
+                  "page": "Climbing harness"
+                }
+              ]
+            },
+            {
+              "text": "He tore his shoulder when performing the jump from one part of the cliff to another."
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "Thandiwe Newton discussed her unpleasant on-set experiences with Cruise during the shooting of the balcony sequence in a 2020 interview."
+            },
+            {
+              "text": "According to Newton, Cruise was heavily stressed over the expectations of the sequel being good and was upset during the shooting of said scene because she had \"the shittiest lines\"."
+            },
+            {
+              "text": "The two decided to reverse roleplay each other as practice."
+            },
+            {
+              "text": "However, it was unhelpful for her and pushed her \"into a place of terror and insecurity\"."
+            },
+            {
+              "text": "After the shooting was finished for the day, she contacted Jonathan Demme, telling him what happened.",
+              "links": [
+                {
+                  "type": "internal",
+                  "page": "Jonathan Demme"
+                }
+              ]
+            },
+            {
+              "text": "Looking back on that day, Newton said about Cruise, \"Bless him. And I really do mean bless him because he was trying his damnedest.\""
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "During the final fight scene between Ethan Hunt and Sean Ambrose, Tom Cruise insisted that a real knife be used."
+            },
+            {
+              "text": "The knife was attached to a cable and was carefully measured to stop a quarter of an inch from Tom Cruise's eyeball, and the actor asked Dougray Scott to put his full strength down on the knife to get a realistic look for the scene."
+            }
+          ]
+        }
+      ],
+      "references": [
+        {
+          "last": "Cleese",
+          "first": "John",
+          "title": "Professor at Large : the Cornell Years",
+          "publisher": "Cornell University Press",
+          "year": "2018",
+          "chapter": "Screenwriting Seminar: John Cleese and Bill Goldman October 14, 2000",
+          "template": "citation",
+          "type": "book"
+        },
+        {
+          "url": "http://creativescreenwriting.com/its-just-as-hard-every-time-robert-towne-on-screenwriting/",
+          "title": "\"It's just as hard every time.\" Robert Towne on Screenwriting",
+          "last": "Argent",
+          "first": "Daniel",
+          "date": "February 25, 2016",
+          "publisher": "Creative Screenwriting",
+          "access-date": "February 25, 2016",
+          "archive-date": "February 29, 2016",
+          "archive-url": "https://web.archive.org/web/20160229081457/http://creativescreenwriting.com/its-just-as-hard-every-time-robert-towne-on-screenwriting/",
+          "url-status": "live",
+          "template": "citation",
+          "type": "web"
+        },
+        {
+          "title": "Why Ian McKellen Almost Didn't Get to Play Gandalf or Magneto",
+          "url": "http://www.people.com/article/ian-mckellen-iconic-roles-magneto-gandalf",
+          "access-date": "October 8, 2021",
+          "archive-date": "June 20, 2018",
+          "archive-url": "https://web.archive.org/web/20180620094751/https://people.com/article/ian-mckellen-iconic-roles-magneto-gandalf",
+          "url-status": "live",
+          "template": "citation",
+          "type": "web"
+        },
+        {
+          "template": "citation",
+          "type": "inline",
+          "data": {},
+          "inline": {}
+        },
+        {
+          "template": "citation",
+          "type": "inline",
+          "data": {},
+          "inline": {}
+        },
+        {
+          "template": "citation",
+          "type": "inline",
+          "data": {},
+          "inline": {}
+        },
+        {
+          "url": "http://www.discovermoab.com/movie.htm",
+          "title": "Moab Movie Locations - Take a tour of some of Moab's famous movie locations.",
+          "access-date": "October 5, 2014",
+          "archive-date": "March 25, 2010",
+          "archive-url": "https://web.archive.org/web/20100325215144/http://www.discovermoab.com/movie.htm",
+          "url-status": "live",
+          "template": "citation",
+          "type": "web"
+        },
+        {
+          "title": "Friday Night with Jonathan Ross: Series 16: Episode 1",
+          "publisher": "BBC iPlayer",
+          "date": "January 23, 2009",
+          "url": "https://www.bbc.co.uk/iplayer/episode/b00fm6wz/Friday_Night_with_Jonathan_Ross_Series_16_Episode_1/",
+          "access-date": "January 24, 2009",
+          "archive-date": "January 27, 2009",
+          "archive-url": "https://web.archive.org/web/20090127054052/http://www.bbc.co.uk/iplayer/episode/b00fm6wz/Friday_Night_with_Jonathan_Ross_Series_16_Episode_1/",
+          "url-status": "dead",
+          "template": "citation",
+          "type": "web"
+        },
+        {
+          "url": "https://www.indiewire.com/2020/07/thandie-newton-tom-cruise-fight-mission-impossible-set-1234571694",
+          "title": "Thandie Newton Shares Her 'Nightmare' Tom Cruise Story from 'Mission: Impossible 2'",
+          "date": "July 7, 2020",
+          "publisher": "Indiewire",
+          "access-date": "July 26, 2020",
+          "archive-date": "July 22, 2020",
+          "archive-url": "https://web.archive.org/web/20200722140445/https://www.indiewire.com/2020/07/thandie-newton-tom-cruise-fight-mission-impossible-set-1234571694/",
+          "url-status": "live",
+          "template": "citation",
+          "type": "web"
+        },
+        {
+          "url": "https://people.com/movies/thandie-newton-recalls-nightmare-with-tom-cruise-on-mission-impossible-2-set-he-was-really-stressed/",
+          "title": "Thandie Newton Recalls 'Nightmare' Scene with Tom Cruise on M:I 2 Set: 'He Was Really Stressed'",
+          "newspaper": "People",
+          "access-date": "July 26, 2020",
+          "archive-date": "July 26, 2020",
+          "archive-url": "https://web.archive.org/web/20200726120328/https://people.com/movies/thandie-newton-recalls-nightmare-with-tom-cruise-on-mission-impossible-2-set-he-was-really-stressed/",
+          "url-status": "live",
+          "template": "citation",
+          "type": "news"
+        },
+        {
+          "date": "July 7, 2020",
+          "first": "E. Alex",
+          "last": "Jung",
+          "url": "https://www.vulture.com/article/thandie-newton-in-conversation.html",
+          "title": "In Conversation: Thandie Newton",
+          "publisher": "Vulture",
+          "access-date": "July 31, 2020",
+          "archive-date": "August 4, 2020",
+          "archive-url": "https://web.archive.org/web/20200804114217/https://www.vulture.com/article/thandie-newton-in-conversation.html",
+          "url-status": "live",
+          "template": "citation",
+          "type": "web"
+        },
+        {
+          "url": "https://ew.com/article/2000/05/17/truth-behind-mi-2s-most-dangerous-stunt/",
+          "title": "The truth behind M:I-2{{'}}s most dangerous stunt",
+          "last": "Bonin",
+          "first": "Liane",
+          "language": "en-US",
+          "magazine": "Entertainment Weekly",
+          "date": "May 17, 2000",
+          "accessdate": "September 22, 2020",
+          "template": "citation",
+          "type": "magazine"
+        }
+      ]
+    },
+    {
+      "title": "Music",
+      "depth": 1,
+      "paragraphs": [
+        {
+          "sentences": [
+            {
+              "text": "The film's original score was composed and conducted by Hans Zimmer and features vocals performed by Lisa Gerrard.",
+              "links": [
+                {
+                  "text": "original score",
+                  "type": "internal",
+                  "page": "Film score"
+                },
+                {
+                  "type": "internal",
+                  "page": "Hans Zimmer"
+                },
+                {
+                  "type": "internal",
+                  "page": "Lisa Gerrard"
+                }
+              ]
+            },
+            {
+              "text": "In addition, the film includes contemporary music such as Limp Bizkit's rendition of Lalo Schifrin's Mission: Impossible theme entitled \"Take a Look Around\" as well as Metallica's \"I Disappear\".",
+              "links": [
+                {
+                  "type": "internal",
+                  "page": "Limp Bizkit"
+                },
+                {
+                  "type": "internal",
+                  "page": "Lalo Schifrin"
+                },
+                {
+                  "text": "''Mission: Impossible'' theme",
+                  "type": "internal",
+                  "page": "Theme from Mission: Impossible"
+                },
+                {
+                  "text": "Take a Look Around",
+                  "type": "internal",
+                  "page": "Take a Look Around (song)"
+                },
+                {
+                  "type": "internal",
+                  "page": "Metallica"
+                },
+                {
+                  "type": "internal",
+                  "page": "I Disappear"
+                }
+              ],
+              "formatting": {
+                "italic": [
+                  "Mission: Impossible"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "While Ethan is rock climbing during his holiday, Zap Mama's remixed version of \"Iko Iko\" plays on the soundtrack.",
+              "links": [
+                {
+                  "type": "internal",
+                  "page": "Zap Mama"
+                },
+                {
+                  "type": "internal",
+                  "page": "Iko Iko"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "templates": [
+        {
+          "list": [
+            "Mission: Impossible 2 (score)",
+            "Mission: Impossible 2 (soundtrack)"
+          ],
+          "template": "main"
+        }
+      ],
+      "references": [
+        {
+          "title": "Filmtracks: Gladiator (Hans Zimmer/Lisa Gerrard)",
+          "url": "http://www.filmtracks.com/titles/gladiator.html",
+          "publisher": "Filmtracks.com",
+          "access-date": "February 2, 2013",
+          "date": "October 27, 2007",
+          "archive-date": "July 13, 2015",
+          "archive-url": "https://web.archive.org/web/20150713015903/http://www.filmtracks.com/titles/gladiator.html",
+          "url-status": "live",
+          "template": "citation",
+          "type": "web"
+        },
+        {
+          "title": "Mission: Impossible 2 [Original Soundtrack]",
+          "url": "https://www.allmusic.com/album/mission-impossible-2-original-soundtrack-mw0001059731",
+          "website": "Allmusic",
+          "access-date": "February 2, 2013",
+          "archive-date": "June 30, 2012",
+          "archive-url": "https://web.archive.org/web/20120630041805/https://www.allmusic.com/album/mission-impossible-2-original-soundtrack-mw0001059731",
+          "url-status": "live",
+          "template": "citation",
+          "type": "web"
+        }
+      ]
+    },
+    {
+      "title": "Release",
+      "depth": 0
+    },
+    {
+      "title": "Home media",
+      "depth": 1,
+      "paragraphs": [
+        {
+          "sentences": [
+            {
+              "text": "Mission: Impossible 2 was released on VHS and DVD on November 7, 2000, with a rare Japanese LaserDisc release following on April 3, 2001 (released late in the format's life), with a potential North American release of this LaserDisc being cancelled in mid-2001.",
+              "links": [
+                {
+                  "type": "internal",
+                  "page": "VHS"
+                },
+                {
+                  "type": "internal",
+                  "page": "DVD"
+                },
+                {
+                  "type": "internal",
+                  "page": "LaserDisc"
+                }
+              ],
+              "formatting": {
+                "italic": [
+                  "Mission: Impossible 2"
+                ]
+              }
+            },
+            {
+              "text": "A Blu-ray release followed on June 3, 2008, and an Ultra HD Blu-ray version was released on June 26, 2018.",
+              "links": [
+                {
+                  "type": "internal",
+                  "page": "Blu-ray"
+                },
+                {
+                  "type": "internal",
+                  "page": "Ultra HD Blu-ray"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "references": [
+        {
+          "last": "Hettrick",
+          "first": "Scott",
+          "date": "August 24, 2000",
+          "title": "Cruise pushes pluses on Par's 'M:I 2' DVD",
+          "work": "Variety",
+          "url": "https://variety.com/2000/digital/features/cruise-pushes-pluses-on-par-s-m-i-2-dvd-1117785511/",
+          "access-date": "April 8, 2023",
+          "archive-date": "April 8, 2023",
+          "archive-url": "https://web.archive.org/web/20230408232632/https://variety.com/2000/digital/features/cruise-pushes-pluses-on-par-s-m-i-2-dvd-1117785511/",
+          "url-status": "live",
+          "template": "citation",
+          "type": "news"
+        },
+        {
+          "last": "Woo",
+          "first": "John",
+          "title": "Mission: Impossible 2",
+          "date": "November 7, 2000",
+          "url": "https://www.amazon.com/Mission-Impossible-Widescreen-Tom-Cruise/dp/B00003CXDG",
+          "publisher": "Paramount",
+          "access-date": "May 2, 2018",
+          "archive-date": "August 4, 2018",
+          "archive-url": "https://web.archive.org/web/20180804213338/https://www.amazon.com/Mission-Impossible-Widescreen-Tom-Cruise/dp/B00003CXDG",
+          "url-status": "live",
+          "template": "citation",
+          "type": "citation"
+        },
+        {
+          "url": "https://www.lddb.com/laserdisc/00020/PILF-2865/Mission:-Impossible-2",
+          "title": "LaserDisc Database - Mission: Impossible 2 [PILF-2865]",
+          "website": "LaserDisc Database",
+          "access-date": "November 25, 2018",
+          "archive-date": "August 3, 2017",
+          "archive-url": "https://web.archive.org/web/20170803042232/http://www.lddb.com/laserdisc/00020/PILF-2865/Mission:-Impossible-2",
+          "url-status": "live",
+          "template": "citation",
+          "type": "web"
+        },
+        {
+          "url": "https://www.lddb.com/laserdisc/35231/",
+          "title": "LaserDisc Database - Mission: Impossible 2 [LV334873-WS]",
+          "website": "LaserDisc Database",
+          "access-date": "November 25, 2018",
+          "archive-date": "October 30, 2016",
+          "archive-url": "https://web.archive.org/web/20161030171509/http://www.lddb.com/laserdisc/35231/",
+          "url-status": "live",
+          "template": "citation",
+          "type": "web"
+        },
+        {
+          "url": "https://www.dvdsreleasedates.com/movies/1538/Mission:-Impossible-II-(2000).html",
+          "title": "Mission: Impossible II DVD Release Date",
+          "website": "DVDs Release Dates",
+          "access-date": "May 2, 2018",
+          "archive-date": "July 1, 2017",
+          "archive-url": "https://web.archive.org/web/20170701221936/http://www.dvdsreleasedates.com/movies/1538/Mission:-Impossible-II-(2000).html",
+          "url-status": "live",
+          "template": "citation",
+          "type": "web"
+        }
+      ]
+    },
+    {
+      "title": "Reception",
+      "depth": 0
+    },
+    {
+      "title": "Box office",
+      "depth": 1,
+      "paragraphs": [
+        {
+          "sentences": [
+            {
+              "text": "On opening day, Mission: Impossible 2 made $12.5 million, making it the fourth-highest-grossing Wednesday opening, behind Men in Black, Independence Day and Star Wars: Episode I – The Phantom Menace.",
+              "links": [
+                {
+                  "text": "Men in Black",
+                  "type": "internal",
+                  "page": "Men in Black (1997 film)"
+                },
+                {
+                  "text": "Independence Day",
+                  "type": "internal",
+                  "page": "Independence Day (1996 film)"
+                },
+                {
+                  "type": "internal",
+                  "page": "Star Wars: Episode I – The Phantom Menace"
+                }
+              ],
+              "formatting": {
+                "italic": [
+                  "Mission: Impossible 2",
+                  "Men in Black",
+                  "Independence Day",
+                  "Star Wars: Episode I – The Phantom Menace"
+                ]
+              }
+            },
+            {
+              "text": "At that time, it had the largest number of screenings, playing at 3,653 theaters and beating Scream 3.",
+              "links": [
+                {
+                  "type": "internal",
+                  "page": "Scream 3"
+                }
+              ],
+              "formatting": {
+                "italic": [
+                  "Scream 3"
+                ]
+              }
+            },
+            {
+              "text": "The film would go on to hold this record until it was surpassed by Harry Potter and the Sorcerer's Stone the following year.",
+              "links": [
+                {
+                  "text": "Harry Potter and the Sorcerer's Stone",
+                  "type": "internal",
+                  "page": "Harry Potter and the Philosopher's Stone (film)"
+                }
+              ],
+              "formatting": {
+                "italic": [
+                  "Harry Potter and the Sorcerer's Stone"
+                ]
+              }
+            },
+            {
+              "text": "It grossed $57,845,297, crossing over Toy Story 2 to have the third-highest-grossing opening weekend of all time, behind The Lost World: Jurassic Park and The Phantom Menace.",
+              "links": [
+                {
+                  "type": "internal",
+                  "page": "Toy Story 2"
+                },
+                {
+                  "type": "internal",
+                  "page": "The Lost World: Jurassic Park"
+                }
+              ],
+              "formatting": {
+                "italic": [
+                  "Toy Story 2",
+                  "The Lost World: Jurassic Park",
+                  "The Phantom Menace"
+                ]
+              }
+            },
+            {
+              "text": "Moreover, the film surpassed its predecessor Mission: Impossible for not only having the highest-grossing opening weekend for a film based on a TV show, but also the largest opening weekend for any Paramount film.",
+              "links": [
+                {
+                  "text": "Mission: Impossible",
+                  "type": "internal",
+                  "page": "Mission: Impossible (film)"
+                },
+                {
+                  "text": "Paramount",
+                  "type": "internal",
+                  "page": "Paramount Pictures"
+                }
+              ],
+              "formatting": {
+                "italic": [
+                  "Mission: Impossible"
+                ]
+              }
+            },
+            {
+              "text": "It also dethroned Austin Powers: The Spy Who Shagged Me for scoring the biggest opening weekend for a spy film.",
+              "links": [
+                {
+                  "type": "internal",
+                  "page": "Austin Powers: The Spy Who Shagged Me"
+                }
+              ],
+              "formatting": {
+                "italic": [
+                  "Austin Powers: The Spy Who Shagged Me"
+                ]
+              }
+            },
+            {
+              "text": "The latter record would be held until 2002 when it was given to Austin Powers in Goldmember.",
+              "links": [
+                {
+                  "type": "internal",
+                  "page": "Austin Powers in Goldmember"
+                }
+              ],
+              "formatting": {
+                "italic": [
+                  "Austin Powers in Goldmember"
+                ]
+              }
+            },
+            {
+              "text": "Three years later in 2005, War of the Worlds surpassed Mission: Impossible 2 for having the highest-grossing opening weekend for a Paramount film.",
+              "links": [
+                {
+                  "text": "War of the Worlds",
+                  "type": "internal",
+                  "page": "War of the Worlds (2005 film)"
+                }
+              ],
+              "formatting": {
+                "italic": [
+                  "War of the Worlds",
+                  "Mission: Impossible 2"
+                ]
+              }
+            },
+            {
+              "text": "Then in 2007, The Simpsons Movie took the record for having the biggest opening weekend for a film based on a TV show.",
+              "links": [
+                {
+                  "type": "internal",
+                  "page": "The Simpsons Movie"
+                }
+              ],
+              "formatting": {
+                "italic": [
+                  "The Simpsons Movie"
+                ]
+              }
+            },
+            {
+              "text": "As for Mission: Impossible 2, it earned $91.8 million in its first six days, becoming the second-largest Memorial Day opening weekend, just after The Lost World: Jurassic Park.",
+              "links": [
+                {
+                  "type": "internal",
+                  "page": "Memorial Day"
+                }
+              ],
+              "formatting": {
+                "italic": [
+                  "Mission: Impossible 2",
+                  "The Lost World: Jurassic Park"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "When Mission: Impossible 2 first opened, the film was ranked number one at the box office, topping out Dinosaur.",
+              "links": [
+                {
+                  "text": "Dinosaur",
+                  "type": "internal",
+                  "page": "Dinosaur (2000 film)"
+                }
+              ],
+              "formatting": {
+                "italic": [
+                  "Mission: Impossible 2",
+                  "Dinosaur"
+                ]
+              }
+            },
+            {
+              "text": "It held on to the number one spot for two weekends until it was overtaken by Gone in 60 Seconds.",
+              "links": [
+                {
+                  "text": "Gone in 60 Seconds",
+                  "type": "internal",
+                  "page": "Gone in 60 Seconds (2000 film)"
+                }
+              ],
+              "formatting": {
+                "italic": [
+                  "Gone in 60 Seconds"
+                ]
+              }
+            },
+            {
+              "text": "Around this time, the film went on to become the highest-grossing film of the year domestically, beating Gladiator.",
+              "links": [
+                {
+                  "text": "Gladiator",
+                  "type": "internal",
+                  "page": "Gladiator (2000 film)"
+                }
+              ],
+              "formatting": {
+                "italic": [
+                  "Gladiator"
+                ]
+              }
+            },
+            {
+              "text": "It would remain so until that December when it was dethroned by How the Grinch Stole Christmas.",
+              "links": [
+                {
+                  "text": "How the Grinch Stole Christmas",
+                  "type": "internal",
+                  "page": "How the Grinch Stole Christmas (2000 film)"
+                }
+              ],
+              "formatting": {
+                "italic": [
+                  "How the Grinch Stole Christmas"
+                ]
+              }
+            },
+            {
+              "text": "The film eventually grossed $215,409,889 in its North American release and $330,978,216 in other territories for a total worldwide gross of $546,388,105, making this the highest-grossing film of 2000."
+            },
+            {
+              "text": "It is John Woo's highest-grossing film of all time, surpassing Face/Off, and was the highest-grossing film in the Mission: Impossible series until the release of the fourth film, Mission: Impossible – Ghost Protocol, in 2011.",
+              "links": [
+                {
+                  "type": "internal",
+                  "page": "Face/Off"
+                },
+                {
+                  "type": "internal",
+                  "page": "Mission: Impossible – Ghost Protocol"
+                }
+              ],
+              "formatting": {
+                "italic": [
+                  "Face/Off",
+                  "Mission: Impossible",
+                  "Mission: Impossible – Ghost Protocol"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "references": [
+        {
+          "url": "https://www.newspapers.com/clip/100441586/movies-mission-accomplished/",
+          "title": "Movies: Mission Accomplished",
+          "archive-url": "https://web.archive.org/web/20220430155938/https://www.newspapers.com/clip/100441586/movies-mission-accomplished/",
+          "date": "May 26, 2000",
+          "access-date": "April 30, 2022",
+          "archive-date": "April 30, 2022",
+          "page": "78",
+          "work": "Los Angeles Times",
+          "via": "Newspapers.com",
+          "url-status": "live",
+          "template": "citation",
+          "type": "news"
+        },
+        {
+          "last": "Linder",
+          "first": "Brian",
+          "title": "Weekend Box Office: Potter Smashes Records",
+          "url": "https://www.ign.com/articles/2001/11/20/weekend-box-office-potter-smashes-records",
+          "publisher": "IGN",
+          "access-date": "April 17, 2022",
+          "date": "November 20, 2001",
+          "archive-date": "April 17, 2022",
+          "archive-url": "https://web.archive.org/web/20220417165358/https://www.ign.com/articles/2001/11/20/weekend-box-office-potter-smashes-records",
+          "url-status": "live",
+          "template": "citation",
+          "type": "web"
+        },
+        {
+          "last": "Byrne",
+          "first": "Bridget",
+          "title": "\"Goldmember\" Powers Box Office",
+          "url": "https://www.eonline.com/news/43654/goldmember-powers-box-office",
+          "website": "E!",
+          "access-date": "December 13, 2019",
+          "date": "July 29, 2002",
+          "archive-date": "December 13, 2019",
+          "archive-url": "https://web.archive.org/web/20191213081655/https://www.eonline.com/news/43654/goldmember-powers-box-office",
+          "url-status": "live",
+          "template": "citation",
+          "type": "web"
+        },
+        {
+          "url": "https://www.latimes.com/archives/la-xpm-2005-jul-05-et-boxoffice5-story.html",
+          "title": "THE SPOILS OF 'WAR': STUDIO FIREWORKS",
+          "website": "Los Angeles Times",
+          "date": "July 5, 2005",
+          "access-date": "May 4, 2022",
+          "archive-date": "May 4, 2022",
+          "archive-url": "https://web.archive.org/web/20220504165037/https://www.latimes.com/archives/la-xpm-2005-jul-05-et-boxoffice5-story.html",
+          "url-status": "live",
+          "template": "citation",
+          "type": "web"
+        },
+        {
+          "last": "Rich",
+          "first": "Joshua",
+          "title": "Simpsons Movie shatters records",
+          "url": "https://ew.com/article/2007/07/30/simpsons-movie-shatters-records/",
+          "magazine": "Entertainment Weekly",
+          "access-date": "April 30, 2022",
+          "date": "July 30, 2007",
+          "template": "citation",
+          "type": "magazine"
+        },
+        {
+          "date": "June 29, 2000",
+          "first": "Rick",
+          "last": "Lyman",
+          "url": "https://www.nytimes.com/2000/06/29/movies/as-the-summer-warms-up-the-box-office-cools-down.html",
+          "title": "As the Summer Warms Up, The Box Office Cools Down",
+          "newspaper": "The New York Times",
+          "access-date": "May 4, 2022",
+          "archive-date": "May 4, 2022",
+          "archive-url": "https://web.archive.org/web/20220504165037/https://www.nytimes.com/2000/06/29/movies/as-the-summer-warms-up-the-box-office-cools-down.html",
+          "url-status": "live",
+          "template": "citation",
+          "type": "news"
+        },
+        {
+          "last": "Reese",
+          "first": "Lori",
+          "title": "M:I-2 wins the box office fight on a record weekend",
+          "url": "https://ew.com/article/2000/05/29/mi-2-wins-box-office-fight-record-weekend/",
+          "magazine": "Entertainment Weekly",
+          "access-date": "April 30, 2022",
+          "date": "May 29, 2000",
+          "template": "citation",
+          "type": "magazine"
+        },
+        {
+          "last": "Reese",
+          "first": "Lori",
+          "title": "Gone in 60 Seconds drives M:I-2 out of the top spot",
+          "url": "https://ew.com/article/2000/06/11/gone-60-seconds-drives-mi-2-out-top-spot/",
+          "magazine": "Entertainment Weekly",
+          "access-date": "April 30, 2022",
+          "date": "June 11, 2000",
+          "template": "citation",
+          "type": "magazine"
+        },
+        {
+          "url": "https://www.newspapers.com/clip/109782129/gone-in-60-seconds-steals-top-box/",
+          "title": "'Gone in 60 Seconds' steals top box office spot",
+          "archive-url": "https://web.archive.org/web/20220921135948/https://www.newspapers.com/clip/109782129/gone-in-60-seconds-steals-top-box/",
+          "newspaper": "The Post-Crescent",
+          "page": "24",
+          "date": "June 13, 2000",
+          "access-date": "September 21, 2022",
+          "archive-date": "September 21, 2022",
+          "via": "Newspapers.com",
+          "url-status": "live",
+          "template": "citation",
+          "type": "news"
+        },
+        {
+          "url": "https://www.theguardian.com/film/2000/dec/21/news",
+          "title": "How the Grinch stole the box office",
+          "website": "TheGuardian.com",
+          "date": "December 21, 2000",
+          "access-date": "September 22, 2022",
+          "archive-date": "September 22, 2022",
+          "archive-url": "https://web.archive.org/web/20220922133241/https://www.theguardian.com/film/2000/dec/21/news",
+          "url-status": "live",
+          "template": "citation",
+          "type": "web"
+        },
+        {
+          "date": "May 30, 2000",
+          "title": "Weekend Box Office",
+          "url": "https://www.boxofficemojo.com/article/ed3144942596/",
+          "url-status": "live",
+          "archive-url": "https://web.archive.org/web/20220430162100/https://www.boxofficemojo.com/article/ed3144942596/",
+          "archive-date": "April 30, 2022",
+          "access-date": "April 30, 2022",
+          "website": "Box Office Mojo",
+          "template": "citation",
+          "type": "web"
+        },
+        {
+          "title": "Mission: Impossible II (2000)",
+          "url": "https://www.boxofficemojo.com/movies/?id=mi2.htm",
+          "website": "Box Office Mojo",
+          "access-date": "July 13, 2011",
+          "archive-date": "August 11, 2018",
+          "archive-url": "https://web.archive.org/web/20180811031933/https://www.boxofficemojo.com/movies/?id=mi2.htm",
+          "url-status": "live",
+          "template": "citation",
+          "type": "web"
+        }
+      ]
+    },
+    {
+      "title": "Critical response",
+      "depth": 1,
+      "paragraphs": [
+        {
+          "sentences": [
+            {
+              "text": "Review aggregation website Rotten Tomatoes indicates Mission: Impossible 2 has an overall approval rating of 56% based on 155 reviews, with an average rating of 5.9/10.",
+              "links": [
+                {
+                  "type": "internal",
+                  "page": "Rotten Tomatoes"
+                }
+              ],
+              "formatting": {
+                "italic": [
+                  "Mission: Impossible 2"
+                ]
+              }
+            },
+            {
+              "text": "The site's critical consensus reads, \"Your cranium may crave more substance, but your eyes will feast on the amazing action sequences.\""
+            },
+            {
+              "text": "Metacritic assigned the film a weighted average score of 59 out of 100, based on 40 critics, indicating \"mixed or average reviews\".",
+              "links": [
+                {
+                  "type": "internal",
+                  "page": "Metacritic"
+                }
+              ]
+            },
+            {
+              "text": "Audiences polled by CinemaScore gave the film an average grade of \"B\" on an A+ to F scale, down from the first film's \"B+\".",
+              "links": [
+                {
+                  "type": "internal",
+                  "page": "CinemaScore"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "Roger Ebert of the Chicago Sun-Times awarded the film three stars, stating \"if the first movie was entertaining as sound, fury, and movement, this one is more evolved, more confident, more sure-footed in the way it marries minimal character development to seamless action.\"",
+              "links": [
+                {
+                  "type": "internal",
+                  "page": "Roger Ebert"
+                },
+                {
+                  "type": "internal",
+                  "page": "Chicago Sun-Times"
+                }
+              ],
+              "formatting": {
+                "italic": [
+                  "Chicago Sun-Times"
+                ]
+              }
+            },
+            {
+              "text": "Owen Gleiberman of Entertainment Weekly felt the film was a \"throwaway pleasure\" but also \"a triumph of souped-up action.\"",
+              "links": [
+                {
+                  "type": "internal",
+                  "page": "Owen Gleiberman"
+                },
+                {
+                  "type": "internal",
+                  "page": "Entertainment Weekly"
+                }
+              ],
+              "formatting": {
+                "italic": [
+                  "Entertainment Weekly"
+                ]
+              }
+            },
+            {
+              "text": "Ella Taylor of LA Weekly said that \"every car chase, every plane crash, every potential drop off a cliff is a masterpiece of grace and surprise.\"",
+              "links": [
+                {
+                  "type": "internal",
+                  "page": "LA Weekly"
+                }
+              ],
+              "formatting": {
+                "italic": [
+                  "LA Weekly"
+                ]
+              }
+            },
+            {
+              "text": "Desson Howe of The Washington Post said that \"[John] Woo [...] takes complete command of the latest technology to create brilliant action sequences.\"",
+              "links": [
+                {
+                  "type": "internal",
+                  "page": "The Washington Post"
+                }
+              ],
+              "formatting": {
+                "italic": [
+                  "The Washington Post"
+                ]
+              }
+            },
+            {
+              "text": "Lou Lumenick of the New York Post said, \"Check your brains at the popcorn stand and hang on for a spectacular ride.\"",
+              "links": [
+                {
+                  "type": "internal",
+                  "page": "Lou Lumenick"
+                },
+                {
+                  "type": "internal",
+                  "page": "New York Post"
+                }
+              ],
+              "formatting": {
+                "italic": [
+                  "New York Post"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "J. Hoberman of The Village Voice called the film \"a vaguely absurd thriller filled with elaborately superfluous setups and shamelessly stale James Bond riffs.\"",
+              "links": [
+                {
+                  "type": "internal",
+                  "page": "The Village Voice"
+                }
+              ],
+              "formatting": {
+                "italic": [
+                  "The Village Voice"
+                ]
+              }
+            },
+            {
+              "text": "Dennis Harvey of Variety said the film is \"even more empty a luxury vehicle than its predecessor\" and that it \"pushes the envelope in terms of just how much flashy packaging an audience will buy when there's absolutely nada inside.\"",
+              "links": [
+                {
+                  "text": "Variety",
+                  "type": "internal",
+                  "page": "Variety (magazine)"
+                }
+              ],
+              "formatting": {
+                "italic": [
+                  "Variety"
+                ]
+              }
+            },
+            {
+              "text": "Jonathan Rosenbaum of the Chicago Reader said that \"no hero or villain winds up carrying any moral weight at all.\"",
+              "links": [
+                {
+                  "type": "internal",
+                  "page": "Jonathan Rosenbaum"
+                },
+                {
+                  "type": "internal",
+                  "page": "Chicago Reader"
+                }
+              ],
+              "formatting": {
+                "italic": [
+                  "Chicago Reader"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "In a retrospective commentary in 2012, Brad Brevet noted the film has significant similarities in plot and themes to Alfred Hitchcock's 1946 film Notorious.",
+              "links": [
+                {
+                  "type": "internal",
+                  "page": "Alfred Hitchcock"
+                },
+                {
+                  "text": "Notorious",
+                  "type": "internal",
+                  "page": "Notorious (1946 film)"
+                }
+              ],
+              "formatting": {
+                "italic": [
+                  "Notorious"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "references": [
+        {
+          "title": "Mission Impossible 2 (2000)",
+          "url": "https://www.rottentomatoes.com/m/mission_impossible_ii/",
+          "publisher": "Fandango Media",
+          "work": "Rotten Tomatoes",
+          "access-date": "July 6, 2023",
+          "archive-date": "April 22, 2021",
+          "archive-url": "https://web.archive.org/web/20210422181630/http://www.rottentomatoes.com/m/mission_impossible_ii",
+          "url-status": "live",
+          "template": "citation",
+          "type": "web"
+        },
+        {
+          "url": "https://www.metacritic.com/video/titles/missionimpossible2",
+          "title": "Mission: Impossible II Reviews",
+          "publisher": "CBS Interactive",
+          "work": "Metacritic",
+          "access-date": "March 6, 2018",
+          "archive-date": "April 27, 2010",
+          "archive-url": "https://web.archive.org/web/20100427052457/http://www.metacritic.com/video/titles/missionimpossible2",
+          "url-status": "live",
+          "template": "citation",
+          "type": "web"
+        },
+        {
+          "template": "citation",
+          "type": "inline",
+          "data": {},
+          "inline": {}
+        },
+        {
+          "template": "citation",
+          "type": "inline",
+          "data": {},
+          "inline": {}
+        },
+        {
+          "template": "citation",
+          "type": "inline",
+          "data": {},
+          "inline": {}
+        },
+        {
+          "template": "citation",
+          "type": "inline",
+          "data": {},
+          "inline": {}
+        },
+        {
+          "template": "citation",
+          "type": "inline",
+          "data": {},
+          "inline": {}
+        },
+        {
+          "template": "citation",
+          "type": "inline",
+          "data": {},
+          "inline": {}
+        },
+        {
+          "template": "citation",
+          "type": "inline",
+          "data": {},
+          "inline": {}
+        },
+        {
+          "first": "Brad",
+          "last": "Brevet",
+          "date": "February 13, 2012",
+          "title": "Did You Know 'Mission: Impossible 2' is a Remake of Hitchcock's 'Notorious'? Here, Have a Look...",
+          "url": "https://www.comingsoon.net/movies/news/560775-did-you-know-mission-impossible-2-is-a-remake-of-hitchcocks-notorious-here-have-a-look/2",
+          "access-date": "July 20, 2022",
+          "work": "ComingSoon.net",
+          "archive-date": "April 4, 2023",
+          "archive-url": "https://web.archive.org/web/20230404052928/https://www.comingsoon.net/movies/news/560775-did-you-know-mission-impossible-2-is-a-remake-of-hitchcocks-notorious-here-have-a-look/2",
+          "url-status": "live",
+          "template": "citation",
+          "type": "web"
+        },
+        {
+          "url": "https://m.cinemascore.com/",
+          "title": "CinemaScore",
+          "work": "cinemascore.com",
+          "access-date": "June 21, 2019",
+          "archive-date": "February 17, 2015",
+          "archive-url": "https://web.archive.org/web/20150217211441/https://m.cinemascore.com/",
+          "url-status": "live",
+          "template": "citation",
+          "type": "web"
+        },
+        {
+          "url": "https://www.rogerebert.com/reviews/mission-impossible-ii-2000",
+          "title": "Mission: Impossible II",
+          "first": "Roger",
+          "last": "Ebert",
+          "authorlink": "Roger Ebert",
+          "newspaper": "Chicago Sun-Times",
+          "date": "May 24, 2000",
+          "access-date": "May 10, 2020",
+          "archive-date": "June 5, 2020",
+          "archive-url": "https://web.archive.org/web/20200605024614/https://www.rogerebert.com/reviews/mission-impossible-ii-2000",
+          "url-status": "live",
+          "template": "citation",
+          "type": "news"
+        }
+      ]
+    },
+    {
+      "title": "Accolades",
+      "depth": 1,
+      "paragraphs": [
+        {
+          "sentences": [
+            {
+              "text": "Mission: Impossible 2 won both Best Male Performance for Tom Cruise and Best Action Sequence at the MTV Movie Awards.",
+              "links": [
+                {
+                  "text": "MTV Movie Awards",
+                  "type": "internal",
+                  "page": "MTV Movie & TV Awards"
+                }
+              ],
+              "formatting": {
+                "italic": [
+                  "Mission: Impossible 2"
+                ]
+              }
+            },
+            {
+              "text": "However, it was also nominated for two Golden Raspberry Awards at the 2000 ceremony, including Worst Remake or Sequel and Worst Supporting Actress for Thandiwe Newton as well as nominated for a Stinker Award at the 2000 ceremony for Worst Song (Limp Bizkit's \"Take a Look Around\").",
+              "links": [
+                {
+                  "text": "Golden Raspberry Awards",
+                  "type": "internal",
+                  "page": "Golden Raspberry Award"
+                },
+                {
+                  "text": "2000 ceremony",
+                  "type": "internal",
+                  "page": "21st Golden Raspberry Awards"
+                },
+                {
+                  "text": "Worst Remake or Sequel",
+                  "type": "internal",
+                  "page": "Golden Raspberry Award for Worst Prequel, Remake, Rip-off or Sequel",
+                  "anchor": "Worst Remake or Sequel (1994–1995, 1997–1998, 2000–2005)"
+                },
+                {
+                  "text": "Worst Supporting Actress",
+                  "type": "internal",
+                  "page": "Golden Raspberry Award for Worst Supporting Actress"
+                },
+                {
+                  "text": "Stinker Award",
+                  "type": "internal",
+                  "page": "Stinkers Bad Movie Awards"
+                },
+                {
+                  "text": "2000 ceremony",
+                  "type": "internal",
+                  "page": "2000 Stinkers Bad Movie Awards"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "references": [
+        {
+          "url": "https://www.hollywood.com/tv/2001-mtv-movie-awards-57180046",
+          "title": "2001 MTV Movie Awards",
+          "work": "Hollywood.com",
+          "date": "June 14, 2001",
+          "access-date": "November 22, 2023",
+          "archive-date": "November 22, 2023",
+          "archive-url": "https://web.archive.org/web/20231122224728/https://www.hollywood.com/tv/2001-mtv-movie-awards-57180046",
+          "url-status": "live",
+          "template": "citation",
+          "type": "web"
+        },
+        {
+          "url": "http://www.razzies.com/forum/2000-razzie-nominees-winners_topic350.html",
+          "title": "2000 RAZZIE Nominees & 'Winners'",
+          "publisher": "Golden Raspberry Award Foundation",
+          "date": "December 4, 2005",
+          "access-date": "January 1, 2012",
+          "archive-url": "https://web.archive.org/web/20130513120507/http://www.razzies.com/forum/2000-razzie-nominees-winners_topic350.html",
+          "archive-date": "May 13, 2013",
+          "url-status": "dead",
+          "template": "citation",
+          "type": "web"
+        },
+        {
+          "url": "http://theenvelope.latimes.com/extras/lostmind/year/2000/2000st.htm",
+          "archive-url": "https://web.archive.org/web/20070105221207/http://theenvelope.latimes.com/extras/lostmind/year/2000/2000st.htm",
+          "archive-date": "January 5, 2007",
+          "title": "Awards",
+          "template": "citation",
+          "type": "web"
+        }
+      ]
+    },
+    {
+      "title": "References",
+      "depth": 0,
+      "templates": [
+        {
+          "template": "reflist"
+        }
+      ]
+    },
+    {
+      "title": "External links",
+      "depth": 0,
+      "paragraphs": [
+        {
+          "sentences": []
+        }
+      ],
+      "templates": [
+        {
+          "list": [
+            "Mission: Impossible II"
+          ],
+          "template": "wikiquote"
+        },
+        {
+          "template": "official"
+        },
+        {
+          "template": "amg movie"
+        },
+        {
+          "template": "afi film"
+        },
+        {
+          "template": "mojo title"
+        },
+        {
+          "template": "imdb title"
+        },
+        {
+          "template": "tcmdb title"
+        },
+        {
+          "template": "mission: impossible"
+        },
+        {
+          "template": "john woo"
+        },
+        {
+          "template": "robert towne"
+        },
+        {
+          "template": "tom cruise"
+        },
+        {
+          "title": "Mission: Impossible 2",
+          "template": "navboxes"
+        },
+        {
+          "template": "authority control"
+        }
+      ]
+    }
+  ]
