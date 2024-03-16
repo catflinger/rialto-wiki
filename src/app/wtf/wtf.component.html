@@ -7,7 +7,10 @@
     <button type="button" (click)="onClick()">Go</button>
 </form>
 
-<div class="m-5">
+
+<pre class="mt-5">{{ help | json }}</pre>
+
+<!-- <div class="m-5">
     <img [src]="help.image">
 </div>
 
@@ -19,6 +22,5 @@
         <td>{{ maker.link }}</td>
         <td><pre>{{ maker.notes }}</pre></td>
     </tr>
-</table>
+</table> -->
 
-<pre class="mt-5">{{ help | json }}</pre>

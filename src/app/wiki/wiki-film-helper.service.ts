@@ -15,6 +15,11 @@ export interface WikiHelp {
     image: string | null,
 }
 
+interface WikiLink {
+    text: string;
+    url: string;
+}
+
 interface WikiCastMember {
     forename: string;
     surname: string;
@@ -54,16 +59,12 @@ export class WikiFilmHelperService {
             this.cache = null;
 
             return wtf.fetch(lookup)
-            .then(reponse => {
+            .then(doc => {
                 let wikiCast: WikiCastMember[] = [];
                 let image: string | null = null;
 
-                if (reponse && !Array.isArray(reponse)) {
-                    image = this.getImage(reponse);
-
-                    let doc = reponse.json();
-
-                    // console.log(JSON.stringify(doc, null, 2));
+                if (doc && !Array.isArray(doc)) {
+                    image = this.getImage(doc);
 
                     wikiCast = wikiCast.concat(this.getDirectors(doc));
                     wikiCast = wikiCast.concat(this.getCastMembers(doc));
@@ -80,11 +81,11 @@ export class WikiFilmHelperService {
         }
     }
 
-    private getImage(data: any): string | null {
+    private getImage(data: wtf.Document): string | null {
         let result: string | null = null;
 
         if (data) {
-            const firstImage = data.images()[0].json();
+            const firstImage: any = data.images()[0].json();
 
             // console.log(`${JSON.stringify(firstImage, null, 2)}`);
 
@@ -95,25 +96,20 @@ export class WikiFilmHelperService {
         return result;
     }
 
-    private getDirectors(data: any): WikiCastMember[] {
+    private getDirectors(data: wtf.Document): WikiCastMember[] {
         let result = [];
 
-        // console.log(`getDirectors data = ${JSON.stringify(data, null, 2)}`);
-
         if (data) {
-            const sections = data.sections;
-            if (sections && Array.isArray(sections) && sections.length > 0) {
-                const firstSection = sections[0];
+            const _sections = data.sections();
+            if (_sections && Array.isArray(_sections) && _sections.length > 0) {
+                const _firstSection = _sections[0];
 
-                if (firstSection) {
-                    const infoBoxes = firstSection.infoboxes;
+                if (_firstSection) {
+                    const _infoBoxes = _firstSection.infoboxes();
 
-                    //console.log(`INFOBOXES ${JSON.stringify(infoBoxes, null, 2)}`);
+                    if (_infoBoxes && Array.isArray(_infoBoxes) && _infoBoxes.length > 0) {
 
-                    if (infoBoxes && Array.isArray(infoBoxes) && infoBoxes.length > 0) {
-                        const directorInfo = infoBoxes[0]["director"];
-
-                        // console.log(`INFOBOXES ${JSON.stringify(infoBoxes, null, 2)}`);
+                        const directorInfo = _infoBoxes[0].json()["director"];
 
                         if (directorInfo) {
                             let director = this.parseDirectorInfo(directorInfo);
@@ -128,75 +124,52 @@ export class WikiFilmHelperService {
         return result;
     }
 
-    private getCastMembers(data: any): WikiCastMember[] {
+    private getCastMembers(data: wtf.Document): WikiCastMember[] {
         let result: WikiCastMember[] = [];
 
         if (data) {
+            console.log(`STARTING`);
 
-            /*
-            TO DO: refactor all of this into modular logical units
-              at the moment we just have one long procedural splurge
-
-              Also: look to see if we can use wtf better, not calling json so soon,
-              wtf("xxx").sections().json() seems to give more information than wtf("xxx").json().sections
-            */
-
-            // console.log(JSON.stringify(data.sections, null, 2));
-
-            const castSections =
-            data.sections
-            .filter((s: any) => {
-                return /^(cast$|cast\s?list|cast\s?listing)/i.test(s.title);
+            const _castSections =
+            data.sections()
+            .filter((_s: any) => {
+                return /^(cast$|cast\s?list|cast\s?listing)/i.test(_s.title());
             });
 
-            // console.log(`Cast Sections ${JSON.stringify(castSections, null, 2)}`);
-            
             let wikiCastList: WikiCastListItem[] = [];
+            let links: WikiLink[] = [];
 
-            if (castSections.length) {
-                const lists = castSections[0].lists;
+            if (_castSections.length) {
 
-                // console.log(`Lists ${JSON.stringify(lists, null, 2)}`);
-                
-                if (lists && Array.isArray(lists) && lists.length > 0) {
+                const _lists = _castSections[0].lists();
 
-                    // NOTE: merging the lists using lists.flat(1) rather than taking the first using lists[0] is
-                    // an experimental feature. See if this works better or causes more trouble than it is worth
+                if (_lists && Array.isArray(_lists) && _lists.length > 0) {
+                    console.log(`using cast list`);
 
-                    //const list = lists.[0];
-                    const list = lists.flat(1);
-
-                    // console.log("Matching on List");
-
-                    if (Array.isArray(list) && list.length > 0) {
-                        wikiCastList = list;
-                        
-                        // console.log(`FIRST LIST ${JSON.stringify(wikiCastList, null, 2)}`);
-            }
+                    const _firstList = _lists[0].json();
+                    if (Array.isArray(_firstList) && _firstList.length > 0) {
+                        wikiCastList = _firstList;
+                    }
                 } else {
-                    const templates = castSections[0].templates;
+                    console.log(`using templates`);
 
-                    //console.log(`TEMPLATES ${JSON.stringify(templates, null, 2)}`);
+                    const _templates = _castSections[0].templates();
 
-                    if (templates && Array.isArray(templates) && templates.length > 0) {
-                        const castTemplate = templates.find(item =>  /cast\s?list/i.test(item.template));
+                    if (_templates && Array.isArray(_templates) && _templates.length > 0) {
+                        const _castTemplate = _templates.find(_item =>  /cast\s?list/i.test(_item.json().template));
 
-                        // console.log("Matching on Template");
-
-                        if (castTemplate) {
-                            const list = castTemplate.list;
-
-                            /* TO DO: 
-                                There is more data visible in the wikipedia page than is shown in this text.
-                                Find out where the templates are and how to get extra data such as links 
-
-                                Look at wft documentation for how to handle templates
-                            */
+                        if (_castTemplate) {
+                            const list = _castTemplate.json().list;
 
                             if (list && Array.isArray(list) && list.length > 0) {
                                 const castData = list[0];
+                                links = this.getLinksFromTemplate(_castTemplate.wikitext());
+
                                 if (typeof castData === "string") {
-                                    wikiCastList = castData.split("\n").map(item => ({ text: item.replace(/\*+/g, "").trim()}));
+                                    wikiCastList = castData.split("\n").map(item => ({
+                                         text: item.replace(/\*+/g, "").trim(),
+                                    }));
+
                                 }
                             }
                         }
@@ -212,7 +185,7 @@ export class WikiFilmHelperService {
                         .filter((x): x is WikiCastMember => !!x);
 
                         if (cast) {
-                            result = cast;
+                            result = this.addMissingLinks(cast, links);
                         }
                     }
                 }
@@ -282,13 +255,17 @@ export class WikiFilmHelperService {
                 }
             } else if(nameParts.length > 2 && nameParts.length < 6) {
                 // more than two words word, assume single word forname, all that follows is the surname
+                
+                // TO DO: if the second word is an initial then add this to teh forname instead
+                const surnameOffset = nameParts[1].replace(".", "").length === 1 ? 2 : 1;
+
                 result = {
-                    forename: nameParts[0],
-                    surname: nameParts.slice(1).filter(s => s).join(" "),
+                    forename: nameParts.slice(0, surnameOffset).join(" "),
+                    surname: nameParts.slice(surnameOffset).filter(s => s).join(" "),
                     role: "actor",
                     link: this.parseLink(item.links),
                     notes
-                }
+                }            
             } else {
                 // if there are more then 5 words to the name then this entry is probably not a cast entry at all
                 // sometimes notes are added below the name and this gets mistaken as a separate list item by wtf_wikipedia
@@ -329,7 +306,8 @@ export class WikiFilmHelperService {
     private toCastResult = (item: WikiCastMember): CastMember => {
 
         // TO DO: follow with mightBeSameAs() if isSameAs() doesn't get a match
-        const maker = this.makers.find(maker => isSameAs(maker, item));
+        // think of a way to convey the confidence of the match in the UI
+        const maker = this.makers.find(maker => mightBeSameAs(maker, item));
 
         return {
             forename: item.forename,
@@ -339,6 +317,49 @@ export class WikiFilmHelperService {
             notes: item.notes,
             makerId: maker ? maker.id : 0,
         }
+    }
+
+    private getLinksFromTemplate(wikitext: string): WikiLink[] {
+        let links: string[] = [];
+        const matches = /\{\{[^|]+\|(.+)\}\}/s.exec(wikitext);
+
+        if (matches && matches.length > 1) {
+            const reg = /\[\[([^\]]+)\]\]/g;
+            const s = matches[1];
+
+            let linkMatch = reg.exec(s);
+
+            while (linkMatch) {
+                links.push(linkMatch[1]);
+                linkMatch = reg.exec(s);
+            } ;
+        }
+
+        return links.map(link => {
+            const parts = link.split("|");
+            
+            const first = parts[0].trim();
+            const second = parts.length > 1 ? parts[1].trim() : "";
+
+            return {
+                text: !!second ? second : first,
+                url: `https://en.wikipedia.org/wiki/${first.replace(/\s+/g, "_")}`
+            };
+        })
+    }
+
+    private addMissingLinks(cast: WikiCastMember[], links: WikiLink[]) {
+
+        cast.forEach(member => {
+            if (!member.link) {
+                let link = links.find(link => link.text === member.forename + " " + member.surname);
+
+                if (link) {
+                    member.link = link.url;
+                }
+            }
+        })
+        return cast;
     }
 
 }
