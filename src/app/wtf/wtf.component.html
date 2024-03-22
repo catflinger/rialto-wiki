@@ -3,8 +3,14 @@
 <h3 *ngIf="errorMsg">{{errorMsg}}</h3>
 
 <form [formGroup]="form">
-    <input type="text" formControlName="title">
-    <button type="button" (click)="onClick()">Go</button>
+    <div>
+        <input type="text" formControlName="title">
+        <button type="button" (click)="onClick()">Go</button>
+    </div>
+    <div>
+        <input type="text" formControlName="maker">
+        <button type="button" (click)="onClick()">Go</button>
+    </div>
 </form>
 
 
