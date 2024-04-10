@@ -84,12 +84,17 @@ export class WikiFilmHelperService {
     private getImage(data: wtf.Document): string | null {
         let result: string | null = null;
 
-        if (data) {
-            const firstImage: any = data.images()[0].json();
+        try {
+            if (data && data.images().length) {
+                const firstImage: any = data.images()[0].json();
 
-            if (firstImage && typeof firstImage.thumb === "string") {
-                result = firstImage.thumb;
+                if (firstImage && typeof firstImage.thumb === "string") {
+                    result = firstImage.thumb;
+                }
             }
+        } catch(error) {
+            console.log(`Error getting image  ${error}`)
+            result = null;
         }
         return result;
     }
@@ -97,27 +102,33 @@ export class WikiFilmHelperService {
     private getDirectors(data: wtf.Document): WikiCastMember[] {
         let result = [];
 
-        if (data) {
-            const _sections = data.sections();
-            if (_sections && Array.isArray(_sections) && _sections.length > 0) {
-                const _firstSection = _sections[0];
+        try{
 
-                if (_firstSection) {
-                    const _infoBoxes = _firstSection.infoboxes();
+            if (data) {
+                const _sections = data.sections();
+                if (_sections && Array.isArray(_sections) && _sections.length > 0) {
+                    const _firstSection = _sections[0];
 
-                    if (_infoBoxes && Array.isArray(_infoBoxes) && _infoBoxes.length > 0) {
+                    if (_firstSection) {
+                        const _infoBoxes = _firstSection.infoboxes();
 
-                        const directorInfo = _infoBoxes[0].json()["director"];
+                        if (_infoBoxes && Array.isArray(_infoBoxes) && _infoBoxes.length > 0) {
 
-                        if (directorInfo) {
-                            let director = this.parseDirectorInfo(directorInfo);
-                            if (director) {
-                                result.push(director);
+                            const directorInfo = _infoBoxes[0].json()["director"];
+
+                            if (directorInfo) {
+                                let director = this.parseDirectorInfo(directorInfo);
+                                if (director) {
+                                    result.push(director);
+                                }
                             }
                         }
                     }
                 }
             }
+        } catch(error) {
+            console.log(`Error getting image  ${error}`)
+            result = [];
         }
         return result;
     }
@@ -125,78 +136,85 @@ export class WikiFilmHelperService {
     private getCastMembers(data: wtf.Document): WikiCastMember[] {
         let result: WikiCastMember[] = [];
 
-        if (data) {
+        try {
 
-            const _castSections =
-            data.sections()
-            .filter((_s: any) => {
-                return /^(cast$|cast\s?list|cast\s?listing)/i.test(_s.title());
-            });
+            if (data) {
 
-            let wikiCastList: WikiCastListItem[] = [];
-            let links: WikiLink[] = [];
+                const _castSections =
+                data.sections()
+                .filter((_s: any) => {
+                    return /^(cast$|cast\s?list|cast\s?listing)/i.test(_s.title());
+                });
 
-            // TO DO: this choice between lsts[] and templates[]needs to be better
-            // some sections have both lists and templates
+                let wikiCastList: WikiCastListItem[] = [];
+                let links: WikiLink[] = [];
 
-            if (_castSections.length) {
+                // TO DO: this choice between lsts[] and templates[]needs to be better
+                // some sections have both lists and templates
 
-                // having found a potential cast section order these by indentation() rather than just choosing the first in the list
+                if (_castSections.length) {
 
-                const _lists = _castSections[0].lists();
+                    // having found a potential cast section order these by indentation() rather than just choosing the first in the list
 
-                if (_lists && 
-                    Array.isArray(_lists) &&
-                    _lists.length > 0 &&
-                    !/notes/i.test(_lists[0].text())) {
+                    const _lists = _castSections[0].lists();
 
-                    // console.log(`using cast list`);
+                    if (_lists && 
+                        Array.isArray(_lists) &&
+                        _lists.length > 0 &&
+                        !/notes/i.test(_lists[0].text())) {
 
-                    const _firstList = _lists[0].json();
-                    if (Array.isArray(_firstList) && _firstList.length > 0) {
-                        wikiCastList = _firstList;
-                    }
-                } else {
-                    // console.log(`using templates`);
+                        // console.log(`using cast list`);
 
-                    const _templates = _castSections[0].templates();
+                        const _firstList = _lists[0].json();
+                        if (Array.isArray(_firstList) && _firstList.length > 0) {
+                            wikiCastList = _firstList;
+                        }
+                    } else {
+                        // console.log(`using templates`);
 
-                    if (_templates && Array.isArray(_templates) && _templates.length > 0) {
-                        const _castTemplate = _templates.find(_item =>  /cast\s?list/i.test(_item.json().template));
+                        const _templates = _castSections[0].templates();
 
-                        if (_castTemplate) {
-                            const list = _castTemplate.json().list;
+                        if (_templates && Array.isArray(_templates) && _templates.length > 0) {
+                            const _castTemplate = _templates.find(_item =>  /cast\s?list/i.test(_item.json().template));
 
-                            if (list && Array.isArray(list) && list.length > 0) {
-                                const castData = list[0];
-                                links = this.getLinksFromTemplate(_castTemplate.wikitext());
+                            if (_castTemplate) {
+                                const list = _castTemplate.json().list;
 
-                                if (typeof castData === "string") {
-                                    wikiCastList = castData.split("\n").map(item => ({
-                                         text: item.replace(/\*+/g, "").trim(),
-                                    }));
+                                if (list && Array.isArray(list) && list.length > 0) {
+                                    const castData = list[0];
+                                    links = this.getLinksFromTemplate(_castTemplate.wikitext());
 
+                                    if (typeof castData === "string") {
+                                        wikiCastList = castData.split("\n").map(item => ({
+                                             text: item.replace(/\*+/g, "").trim(),
+                                        }));
+
+                                    }
                                 }
                             }
                         }
                     }
-                }
 
-                if (wikiCastList.length) {
-                    const layout = this.findBestLayout(wikiCastList);
+                    if (wikiCastList.length) {
+                        const layout = this.findBestLayout(wikiCastList);
 
-                    if (layout) {
-                        const cast = wikiCastList
-                        .map(item => this.parseCastEntry(item, layout))
-                        .filter((x): x is WikiCastMember => !!x);
+                        if (layout) {
+                            const cast = wikiCastList
+                            .map(item => this.parseCastEntry(item, layout))
+                            .filter((x): x is WikiCastMember => !!x);
 
-                        if (cast) {
-                            result = this.addMissingLinks(cast, links);
+                            if (cast) {
+                                result = this.addMissingLinks(cast, links);
+                            }
                         }
                     }
                 }
             }
+        } catch(error) {
+            console.log(`Error getting image  ${error}`)
+            result = [];
         }
+
         return result;
     }
 

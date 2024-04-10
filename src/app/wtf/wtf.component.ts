@@ -25,8 +25,11 @@ export class WtfComponent implements OnInit {
         this.form = fb.group({
             // title: "Mission: Impossible II"
             // title: "Pulp Fiction",
-            title: "The Paradine Case",
-            //title: "The_Fallen_Idol_(film)",
+            
+            // this has a problem, only matched first actor
+            //title: "Bright_Star_(film)",
+            
+
             maker: "https://en.wikipedia.org/wiki/Joan_Bennett"
         });
     }
