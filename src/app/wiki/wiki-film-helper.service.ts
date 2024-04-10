@@ -130,23 +130,38 @@ export class WikiFilmHelperService {
         if (data) {
             console.log(`STARTING`);
 
+            data.sections().forEach((_section, index) =>  console.log(`SECTION ${index} title - [${_section.title()}]`));
+
             const _castSections =
             data.sections()
             .filter((_s: any) => {
-                return /^(cast$|cast\s?list|cast\s?listing)/i.test(_s.title());
+                return /^(cast|cast\s?list|cast\s?listing)/i.test(_s.title());
             });
 
             let wikiCastList: WikiCastListItem[] = [];
             let links: WikiLink[] = [];
 
+            console.log(`FOUND ${_castSections.length} setions`)
+
             if (_castSections.length) {
+
+                console.log(`FRIST SECTION ${JSON.stringify(_castSections[0].json({}), null, 2)}`)
 
                 const _lists = _castSections[0].lists();
 
-                if (_lists && Array.isArray(_lists) && _lists.length > 0) {
+                if (_lists && 
+                    Array.isArray(_lists) && 
+                    _lists.length > 0 &&
+                    !/notes/i.test(_lists[0].text())) {
+                        
                     console.log(`using cast list`);
 
+                    _lists.forEach((_section, index) =>  console.log(`LIST ${index} text - ${_section.text({})}`));
+
                     const _firstList = _lists[0].json();
+
+                    //console.log(`CAST LSIT ${JSON.stringify(_firstList, null, 2)}`);
+
                     if (Array.isArray(_firstList) && _firstList.length > 0) {
                         wikiCastList = _firstList;
                     }
@@ -157,6 +172,8 @@ export class WikiFilmHelperService {
 
                     if (_templates && Array.isArray(_templates) && _templates.length > 0) {
                         const _castTemplate = _templates.find(_item =>  /cast\s?list/i.test(_item.json().template));
+
+                        //console.log(`CAST TEMPLATE ${JSON.stringify(_castTemplate.json(), null, 2)}`);
 
                         if (_castTemplate) {
                             const list = _castTemplate.json().list;

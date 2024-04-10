@@ -24,9 +24,9 @@ export class WtfComponent implements OnInit {
     ) {
         this.form = fb.group({
             // title: "Mission: Impossible II"
-            title: "Pulp Fiction",
-            // title: "Paranoiac (film)",
-            //title: "The_Fallen_Idol_(film)"
+            // title: "Pulp Fiction",
+            title: "The Paradine Case",
+            //title: "The_Fallen_Idol_(film)",
             maker: "https://en.wikipedia.org/wiki/Joan_Bennett"
         });
     }
@@ -37,8 +37,8 @@ export class WtfComponent implements OnInit {
     public onClick() {
         this.errorMsg = "";
 
-        //this.helper.getCastHelp(this.form.value.title)
-        this.makerHelper.getMakerHelp(this.form.value.maker)
+        this.helper.getCastHelp(this.form.value.title)
+        //this.makerHelper.getMakerHelp(this.form.value.maker)
         .then(help => this.help = help)
         //.catch(error => this.errorMsg = error);
     }

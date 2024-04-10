@@ -16,8 +16,6 @@ interface Credit {
     filmId: number;
 }
 
-
-
 @Injectable({
     providedIn: 'root'
 })
@@ -86,7 +84,7 @@ export class WikiMakerHelperService {
                     title: item.Title.text,
                     year: item.Year.number,
                     role: "actor",
-                    notes: item.Role.text + " " + item.Notes.text,
+                    notes: item.Role.text + (item.Notes.text ? ` - ${item.Notes.text}` : ""),
                     filmId: 0,
                 }));
             }
