@@ -52,6 +52,10 @@ export class WikiFilmHelperService {
     }
 
     public getCastHelp(lookup: string): Promise<WikiHelp> {
+        if (!lookup) {
+            return Promise.resolve({ lookup, cast: [], image: null});
+        }
+
         if (this.cache && this.cache.lookup === lookup) {
             return Promise.resolve(this.cache);
 
@@ -143,7 +147,7 @@ export class WikiFilmHelperService {
                 const _castSections =
                 data.sections()
                 .filter((_s: any) => {
-                    return /^(cast$|cast\s?list|cast\s?listing)/i.test(_s.title());
+                    return this.isPossibleCastList(_s.title());
                 });
 
                 let wikiCastList: WikiCastListItem[] = [];
@@ -175,7 +179,7 @@ export class WikiFilmHelperService {
                         const _templates = _castSections[0].templates();
 
                         if (_templates && Array.isArray(_templates) && _templates.length > 0) {
-                            const _castTemplate = _templates.find(_item =>  /cast\s?list/i.test(_item.json().template));
+                            const _castTemplate = _templates.find(_item =>  this.isPossibleCastList(_item.json().template));
 
                             if (_castTemplate) {
                                 const list = _castTemplate.json().list;
@@ -382,6 +386,30 @@ export class WikiFilmHelperService {
             }
         })
         return cast;
+    }
+
+    private isPossibleCastList(text: string): boolean {
+
+        const acceptList: RegExp[] = [
+            /^\s*cast\s*$/i,
+            /^\s*cast list\s*$/i,
+            /^\s*cast listing\s*$/i,
+            /^\s*Main cast\s*$/i,
+        ];
+
+        const denyList: RegExp[] = [
+            /notes/i,
+        ];
+
+        const passes = acceptList.reduce((count: number, expression: Readonly<RegExp>) => {
+            return expression.test(text) ? count + 1 : count;
+        }, 0);
+
+        const fails = denyList.reduce((count: number, expression: Readonly<RegExp>) => {
+            return expression.test(text) ? count + 1 : count;
+        }, 0);
+
+        return passes > 0 && fails === 0 ;
     }
 
 }

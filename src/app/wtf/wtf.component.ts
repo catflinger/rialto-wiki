@@ -27,7 +27,7 @@ export class WtfComponent implements OnInit {
             // title: "Pulp Fiction",
             
             // this has a problem, only matched first actor
-            //title: "Bright_Star_(film)",
+            title: "Bright_Star_(film)",
             
 
             maker: "https://en.wikipedia.org/wiki/Joan_Bennett"
