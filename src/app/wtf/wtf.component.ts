@@ -24,10 +24,10 @@ export class WtfComponent implements OnInit {
     ) {
         this.form = fb.group({
             // title: "Mission: Impossible II"
-            // title: "Pulp Fiction",
+            title: "https://en.wikipedia.org/wiki/The_First_Great_Train_Robbery",
             
             // this has a problem, only matched first actor
-            title: "Bright_Star_(film)",
+            // title: "Bright_Star_(film)",
             
 
             maker: "https://en.wikipedia.org/wiki/Joan_Bennett"

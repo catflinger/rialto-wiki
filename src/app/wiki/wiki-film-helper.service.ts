@@ -167,26 +167,36 @@ export class WikiFilmHelperService {
                         _lists.length > 0 &&
                         !/notes/i.test(_lists[0].text())) {
 
-                        // console.log(`using cast list`);
+                        console.log(`using cast list`);
 
                         const _firstList = _lists[0].json();
                         if (Array.isArray(_firstList) && _firstList.length > 0) {
                             wikiCastList = _firstList;
                         }
                     } else {
-                        // console.log(`using templates`);
+                        console.log(`using templates`);
 
                         const _templates = _castSections[0].templates();
+
+                        console.log(`TEMPLATES: ${JSON.stringify(_templates)}`);
+
+                        (_templates as Array<any>).forEach(t => console.log(`TEMPLATE: ${JSON.stringify(t.json(), null, 2)}`));
 
                         if (_templates && Array.isArray(_templates) && _templates.length > 0) {
                             const _castTemplate = _templates.find(_item =>  this.isPossibleCastList(_item.json().template));
 
+                            console.log(`A`);
+
                             if (_castTemplate) {
                                 const list = _castTemplate.json().list;
+
+                                console.log(`B`);
 
                                 if (list && Array.isArray(list) && list.length > 0) {
                                     const castData = list[0];
                                     links = this.getLinksFromTemplate(_castTemplate.wikitext());
+
+                                    console.log(`C`);
 
                                     if (typeof castData === "string") {
                                         wikiCastList = castData.split("\n").map(item => ({
@@ -392,9 +402,9 @@ export class WikiFilmHelperService {
 
         const acceptList: RegExp[] = [
             /^\s*cast\s*$/i,
-            /^\s*cast list\s*$/i,
-            /^\s*cast listing\s*$/i,
-            /^\s*Main cast\s*$/i,
+            /^\s*cast\s*list\s*$/i,
+            /^\s*cast\s*listing\s*$/i,
+            /^\s*main\s*cast\s*$/i,
         ];
 
         const denyList: RegExp[] = [
